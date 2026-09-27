@@ -1,0 +1,1397 @@
+<title>Atlas de 18 roadmaps</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  color-scheme: light;
+  --paper: #eef1f4;
+  --sheet: #ffffff;
+  --sheet-2: #f6f8fa;
+  --ink: #13171c;
+  --ink-2: #4a5561;
+  --ink-3: #6e7985;
+  --hair: #dce1e6;
+  --hair-2: #c7ced6;
+  --topic: #eda100;
+  --topic-ink: #13171c;
+  --topic-stroke: #13171c;
+  --subtopic: #fbe5ae;
+  --subtopic-ink: #13171c;
+  --subtopic-stroke: #4b432a;
+  --check: #1baf7a;
+  --check-fill: #e3f6ee;
+  --fusion: #2a78d6;
+  --fusion-wash: #e2edfb;
+  --fusion-ink: #1b4f8f;
+  --edge: #87919c;
+  --edge-derived: #a6afb8;
+  --prim: #cdd3da;
+  --select: #13171c;
+  --focus: #2a78d6;
+  --overlay: rgba(19, 23, 28, 0.08);
+  --shadow: 0 1px 2px rgba(19, 23, 28, 0.06), 0 10px 28px rgba(19, 23, 28, 0.10);
+  --font-ui: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-sign: "Barlow Semi Condensed", "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #0e1216;
+    --sheet: #171c22;
+    --sheet-2: #1c2229;
+    --ink: #e7ecf1;
+    --ink-2: #a9b4bf;
+    --ink-3: #85909c;
+    --hair: #2a323b;
+    --hair-2: #3a434d;
+    --topic: #c98500;
+    --topic-ink: #0e1216;
+    --topic-stroke: #0b0e11;
+    --subtopic: #3d3219;
+    --subtopic-ink: #f3e6c4;
+    --subtopic-stroke: #8c7646;
+    --check: #199e70;
+    --check-fill: #14302a;
+    --fusion: #3987e5;
+    --fusion-wash: #172a42;
+    --fusion-ink: #9cc4f5;
+    --edge: #6b7580;
+    --edge-derived: #525c66;
+    --prim: #2e3640;
+    --select: #ffffff;
+    --focus: #3987e5;
+    --overlay: rgba(0, 0, 0, 0.35);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px rgba(0, 0, 0, 0.45);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #0e1216;
+  --sheet: #171c22;
+  --sheet-2: #1c2229;
+  --ink: #e7ecf1;
+  --ink-2: #a9b4bf;
+  --ink-3: #85909c;
+  --hair: #2a323b;
+  --hair-2: #3a434d;
+  --topic: #c98500;
+  --topic-ink: #0e1216;
+  --topic-stroke: #0b0e11;
+  --subtopic: #3d3219;
+  --subtopic-ink: #f3e6c4;
+  --subtopic-stroke: #8c7646;
+  --check: #199e70;
+  --check-fill: #14302a;
+  --fusion: #3987e5;
+  --fusion-wash: #172a42;
+  --fusion-ink: #9cc4f5;
+  --edge: #6b7580;
+  --edge-derived: #525c66;
+  --prim: #2e3640;
+  --select: #ffffff;
+  --focus: #3987e5;
+  --overlay: rgba(0, 0, 0, 0.35);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+html, body { height: 100%; }
+body { background: var(--paper); color: var(--ink); font: 400 14px/1.45 var(--font-ui); }
+*, *::before, *::after { box-sizing: border-box; }
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.app {
+  height: 100%;
+  padding: 12px 16px;
+  display: grid;
+  grid-template-columns: 292px minmax(0, 1fr) 336px;
+  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-areas: "top top top" "side stage info";
+  gap: 12px;
+}
+
+/* Barra superior */
+.topbar { grid-area: top; display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; min-width: 0; }
+.brand { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; min-width: 0; }
+.brand h1 { margin: 0; font: 700 26px/1.1 var(--font-sign); letter-spacing: 0.005em; text-wrap: balance; }
+.brand p { margin: 0; color: var(--ink-2); font-size: 14px; }
+.brand p b { font-weight: 600; color: var(--ink); }
+.search { position: relative; flex: 1 1 280px; max-width: 460px; margin-left: auto; }
+.search input {
+  width: 100%; height: 38px; padding: 0 12px 0 36px;
+  background: var(--sheet); border: 1px solid var(--hair-2); border-radius: 8px;
+}
+.search input::placeholder { color: var(--ink-3); }
+.search svg { position: absolute; left: 11px; top: 11px; width: 16px; height: 16px; stroke: var(--ink-3); fill: none; stroke-width: 2; pointer-events: none; }
+.results {
+  position: absolute; z-index: 40; top: calc(100% + 6px); left: 0; right: 0; margin: 0; padding: 6px;
+  list-style: none; background: var(--sheet); border: 1px solid var(--hair-2); border-radius: 10px; box-shadow: var(--shadow);
+  max-height: min(420px, 60vh); overflow: auto;
+}
+.results li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; padding: 7px 9px; border-radius: 7px; cursor: pointer; }
+.results li[aria-selected="true"], .results li:hover { background: var(--sheet-2); }
+.results .r-label { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.results .r-meta { grid-column: 1 / -1; color: var(--ink-2); font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.results .r-empty { color: var(--ink-2); cursor: default; }
+.results .r-empty:hover { background: none; }
+.top-actions { display: none; gap: 8px; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 6px; height: 34px; padding: 0 12px;
+  background: var(--sheet); border: 1px solid var(--hair-2); border-radius: 8px; font-weight: 500;
+}
+.btn:hover { background: var(--sheet-2); }
+.btn.small { height: 28px; padding: 0 9px; font-size: 13px; }
+
+/* Paneles */
+.panel { background: var(--sheet); border: 1px solid var(--hair); border-radius: 12px; overflow: auto; min-height: 0; }
+.sidebar { grid-area: side; }
+.details { grid-area: info; }
+.section { padding: 14px 16px; border-bottom: 1px solid var(--hair); }
+.section:last-child { border-bottom: 0; }
+.section h2, .eyebrow {
+  margin: 0 0 10px; font: 600 12px/1.2 var(--font-ui); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2);
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+}
+.section h2 .count { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0; color: var(--ink-3); text-transform: none; }
+
+.toggle { display: flex; align-items: center; gap: 10px; padding: 5px 0; cursor: pointer; }
+.toggle input { width: 16px; height: 16px; margin: 0; accent-color: var(--fusion); flex: none; }
+.toggle .sw { width: 26px; height: 12px; flex: none; }
+
+.rm-list, .sh-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
+.rm-row { display: grid; grid-template-columns: 16px minmax(0, 1fr) auto 28px; align-items: center; gap: 8px; padding: 3px 0; }
+.rm-row input { width: 16px; height: 16px; margin: 0; accent-color: var(--fusion); }
+.rm-row label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; }
+.rm-row .n { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.rm-row .go { width: 28px; height: 26px; border: 0; background: none; border-radius: 6px; color: var(--ink-2); }
+.rm-row .go:hover { background: var(--sheet-2); color: var(--ink); }
+.rm-tools { display: flex; gap: 8px; margin-top: 8px; }
+
+.sh-list { max-height: 320px; overflow: auto; margin-right: -8px; padding-right: 8px; }
+.sh-row {
+  width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 8px;
+  padding: 5px 8px; border: 0; border-radius: 6px; background: none; text-align: left;
+}
+.sh-row:hover { background: var(--sheet-2); }
+.sh-row[aria-current="true"] { background: var(--fusion-wash); }
+.sh-row .l { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.count-pill {
+  font: 500 11.5px/1 var(--font-mono); color: var(--fusion-ink); background: var(--fusion-wash);
+  padding: 4px 6px; border-radius: 99px; font-variant-numeric: tabular-nums;
+}
+
+.legend { display: grid; gap: 7px; }
+.legend-row { display: grid; grid-template-columns: 38px minmax(0, 1fr); align-items: center; gap: 10px; color: var(--ink-2); font-size: 13px; }
+.legend svg { width: 38px; height: 18px; overflow: visible; }
+.lg-topic { fill: var(--topic); stroke: var(--topic-stroke); stroke-width: 1.2; }
+.lg-subtopic { fill: var(--subtopic); stroke: var(--subtopic-stroke); stroke-width: 1.2; }
+.lg-button { fill: var(--sheet); stroke: var(--ink-3); stroke-width: 1.2; }
+.lg-check { fill: var(--check-fill); stroke: var(--check); stroke-width: 1.5; }
+.lg-shared { fill: var(--subtopic); stroke: var(--fusion); stroke-width: 2.5; }
+.lg-text { fill: var(--ink); font: 600 12px var(--font-sign); }
+.lg-edge { stroke: var(--edge); stroke-width: 2; fill: none; }
+.lg-dashed { stroke-dasharray: 5 4; }
+.lg-derived { stroke: var(--edge-derived); stroke-width: 2; stroke-dasharray: 1.5 4; stroke-linecap: round; fill: none; }
+.lg-fusion { stroke: var(--fusion); stroke-width: 2; fill: none; }
+
+/* Lienzo */
+.stage { grid-area: stage; position: relative; min-height: 0; border: 1px solid var(--hair); border-radius: 12px; overflow: hidden; background: var(--paper); }
+.stage canvas { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+.stage canvas.dragging { cursor: grabbing; }
+.stage canvas.pointing { cursor: pointer; }
+.zoombar { position: absolute; left: 12px; bottom: 12px; display: flex; gap: 6px; }
+.zoombar .btn { height: 32px; min-width: 32px; justify-content: center; padding: 0 10px; box-shadow: var(--shadow); }
+.hint {
+  position: absolute; right: 12px; bottom: 12px; max-width: calc(100% - 200px); margin: 0; padding: 6px 10px;
+  background: var(--sheet); border: 1px solid var(--hair); border-radius: 8px; color: var(--ink-2); font-size: 12.5px;
+}
+.tooltip {
+  position: absolute; z-index: 30; pointer-events: none; max-width: 300px; padding: 8px 10px;
+  background: var(--sheet); border: 1px solid var(--hair-2); border-radius: 8px; box-shadow: var(--shadow);
+}
+.tooltip .t-label { font-weight: 600; }
+.tooltip .t-meta { color: var(--ink-2); font-size: 12.5px; }
+.tooltip .t-shared { color: var(--fusion-ink); font-size: 12.5px; font-weight: 500; }
+
+/* Detalle */
+.d-head { padding: 16px 16px 12px; border-bottom: 1px solid var(--hair); }
+.d-head .eyebrow { margin-bottom: 6px; justify-content: flex-start; }
+.d-head h2 { margin: 0; font: 700 23px/1.15 var(--font-sign); text-wrap: balance; overflow-wrap: anywhere; }
+.d-head .sub { margin: 6px 0 0; color: var(--ink-2); }
+.d-close { margin-left: auto; }
+.shared-badge {
+  display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; padding: 4px 9px; border-radius: 99px;
+  background: var(--fusion-wash); color: var(--fusion-ink); font-weight: 600; font-size: 13px;
+}
+.stats { display: grid; grid-template-columns: 1fr auto; gap: 7px 12px; margin: 0; }
+.stats dt { color: var(--ink-2); }
+.stats dd { margin: 0; font: 600 14px/1.45 var(--font-ui); text-align: right; font-variant-numeric: tabular-nums; }
+.stats dd small { font-weight: 400; color: var(--ink-3); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px; padding: 5px 9px; border: 1px solid var(--hair-2); border-radius: 99px;
+  background: var(--sheet); font-size: 13px;
+}
+.chip:hover { background: var(--sheet-2); }
+.chip .count-pill { padding: 3px 5px; }
+.prose { margin: 0; color: var(--ink-2); max-width: 62ch; }
+.prose + .prose { margin-top: 8px; }
+.links { display: grid; gap: 6px; }
+.links a { color: var(--fusion-ink); font-weight: 500; text-decoration: none; overflow-wrap: anywhere; }
+.links a:hover { text-decoration: underline; }
+.conn { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.conn button {
+  width: 100%; display: grid; grid-template-columns: 18px minmax(0, 1fr) auto; align-items: center; gap: 8px;
+  padding: 5px 6px; border: 0; border-radius: 6px; background: none; text-align: left;
+}
+.conn button:hover { background: var(--sheet-2); }
+.conn .dir { color: var(--ink-3); font-family: var(--font-mono); font-size: 12px; text-align: center; }
+.conn .l { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.conn .tag { font: 500 11px/1 var(--font-mono); color: var(--ink-3); border: 1px solid var(--hair-2); border-radius: 4px; padding: 3px 4px; white-space: nowrap; }
+.conn .tag.shared { color: var(--fusion-ink); border-color: transparent; background: var(--fusion-wash); }
+.muted { color: var(--ink-3); }
+.mono { font-family: var(--font-mono); font-size: 12px; color: var(--ink-3); overflow-wrap: anywhere; }
+.d-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.note { margin: 0; padding: 8px 10px; border-radius: 8px; background: var(--sheet-2); color: var(--ink-2); font-size: 13px; }
+
+/* Responsive */
+@media (max-width: 1180px) {
+  .app { grid-template-columns: 272px minmax(0, 1fr); grid-template-areas: "top top" "side stage"; }
+  .details {
+    position: fixed; z-index: 35; right: 16px; bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    width: min(360px, calc(100% - 32px)); max-height: min(560px, 62%); box-shadow: var(--shadow);
+  }
+  .details:not(.open) { display: none; }
+  .top-actions { display: flex; }
+  #btn-panel { display: none; }
+}
+@media (max-width: 760px) {
+  .app { grid-template-columns: minmax(0, 1fr); grid-template-areas: "top" "stage"; padding: 10px 16px; }
+  .brand h1 { font-size: 22px; }
+  .brand p { font-size: 13px; }
+  .search { flex-basis: 100%; max-width: none; margin-left: 0; order: 3; }
+  .sidebar {
+    position: fixed; z-index: 36; left: 16px; right: 16px; bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    max-height: 72%; box-shadow: var(--shadow);
+  }
+  .sidebar:not(.open) { display: none; }
+  #btn-panel { display: inline-flex; }
+  .details { left: 16px; right: 16px; width: auto; }
+  .hint { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<div class="app" id="app">
+  <header class="topbar">
+    <div class="brand">
+      <h1>Atlas de 18 roadmaps</h1>
+      <p id="brand-sub">roadmap.sh · <b>2.201</b> nodos · <b>106</b> conceptos compartidos</p>
+    </div>
+    <div class="search" role="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+      <label class="visually-hidden" for="q">Buscar un tema en los 18 roadmaps</label>
+      <input id="q" type="search" placeholder="Buscar un tema: ssh, docker, oauth…" autocomplete="off" spellcheck="false"
+             role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
+      <ul class="results" id="results" role="listbox" hidden></ul>
+    </div>
+    <div class="top-actions">
+      <button class="btn" id="btn-panel" type="button" aria-controls="sidebar" aria-expanded="false">Capas y roadmaps</button>
+      <button class="btn" id="btn-summary" type="button">Resumen</button>
+    </div>
+  </header>
+
+  <aside class="panel sidebar" id="sidebar" aria-label="Capas, roadmaps y conceptos compartidos">
+    <section class="section">
+      <h2>Capas</h2>
+      <label class="toggle"><input type="checkbox" id="layer-source" checked>
+        <svg class="sw" viewBox="0 0 26 12" aria-hidden="true"><path class="lg-edge" d="M1 6h24"></path></svg>Camino y asociaciones</label>
+      <label class="toggle"><input type="checkbox" id="layer-derived" checked>
+        <svg class="sw" viewBox="0 0 26 12" aria-hidden="true"><path class="lg-derived" d="M1 6h24"></path></svg>Contención inferida</label>
+      <label class="toggle"><input type="checkbox" id="layer-fusion" checked>
+        <svg class="sw" viewBox="0 0 26 12" aria-hidden="true"><path class="lg-fusion" d="M1 10 Q13 -2 25 10"></path></svg>Mismo concepto en otro roadmap</label>
+      <label class="toggle"><input type="checkbox" id="layer-bg" checked>
+        <svg class="sw" viewBox="0 0 26 12" aria-hidden="true"><rect x="1" y="1" width="24" height="10" rx="2" fill="none" stroke="var(--prim)" stroke-width="1.5"></rect></svg>Secciones y líneas originales</label>
+      <label class="toggle"><input type="checkbox" id="layer-only-shared">
+        <svg class="sw" viewBox="0 0 26 12" aria-hidden="true"><rect class="lg-shared" x="4" y="1.5" width="18" height="9" rx="2"></rect></svg>Resaltar solo los compartidos</label>
+    </section>
+    <section class="section">
+      <h2>Roadmaps <span class="count" id="rm-count">18/18</span></h2>
+      <ul class="rm-list" id="rm-list"></ul>
+      <div class="rm-tools">
+        <button class="btn small" type="button" id="rm-all">Mostrar todos</button>
+        <button class="btn small" type="button" id="rm-none">Ocultar todos</button>
+      </div>
+    </section>
+    <section class="section">
+      <h2>Conceptos compartidos <span class="count" id="sh-count"></span></h2>
+      <ul class="sh-list" id="sh-list"></ul>
+    </section>
+    <section class="section">
+      <h2>Leyenda</h2>
+      <div class="legend">
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><rect class="lg-topic" x="1" y="2" width="36" height="14" rx="3"></rect></svg>Tema (topic)</div>
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><rect class="lg-subtopic" x="1" y="2" width="36" height="14" rx="3"></rect></svg>Subtema (subtopic)</div>
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><rect class="lg-shared" x="2" y="2" width="34" height="14" rx="3"></rect></svg>Concepto compartido entre roadmaps</div>
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><rect class="lg-button" x="1" y="3" width="36" height="12" rx="6"></rect></svg>Botón o enlace</div>
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><rect class="lg-check" x="2" y="3" width="12" height="12" rx="2"></rect></svg>Ítem de checklist</div>
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><text class="lg-text" x="2" y="14">Aa</text></svg>Título, encabezado o párrafo</div>
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><path class="lg-edge" d="M1 9h36"></path></svg>Camino entre temas (sólida)</div>
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><path class="lg-edge lg-dashed" d="M1 9h36"></path></svg>Tema → subtema (discontinua)</div>
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><path class="lg-derived" d="M1 9h36"></path></svg>Contención inferida por geometría</div>
+        <div class="legend-row"><svg viewBox="0 0 38 18" aria-hidden="true"><path class="lg-fusion" d="M1 15 Q19 -4 37 15"></path></svg>Mismo concepto en otro roadmap</div>
+      </div>
+    </section>
+  </aside>
+
+  <main class="stage" id="stage">
+    <canvas id="atlas" tabindex="0" role="img" aria-describedby="atlas-desc"></canvas>
+    <p class="visually-hidden" id="atlas-desc">Mosaico con los 18 roadmaps en su disposición original de roadmap.sh. Usa el buscador o la lista de conceptos compartidos para seleccionar nodos con el teclado. En el lienzo: flechas para mover, más y menos para ampliar, cero para ver todo y Escape para quitar la selección.</p>
+    <div class="tooltip" id="tip" hidden></div>
+    <div class="zoombar">
+      <button class="btn" type="button" id="zoom-in" aria-label="Ampliar">+</button>
+      <button class="btn" type="button" id="zoom-out" aria-label="Reducir">−</button>
+      <button class="btn" type="button" id="zoom-fit">Ver todo</button>
+    </div>
+    <p class="hint">Arrastra para moverte · rueda o pellizco para ampliar · clic en un tema para ver su detalle</p>
+  </main>
+
+  <aside class="panel details" id="details" aria-live="polite" aria-label="Detalle"></aside>
+</div>
+
+<script type="application/json" id="atlas-data">/*__ATLAS_DATA__*/</script>
+<script>
+(() => {
+  "use strict";
+
+  const DATA = JSON.parse(document.getElementById("atlas-data").textContent);
+  const TYPE_NAMES = ["Título", "Tema", "Subtema", "Encabezado", "Párrafo", "Botón", "Ítem de checklist"];
+  const TYPE_KEYS = ["title", "topic", "subtopic", "label", "paragraph", "button", "checklist-item"];
+  const RULES = { 1: "R1 pila", 2: "R2 encabezado", 3: "R3 sección", 5: "R5 línea" };
+  const REPO = "https://github.com/nilbuild/developer-roadmap/blob/";
+  const fmt = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // ---------------------------------------------------------------- datos
+  const R = DATA.roadmaps.map((r, i) => Object.assign(r, { i, frame: null, ox: 0, oy: 0 }));
+  const nodes = DATA.nodes.map((a, i) => ({
+    i, r: a[0], id: a[1], t: a[2], label: a[3], lx: a[4], ly: a[5], w: a[6], h: a[7], extra: a[8] || {}, g: a[9],
+    sh: -1, x: 0, y: 0, lines: null,
+  }));
+  const edges = DATA.edges.map(([a, b, kind, rule], i) => ({ i, a, b, kind, rule }));
+  const prims = DATA.prims.map(([r, kind, lx, ly, w, h, dashed]) => ({ r, kind, lx, ly, w, h, dashed, x: 0, y: 0 }));
+  const checklists = DATA.checklists.map(([r, lx, ly, w, h]) => ({ r, lx, ly, w, h, x: 0, y: 0 }));
+  const shared = DATA.shared.map(([label, inst], k) => ({ k, label, inst }));
+  shared.forEach((s) => s.inst.forEach((i) => { nodes[i].sh = s.k; }));
+
+  const graph = new Map(); // g -> { g, inst: [índices] }
+  nodes.forEach((n) => {
+    let entry = graph.get(n.g);
+    if (!entry) graph.set(n.g, (entry = { g: n.g, inst: [] }));
+    entry.inst.push(n.i);
+  });
+  const adj = new Map(); // g -> [{ e, dir, other }]
+  const pushAdj = (g, item) => { if (!adj.has(g)) adj.set(g, []); adj.get(g).push(item); };
+  edges.forEach((e) => {
+    const ga = nodes[e.a].g, gb = nodes[e.b].g;
+    pushAdj(ga, { e: e.i, dir: "out", other: gb });
+    pushAdj(gb, { e: e.i, dir: "in", other: ga });
+  });
+  const fusionLinks = [];
+  shared.forEach((s) => {
+    for (let j = 1; j < s.inst.length; j++) fusionLinks.push({ a: s.inst[j - 1], b: s.inst[j], k: s.k });
+  });
+  const perRoadmap = R.map(() => ({ nodes: 0, shared: 0 }));
+  nodes.forEach((n) => { perRoadmap[n.r].nodes++; if (n.sh >= 0) perRoadmap[n.r].shared++; });
+
+  // ---------------------------------------------------------------- estado
+  const state = {
+    visible: new Set(R.map((r) => r.i)),
+    layers: { source: true, derived: true, fusion: true, bg: true, onlyShared: false },
+    selected: null, // g
+    focus: null, // { inst: Set, edges: Set, fusion: Set(k) }
+    hover: -1,
+    cols: 0,
+    userMoved: false,
+  };
+  let world = { w: 1, h: 1 };
+
+  // ---------------------------------------------------------------- utilidades DOM
+  const $ = (id) => document.getElementById(id);
+  function el(tag, props, ...children) {
+    const node = document.createElement(tag);
+    if (props) {
+      for (const [k, v] of Object.entries(props)) {
+        if (v == null || v === false) continue;
+        if (k === "class") node.className = v;
+        else if (k === "text") node.textContent = v;
+        else if (k.startsWith("on")) node.addEventListener(k.slice(2), v);
+        else node.setAttribute(k, v === true ? "" : v);
+      }
+    }
+    for (const c of children.flat()) if (c != null) node.append(c instanceof Node ? c : document.createTextNode(String(c)));
+    return node;
+  }
+  const displayLabel = (n) => (n.label && n.label.trim() ? n.label.trim() : "(sin texto)");
+  const norm = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
+
+  // ---------------------------------------------------------------- lienzo
+  const stage = $("stage");
+  const canvas = $("atlas");
+  const ctx = canvas.getContext("2d");
+  let dpr = 1;
+  const cam = { x: 0, y: 0, k: 0.1 };
+  let COL = {};
+  const FAMILY_SIGN = '"Barlow Semi Condensed", "Barlow", system-ui, sans-serif';
+  const FAMILY_UI = '"Barlow", system-ui, sans-serif';
+  const FONT = [
+    { size: 30, weight: 700, family: FAMILY_SIGN, color: "ink", align: "center" }, // title
+    { size: 16, weight: 600, family: FAMILY_SIGN, color: "topicInk", align: "center" }, // topic
+    { size: 15.5, weight: 500, family: FAMILY_SIGN, color: "subtopicInk", align: "center" }, // subtopic
+    { size: 18, weight: 700, family: FAMILY_SIGN, color: "ink", align: "center" }, // label
+    { size: 15, weight: 400, family: FAMILY_UI, color: "ink2", align: "center" }, // paragraph
+    { size: 15, weight: 600, family: FAMILY_SIGN, color: "ink", align: "center" }, // button
+    { size: 14, weight: 400, family: FAMILY_UI, color: "ink", align: "left" }, // checklist item
+  ];
+
+  function readColors() {
+    const cs = getComputedStyle(document.documentElement);
+    const v = (name) => cs.getPropertyValue(name).trim();
+    COL = {
+      paper: v("--paper"), sheet: v("--sheet"), sheet2: v("--sheet-2"), ink: v("--ink"), ink2: v("--ink-2"), ink3: v("--ink-3"),
+      hair: v("--hair"), hair2: v("--hair-2"), topic: v("--topic"), topicInk: v("--topic-ink"), topicStroke: v("--topic-stroke"),
+      subtopic: v("--subtopic"), subtopicInk: v("--subtopic-ink"), subtopicStroke: v("--subtopic-stroke"), check: v("--check"),
+      checkFill: v("--check-fill"), fusion: v("--fusion"), fusionWash: v("--fusion-wash"), edge: v("--edge"),
+      edgeDerived: v("--edge-derived"), prim: v("--prim"), select: v("--select"),
+    };
+  }
+
+  function layout(cols) {
+    const ids = R.filter((r) => state.visible.has(r.i)).map((r) => r.i);
+    const pad = 70, header = 200, gap = 240;
+    const colW = Math.max(...R.map((r) => r.w)) + pad * 2;
+    const heights = new Array(cols).fill(0);
+    ids.forEach((i) => {
+      const r = R[i];
+      let c = 0;
+      for (let k = 1; k < cols; k++) if (heights[k] < heights[c] - 1) c = k;
+      const fx = c * (colW + gap), fy = heights[c];
+      r.frame = { x: fx, y: fy, w: colW, h: header + r.h + pad * 2 };
+      r.ox = fx + pad + (colW - pad * 2 - r.w) / 2;
+      r.oy = fy + header + pad;
+      heights[c] += r.frame.h + gap;
+    });
+    R.forEach((r) => { if (!state.visible.has(r.i)) r.frame = null; });
+    world = ids.length
+      ? { w: cols * colW + (cols - 1) * gap, h: Math.max(...heights) - gap }
+      : { w: 1000, h: 1000 };
+    const place = (o) => { const r = R[o.r]; o.x = r.ox + o.lx; o.y = r.oy + o.ly; };
+    nodes.forEach(place);
+    prims.forEach(place);
+    checklists.forEach(place);
+    state.cols = cols;
+    buildGrid();
+  }
+
+  function bestCols() {
+    const aspect = Math.max(0.3, stage.clientWidth / Math.max(1, stage.clientHeight));
+    const n = state.visible.size;
+    if (!n) return 1;
+    let best = 1, score = Infinity;
+    for (let c = 1; c <= Math.min(12, n); c++) {
+      layout(c);
+      const s = Math.abs(Math.log(world.w / world.h / aspect));
+      if (s < score - 1e-9) { score = s; best = c; }
+    }
+    return best;
+  }
+
+  // Índice espacial para acertar al puntero.
+  const CELL = 300;
+  let grid = new Map();
+  function buildGrid() {
+    grid = new Map();
+    nodes.forEach((n) => {
+      if (!state.visible.has(n.r)) return;
+      const x0 = Math.floor(n.x / CELL), x1 = Math.floor((n.x + n.w) / CELL);
+      const y0 = Math.floor(n.y / CELL), y1 = Math.floor((n.y + n.h) / CELL);
+      for (let gx = x0; gx <= x1; gx++) for (let gy = y0; gy <= y1; gy++) {
+        const key = gx + "," + gy;
+        if (!grid.has(key)) grid.set(key, []);
+        grid.get(key).push(n.i);
+      }
+    });
+  }
+  function hitTest(sx, sy) {
+    const wx = cam.x + sx / cam.k, wy = cam.y + sy / cam.k;
+    const tol = 6 / cam.k;
+    let best = -1, bestArea = Infinity, bestDist = Infinity;
+    const gx0 = Math.floor((wx - tol) / CELL), gx1 = Math.floor((wx + tol) / CELL);
+    const gy0 = Math.floor((wy - tol) / CELL), gy1 = Math.floor((wy + tol) / CELL);
+    for (let gx = gx0; gx <= gx1; gx++) for (let gy = gy0; gy <= gy1; gy++) {
+      for (const i of grid.get(gx + "," + gy) || []) {
+        const n = nodes[i];
+        const dx = Math.max(n.x - wx, 0, wx - (n.x + n.w));
+        const dy = Math.max(n.y - wy, 0, wy - (n.y + n.h));
+        const d = Math.hypot(dx, dy);
+        if (d > tol) continue;
+        const area = n.w * n.h;
+        if (d < bestDist - 1e-6 || (Math.abs(d - bestDist) < 1e-6 && area < bestArea)) { best = i; bestDist = d; bestArea = area; }
+      }
+    }
+    return best;
+  }
+
+  let frameRequested = false;
+  function requestDraw() {
+    if (frameRequested) return;
+    frameRequested = true;
+    requestAnimationFrame(() => { frameRequested = false; draw(); });
+  }
+
+  function rr(x, y, w, h, r) {
+    r = Math.max(0, Math.min(r, w / 2, h / 2));
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  function clipPoint(n, tx, ty) {
+    const cx = n.x + n.w / 2, cy = n.y + n.h / 2;
+    const dx = tx - cx, dy = ty - cy;
+    if (!dx && !dy) return [cx, cy];
+    const sx = dx ? (n.w / 2) / Math.abs(dx) : Infinity;
+    const sy = dy ? (n.h / 2) / Math.abs(dy) : Infinity;
+    const s = Math.min(sx, sy, 1);
+    return [cx + dx * s, cy + dy * s];
+  }
+
+  function wrapLines(n) {
+    if (n.lines) return n.lines;
+    const f = FONT[n.t];
+    ctx.font = `${f.weight} ${f.size}px ${f.family}`;
+    const inset = n.t === 6 ? 30 : n.t === 5 ? 16 : n.t === 0 || n.t === 3 || n.t === 4 ? 4 : 12;
+    const maxW = Math.max(10, n.w - inset * 2 + (n.t === 6 ? 22 : 0));
+    const lineH = f.size * 1.22;
+    const maxLines = Math.max(1, Math.floor((n.h - 4) / lineH));
+    const words = displayLabel(n).split(/\s+/);
+    const lines = [];
+    let line = "";
+    const pushLine = (s) => { lines.push(s); };
+    for (const word of words) {
+      const trial = line ? line + " " + word : word;
+      if (ctx.measureText(trial).width <= maxW) { line = trial; continue; }
+      if (line) pushLine(line);
+      if (ctx.measureText(word).width <= maxW) { line = word; continue; }
+      let part = "";
+      for (const ch of word) {
+        if (ctx.measureText(part + ch).width > maxW && part) { pushLine(part); part = ch; } else part += ch;
+      }
+      line = part;
+    }
+    if (line) pushLine(line);
+    if (lines.length > maxLines) {
+      const kept = lines.slice(0, maxLines);
+      let last = kept[maxLines - 1] + "…";
+      while (last.length > 1 && ctx.measureText(last).width > maxW) last = last.slice(0, -2) + "…";
+      kept[maxLines - 1] = last;
+      n.lines = kept;
+    } else n.lines = lines;
+    n.lineH = lineH;
+    return n.lines;
+  }
+
+  function draw() {
+    const W = canvas.width, H = canvas.height;
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.fillStyle = COL.paper;
+    ctx.fillRect(0, 0, W, H);
+    const k = cam.k, px = 1 / k;
+    ctx.setTransform(dpr * k, 0, 0, dpr * k, -cam.x * dpr * k, -cam.y * dpr * k);
+    const view = { x0: cam.x, y0: cam.y, x1: cam.x + stage.clientWidth / k, y1: cam.y + stage.clientHeight / k };
+    const inView = (x, y, w, h) => x + w >= view.x0 && x <= view.x1 && y + h >= view.y0 && y <= view.y1;
+    const focus = state.focus;
+    const dimAll = !!focus || state.layers.onlyShared;
+    const nodeAlpha = (n) => {
+      if (focus) return focus.inst.has(n.i) ? 1 : 0.16;
+      if (state.layers.onlyShared) return n.sh >= 0 ? 1 : 0.2;
+      return 1;
+    };
+
+    // Hojas (los rótulos se dibujan al final, en coordenadas de pantalla).
+    for (const r of R) {
+      if (!r.frame) continue;
+      const f = r.frame;
+      if (!inView(f.x, f.y, f.w, f.h)) continue;
+      rr(f.x, f.y, f.w, f.h, 22);
+      ctx.fillStyle = COL.sheet;
+      ctx.fill();
+      ctx.lineWidth = px;
+      ctx.strokeStyle = COL.hair;
+      ctx.stroke();
+    }
+
+    // Fondo original: secciones y líneas.
+    if (state.layers.bg) {
+      ctx.globalAlpha = dimAll ? 0.45 : 1;
+      ctx.strokeStyle = COL.prim;
+      for (const p of prims) {
+        if (!state.visible.has(p.r) || !inView(p.x, p.y, p.w, p.h)) continue;
+        ctx.setLineDash(p.dashed ? [10, 8] : []);
+        if (p.kind === 0) {
+          ctx.lineWidth = Math.max(px, 2);
+          rr(p.x, p.y, p.w, p.h, 6);
+          ctx.stroke();
+        } else {
+          ctx.lineWidth = Math.max(px, 3);
+          ctx.beginPath();
+          if (p.kind === 1) { ctx.moveTo(p.x + p.w / 2, p.y); ctx.lineTo(p.x + p.w / 2, p.y + p.h); }
+          else { ctx.moveTo(p.x, p.y + p.h / 2); ctx.lineTo(p.x + p.w, p.y + p.h / 2); }
+          ctx.stroke();
+        }
+      }
+      ctx.setLineDash([]);
+      ctx.globalAlpha = 1;
+    }
+
+    // Contenedores de checklist.
+    for (const c of checklists) {
+      if (!state.visible.has(c.r) || !inView(c.x, c.y, c.w, c.h)) continue;
+      rr(c.x, c.y, c.w, c.h, 8);
+      ctx.globalAlpha = dimAll ? 0.35 : 1;
+      ctx.fillStyle = COL.checkFill;
+      ctx.fill();
+      ctx.lineWidth = Math.max(px, 1.5);
+      ctx.strokeStyle = COL.check;
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+    }
+
+    // Aristas del grafo.
+    const edgeWidth = Math.min(Math.max(2.4 * k, 0.9), 2.4) * px;
+    const drawEdges = (subset, color, width, dash, alpha) => {
+      if (!subset.length) return;
+      ctx.globalAlpha = alpha;
+      ctx.strokeStyle = color;
+      ctx.lineWidth = width;
+      ctx.setLineDash(dash);
+      ctx.lineCap = dash.length && dash[0] < 4 ? "round" : "butt";
+      ctx.beginPath();
+      for (const e of subset) {
+        const a = nodes[e.a], b = nodes[e.b];
+        if (e.a === e.b) {
+          const x = a.x + a.w, y = a.y + a.h / 2;
+          ctx.moveTo(x, y - 8);
+          ctx.bezierCurveTo(x + 40, y - 40, x + 40, y + 40, x, y + 8);
+          continue;
+        }
+        const [x1, y1] = clipPoint(a, b.x + b.w / 2, b.y + b.h / 2);
+        const [x2, y2] = clipPoint(b, a.x + a.w / 2, a.y + a.h / 2);
+        ctx.moveTo(x1, y1);
+        ctx.lineTo(x2, y2);
+      }
+      ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.lineCap = "butt";
+      ctx.globalAlpha = 1;
+    };
+    const buckets = { s: [], d: [], x: [], hs: [], hd: [], hx: [] };
+    for (const e of edges) {
+      const a = nodes[e.a], b = nodes[e.b];
+      if (!state.visible.has(a.r)) continue;
+      if (e.kind === 2 ? !state.layers.derived : !state.layers.source) continue;
+      const minX = Math.min(a.x, b.x), minY = Math.min(a.y, b.y);
+      if (!inView(minX, minY, Math.max(a.x + a.w, b.x + b.w) - minX, Math.max(a.y + a.h, b.y + b.h) - minY)) continue;
+      const hot = focus && focus.edges.has(e.i);
+      const key = (hot ? "h" : "") + (e.kind === 0 ? "s" : e.kind === 1 ? "d" : "x");
+      buckets[key].push(e);
+    }
+    const baseAlpha = dimAll ? 0.14 : 1;
+    drawEdges(buckets.s, COL.edge, edgeWidth, [], baseAlpha);
+    drawEdges(buckets.d, COL.edge, edgeWidth, [12, 9], baseAlpha);
+    drawEdges(buckets.x, COL.edgeDerived, edgeWidth, [0.1, 7], baseAlpha);
+    drawEdges(buckets.hs, COL.ink2, edgeWidth * 1.4, [], 1);
+    drawEdges(buckets.hd, COL.ink2, edgeWidth * 1.4, [12, 9], 1);
+    drawEdges(buckets.hx, COL.ink3, edgeWidth * 1.4, [0.1, 7], 1);
+
+    // Enlaces entre roadmaps (mismo concepto).
+    if (state.layers.fusion) {
+      const normal = [], hot = [];
+      for (const f of fusionLinks) {
+        const a = nodes[f.a], b = nodes[f.b];
+        if (!state.visible.has(a.r) || !state.visible.has(b.r)) continue;
+        (focus ? (focus.fusion.has(f.k) ? hot : normal) : normal).push(f);
+      }
+      const drawLinks = (list, width, alpha) => {
+        if (!list.length) return;
+        ctx.globalAlpha = alpha;
+        ctx.strokeStyle = COL.fusion;
+        ctx.lineWidth = width;
+        ctx.beginPath();
+        for (const f of list) {
+          const a = nodes[f.a], b = nodes[f.b];
+          const x1 = a.x + a.w / 2, y1 = a.y + a.h / 2, x2 = b.x + b.w / 2, y2 = b.y + b.h / 2;
+          const mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
+          const dx = x2 - x1, dy = y2 - y1, len = Math.hypot(dx, dy) || 1;
+          const bend = Math.min(len * 0.18, 900);
+          ctx.moveTo(x1, y1);
+          ctx.quadraticCurveTo(mx - (dy / len) * bend, my + (dx / len) * bend, x2, y2);
+        }
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+      };
+      drawLinks(normal, Math.max(1.2 * px, 1.6), focus ? 0.12 : state.layers.onlyShared ? 0.55 : 0.32);
+      drawLinks(hot, Math.max(2.6 * px, 2.6), 0.95);
+    }
+
+    // Nodos.
+    const strokeW = Math.max(px * 1.1, 1.4);
+    for (const n of nodes) {
+      if (!state.visible.has(n.r) || !inView(n.x - 10, n.y - 10, n.w + 20, n.h + 20)) continue;
+      const alpha = nodeAlpha(n);
+      const outline = n.h * k >= 9; // en cajas diminutas el borde taparía el color
+      ctx.globalAlpha = alpha;
+      if (n.t === 1 || n.t === 2) {
+        rr(n.x, n.y, n.w, n.h, 7);
+        ctx.fillStyle = n.t === 1 ? COL.topic : COL.subtopic;
+        ctx.fill();
+        if (outline) {
+          ctx.lineWidth = strokeW;
+          ctx.strokeStyle = n.t === 1 ? COL.topicStroke : COL.subtopicStroke;
+          ctx.stroke();
+        }
+      } else if (n.t === 5) {
+        rr(n.x, n.y, n.w, n.h, n.h / 2);
+        ctx.fillStyle = outline ? COL.sheet : COL.hair2;
+        ctx.fill();
+        if (outline) {
+          ctx.lineWidth = strokeW;
+          ctx.strokeStyle = COL.ink3;
+          ctx.stroke();
+        }
+      } else if (n.t === 6) {
+        const s = Math.max(4, Math.min(16, n.h - 6));
+        rr(n.x + 6, n.y + (n.h - s) / 2, s, s, 3);
+        ctx.fillStyle = COL.sheet;
+        ctx.fill();
+        ctx.lineWidth = Math.max(px, 1.6);
+        ctx.strokeStyle = COL.check;
+        ctx.stroke();
+      }
+      if (n.sh >= 0) {
+        const o = 4;
+        rr(n.x - o, n.y - o, n.w + o * 2, n.h + o * 2, 10);
+        ctx.lineWidth = Math.max(2.6 * px, 3.2);
+        ctx.strokeStyle = COL.fusion;
+        ctx.stroke();
+      }
+    }
+    ctx.globalAlpha = 1;
+
+    // Etiquetas (solo cuando se leen).
+    for (const n of nodes) {
+      if (!state.visible.has(n.r)) continue;
+      const f = FONT[n.t];
+      if (f.size * k < 5.2) continue;
+      if (!inView(n.x, n.y, n.w, n.h)) continue;
+      const lines = wrapLines(n);
+      ctx.globalAlpha = nodeAlpha(n);
+      ctx.font = `${f.weight} ${f.size}px ${f.family}`;
+      ctx.fillStyle = COL[f.color];
+      ctx.textBaseline = "middle";
+      ctx.textAlign = f.align;
+      const total = lines.length * n.lineH;
+      let y = n.y + n.h / 2 - total / 2 + n.lineH / 2;
+      const x = f.align === "left" ? n.x + 30 : n.x + n.w / 2;
+      for (const line of lines) { ctx.fillText(line, x, y); y += n.lineH; }
+    }
+    ctx.globalAlpha = 1;
+
+    // Insignias de compartidos (×N).
+    if (k > 0.28) {
+      ctx.font = `600 13px ${FAMILY_UI}`;
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      for (const n of nodes) {
+        if (n.sh < 0 || !state.visible.has(n.r) || !inView(n.x, n.y - 20, n.w + 20, n.h + 20)) continue;
+        const label = "×" + shared[n.sh].inst.length;
+        const bw = 30, bh = 20, bx = n.x + n.w - bw + 10, by = n.y - 14;
+        ctx.globalAlpha = nodeAlpha(n);
+        rr(bx, by, bw, bh, 10);
+        ctx.fillStyle = COL.fusion;
+        ctx.fill();
+        ctx.fillStyle = COL.sheet;
+        ctx.fillText(label, bx + bw / 2, by + bh / 2 + 0.5);
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    // Selección y puntero.
+    const ring = (n, color, width, offset) => {
+      rr(n.x - offset, n.y - offset, n.w + offset * 2, n.h + offset * 2, 11);
+      ctx.lineWidth = width;
+      ctx.strokeStyle = color;
+      ctx.stroke();
+    };
+    if (focus) {
+      for (const i of focus.main) {
+        const n = nodes[i];
+        if (state.visible.has(n.r)) ring(n, COL.select, Math.max(3 * px, 3.5), Math.max(9 * px, 9));
+      }
+    }
+    if (state.hover >= 0) {
+      const n = nodes[state.hover];
+      if (state.visible.has(n.r)) ring(n, COL.ink2, Math.max(2 * px, 2), Math.max(6 * px, 6));
+    }
+
+    // Rótulos de cada hoja: tamaño legible a cualquier zoom y fijos arriba al recorrer un roadmap largo.
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const SW = stage.clientWidth, SH = stage.clientHeight;
+    for (const r of R) {
+      if (!r.frame) continue;
+      const f = r.frame;
+      const sx = (f.x - cam.x) * k, sy = (f.y - cam.y) * k, sw = f.w * k, sh = f.h * k;
+      if (sx + sw < 0 || sy + sh < 0 || sx > SW || sy > SH) continue;
+      const size = Math.min(Math.max(90 * k, 12), 34);
+      const padX = Math.min(Math.max(8, 36 * k), 18);
+      const showSub = size >= 19;
+      const plateH = size * 1.3 + (showSub ? 20 : 0) + 8;
+      const avail = sw - padX * 2 - 12;
+      if (avail < 28) continue;
+      ctx.font = `700 ${size}px ${FAMILY_SIGN}`;
+      let text = r.title;
+      if (ctx.measureText(text).width > avail) {
+        while (text.length > 1 && ctx.measureText(text + "…").width > avail) text = text.slice(0, -1);
+        text += "…";
+      }
+      const sub = `${r.slug} · ${fmt(perRoadmap[r.i].nodes)} nodos · ${fmt(perRoadmap[r.i].shared)} compartidos`;
+      let plateW = ctx.measureText(text).width + 16;
+      if (showSub) { ctx.font = `500 12.5px ${FAMILY_UI}`; plateW = Math.max(plateW, Math.min(ctx.measureText(sub).width + 16, avail + 16)); }
+      const px0 = sx + padX - 8;
+      const py0 = Math.min(Math.max(8, sy + padX - 4), sy + sh - plateH - 8);
+      if (sh < plateH + 16) continue;
+      ctx.globalAlpha = focus && !focus.roadmaps.has(r.i) ? 0.45 : 1;
+      rr(px0, py0, plateW, plateH, 8);
+      ctx.fillStyle = COL.sheet;
+      ctx.fill();
+      if (py0 > sy + padX) { ctx.lineWidth = 1; ctx.strokeStyle = COL.hair; ctx.stroke(); }
+      ctx.fillStyle = COL.ink;
+      ctx.textAlign = "left";
+      ctx.textBaseline = "alphabetic";
+      ctx.font = `700 ${size}px ${FAMILY_SIGN}`;
+      ctx.fillText(text, px0 + 8, py0 + 4 + size * 1.02);
+      if (showSub) {
+        ctx.font = `500 12.5px ${FAMILY_UI}`;
+        ctx.fillStyle = COL.ink2;
+        let s = sub;
+        if (ctx.measureText(s).width > avail) {
+          while (s.length > 1 && ctx.measureText(s + "…").width > avail) s = s.slice(0, -1);
+          s += "…";
+        }
+        ctx.fillText(s, px0 + 8, py0 + 4 + size * 1.3 + 14);
+      }
+      ctx.globalAlpha = 1;
+    }
+  }
+
+  // ---------------------------------------------------------------- cámara
+  const MAX_K = 2.6;
+  let minK = 0.01;
+  let anim = null;
+  function fitK(b, pad) {
+    const sw = stage.clientWidth, sh = stage.clientHeight;
+    return Math.min((sw - pad * 2) / Math.max(b.w, 1), (sh - pad * 2) / Math.max(b.h, 1));
+  }
+  function cameraFor(b, pad = 36, maxK = MAX_K) {
+    const k = Math.min(Math.max(fitK(b, pad), minK), maxK);
+    return { k, x: b.x + b.w / 2 - stage.clientWidth / (2 * k), y: b.y + b.h / 2 - stage.clientHeight / (2 * k) };
+  }
+  function animateTo(target) {
+    if (anim) cancelAnimationFrame(anim.id);
+    if (reduceMotion) { Object.assign(cam, target); requestDraw(); return; }
+    const from = { ...cam }, t0 = performance.now(), dur = 520;
+    const ease = (t) => 1 - Math.pow(1 - t, 3);
+    const lk0 = Math.log(from.k), lk1 = Math.log(target.k);
+    const cx0 = from.x + stage.clientWidth / (2 * from.k), cy0 = from.y + stage.clientHeight / (2 * from.k);
+    const cx1 = target.x + stage.clientWidth / (2 * target.k), cy1 = target.y + stage.clientHeight / (2 * target.k);
+    const step = (now) => {
+      const t = Math.min(1, (now - t0) / dur), e = ease(t);
+      cam.k = Math.exp(lk0 + (lk1 - lk0) * e);
+      const cx = cx0 + (cx1 - cx0) * e, cy = cy0 + (cy1 - cy0) * e;
+      cam.x = cx - stage.clientWidth / (2 * cam.k);
+      cam.y = cy - stage.clientHeight / (2 * cam.k);
+      draw();
+      anim = t < 1 ? { id: requestAnimationFrame(step) } : null;
+    };
+    anim = { id: requestAnimationFrame(step) };
+  }
+  function fitAll(animate = true) {
+    const b = { x: 0, y: 0, w: world.w, h: world.h };
+    minK = Math.max(0.004, fitK(b, 24) * 0.6);
+    const target = cameraFor(b, 24);
+    if (animate) animateTo(target); else { Object.assign(cam, target); requestDraw(); }
+  }
+  function zoomAt(sx, sy, factor) {
+    const k = Math.min(Math.max(cam.k * factor, minK), MAX_K);
+    const wx = cam.x + sx / cam.k, wy = cam.y + sy / cam.k;
+    cam.k = k;
+    cam.x = wx - sx / k;
+    cam.y = wy - sy / k;
+    state.userMoved = true;
+    requestDraw();
+  }
+  function boxOf(list) {
+    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    for (const o of list) { x0 = Math.min(x0, o.x); y0 = Math.min(y0, o.y); x1 = Math.max(x1, o.x + o.w); y1 = Math.max(y1, o.y + o.h); }
+    return { x: x0, y: y0, w: x1 - x0, h: y1 - y0 };
+  }
+  function flyToInstances(list) {
+    const vis = list.map((i) => nodes[i]).filter((n) => state.visible.has(n.r));
+    if (!vis.length) return;
+    const b = boxOf(vis);
+    const grow = Math.max(b.w, b.h) < 800 ? 700 : 260;
+    animateTo(cameraFor({ x: b.x - grow / 2, y: b.y - grow / 2, w: b.w + grow, h: b.h + grow }, 40, 1.1));
+    state.userMoved = true;
+  }
+  function flyToRoadmap(i) {
+    const f = R[i].frame;
+    if (!f) return;
+    animateTo(cameraFor(f, 24));
+    state.userMoved = true;
+  }
+
+  // ---------------------------------------------------------------- tamaño
+  function resize() {
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const w = stage.clientWidth, h = stage.clientHeight;
+    canvas.width = Math.max(1, Math.round(w * dpr));
+    canvas.height = Math.max(1, Math.round(h * dpr));
+    const previous = state.cols;
+    const cols = bestCols(); // prueba columnas y deja la última probada
+    layout(cols);
+    if (cols !== previous || !state.userMoved) fitAll(false);
+    else requestDraw();
+  }
+
+  // ---------------------------------------------------------------- selección
+  function select(g, options = {}) {
+    const entry = graph.get(g);
+    if (!entry) return;
+    const hidden = entry.inst.map((i) => nodes[i].r).filter((r) => !state.visible.has(r));
+    if (hidden.length && options.reveal !== false) {
+      hidden.forEach((r) => state.visible.add(r));
+      syncRoadmapChecks();
+      layout(bestCols());
+    }
+    const inst = new Set(entry.inst), edgeSet = new Set(), fusion = new Set(), roadmaps = new Set();
+    const main = new Set(entry.inst);
+    for (const item of adj.get(g) || []) {
+      edgeSet.add(item.e);
+      const e = edges[item.e];
+      inst.add(e.a);
+      inst.add(e.b);
+    }
+    entry.inst.forEach((i) => { if (nodes[i].sh >= 0) fusion.add(nodes[i].sh); });
+    inst.forEach((i) => roadmaps.add(nodes[i].r));
+    state.selected = g;
+    state.focus = { inst, edges: edgeSet, fusion, main, roadmaps };
+    renderDetails(g);
+    markShared();
+    if (window.matchMedia("(max-width: 760px)").matches) {
+      document.getElementById("sidebar").classList.remove("open");
+      document.getElementById("btn-panel").setAttribute("aria-expanded", "false");
+    }
+    if (options.fly !== false) flyToInstances(entry.inst);
+    requestDraw();
+  }
+  function clearSelection() {
+    state.selected = null;
+    state.focus = null;
+    renderOverview();
+    markShared();
+    requestDraw();
+  }
+
+  // ---------------------------------------------------------------- detalle
+  const details = $("details");
+  const isNarrow = () => window.matchMedia("(max-width: 1180px)").matches;
+  function openDetails(open) { details.classList.toggle("open", open); }
+
+  function renderOverview() {
+    const c = DATA.meta.counts;
+    details.replaceChildren(
+      el("div", { class: "d-head" },
+        el("p", { class: "eyebrow", text: "Resumen del grafo" }),
+        el("h2", { text: "18 roadmaps en un solo mapa" }),
+        el("p", { class: "sub", text: "Cada hoja conserva la disposición original de roadmap.sh. Las curvas azules unen el mismo concepto en roadmaps distintos." })),
+      el("div", { class: "section" },
+        el("dl", { class: "stats" },
+          el("dt", { text: "Roadmaps" }), el("dd", { text: fmt(c.roadmaps) }),
+          el("dt", { text: "Nodos del grafo" }), el("dd", { text: fmt(c.graphNodes) }),
+          el("dt", { text: "Conceptos compartidos" }), el("dd", null, fmt(c.shared), " ", el("small", { text: `(${fmt(c.sharedInstances)} apariciones)` })),
+          el("dt", { text: "Aristas del origen" }), el("dd", { text: fmt(c.sourceEdges) }),
+          el("dt", { text: "Contención inferida" }), el("dd", { text: fmt(c.derivedEdges) }),
+          el("dt", { text: "Nodos sin aristas" }), el("dd", { text: fmt(c.orphans) }))),
+      el("div", { class: "section" },
+        el("p", { class: "eyebrow", text: "Empieza por" }),
+        el("div", { class: "chips" }, shared.slice(0, 8).map((s) => el("button", {
+          class: "chip", type: "button", onclick: () => { select(nodes[s.inst[0]].g); openDetails(true); },
+        }, s.label.trim(), el("span", { class: "count-pill", text: String(s.inst.length) }))))),
+      el("div", { class: "section" },
+        el("p", { class: "eyebrow", text: "Cómo se construyó" }),
+        el("p", { class: "prose", text: "Dos nodos se fusionan cuando su etiqueta es idéntica (sin distinguir mayúsculas) y aparecen una sola vez en cada roadmap. Solo aplica a temas y subtemas." }),
+        el("p", { class: "prose", text: "La contención inferida (líneas grises punteadas) sale de la posición de los nodos en el lienzo original. No son datos de roadmap.sh." }),
+        el("p", { class: "mono", text: `Fuente: ${DATA.meta.source} · copia del ${(DATA.meta.snapshot || "").slice(0, 10)}` })),
+    );
+  }
+
+  function neighborButton(g, dirSymbol, tag, tagShared) {
+    const entry = graph.get(g);
+    const n = nodes[entry.inst[0]];
+    const label = displayLabel(n);
+    return el("li", null, el("button", { type: "button", onclick: () => select(g) },
+      el("span", { class: "dir", text: dirSymbol, "aria-hidden": "true" }),
+      el("span", { class: "l", text: label, title: label }),
+      tag ? el("span", { class: "tag" + (tagShared ? " shared" : ""), text: tag }) : null));
+  }
+
+  function renderDetails(g) {
+    const entry = graph.get(g);
+    const first = nodes[entry.inst[0]];
+    const isShared = first.sh >= 0;
+    const roadmapsOf = entry.inst.map((i) => R[nodes[i].r]);
+    const typeKeys = [...new Set(entry.inst.map((i) => nodes[i].t))];
+    const head = el("div", { class: "d-head" },
+      el("p", { class: "eyebrow" },
+        typeKeys.map((t) => TYPE_NAMES[t]).join(" / "),
+        el("span", { class: "mono", text: " · " + typeKeys.map((t) => TYPE_KEYS[t]).join(" / ") }),
+        el("button", { class: "btn small d-close", type: "button", onclick: () => { clearSelection(); if (isNarrow()) openDetails(false); } }, "Cerrar")),
+      el("h2", { text: displayLabel(first) }),
+      isShared
+        ? el("span", { class: "shared-badge" }, `Concepto compartido · ${entry.inst.length} roadmaps`)
+        : el("p", { class: "sub", text: `En ${roadmapsOf[0].title} (${roadmapsOf[0].slug})` }));
+    const blocks = [head];
+
+    if (isShared) {
+      blocks.push(el("div", { class: "section" },
+        el("p", { class: "eyebrow", text: "Aparece en" }),
+        el("ul", { class: "conn" }, entry.inst.map((i) => {
+          const n = nodes[i], r = R[n.r];
+          return el("li", null, el("button", { type: "button", onclick: () => flyToInstances([i]) },
+            el("span", { class: "dir", text: "→", "aria-hidden": "true" }),
+            el("span", { class: "l", text: r.title }),
+            el("span", { class: "tag", text: TYPE_KEYS[n.t] })));
+        })),
+        el("p", { class: "note", text: "La fusión es por texto exacto: comprueba que el significado coincide en cada roadmap (por ejemplo, «Introduction» introduce un tema distinto en cada uno)." })));
+    }
+
+    // Conexiones del grafo agrupadas por tipo.
+    const groups = { path: [], assoc: [], contains: [], within: [] };
+    const seen = new Set();
+    for (const item of adj.get(g) || []) {
+      const e = edges[item.e];
+      const key = item.other + "|" + e.kind + "|" + item.dir + "|" + e.rule;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const other = graph.get(item.other);
+      const otherShared = nodes[other.inst[0]].sh >= 0;
+      const rTag = entry.inst.length > 1 ? R[nodes[e.a].r].slug : null;
+      if (e.kind === 0) groups.path.push(neighborButton(item.other, item.dir === "out" ? "→" : "←", rTag, false));
+      else if (e.kind === 1) groups.assoc.push(neighborButton(item.other, item.dir === "out" ? "→" : "←", rTag || (otherShared ? "compartido" : null), otherShared && !rTag));
+      else if (item.dir === "out") groups.contains.push(neighborButton(item.other, "↳", RULES[e.rule]));
+      else groups.within.push(neighborButton(item.other, "↰", RULES[e.rule]));
+    }
+    const conn = el("div", { class: "section" }, el("p", { class: "eyebrow", text: "Conexiones" }));
+    const addGroup = (title, list) => { if (list.length) conn.append(el("p", { class: "muted", text: title }), el("ul", { class: "conn" }, list)); };
+    addGroup("Camino del roadmap (aristas sólidas)", groups.path);
+    addGroup("Tema y subtemas (aristas discontinuas)", groups.assoc);
+    addGroup("Contiene · inferido por geometría", groups.contains);
+    addGroup("Dentro de · inferido por geometría", groups.within);
+    if (conn.childNodes.length === 1) {
+      conn.append(el("p", { class: "prose", text: first.t === 6
+        ? "Los ítems de checklist no tienen aristas: se agrupan dentro de su checklist en el lienzo."
+        : "Sin aristas en el grafo. En roadmap.sh su relación con otros temas solo es visual." }));
+    }
+    blocks.push(conn);
+
+    const links = el("div", { class: "links" });
+    const addedRoadmaps = new Set();
+    entry.inst.forEach((i) => {
+      const n = nodes[i], r = R[n.r];
+      if (!addedRoadmaps.has(r.slug)) {
+        addedRoadmaps.add(r.slug);
+        links.append(el("a", { href: `https://roadmap.sh/${r.slug}`, target: "_blank", rel: "noopener" }, `Abrir ${r.title} en roadmap.sh ↗`));
+      }
+      if (n.extra.file && DATA.meta.repoHead) {
+        links.append(el("a", { href: `${REPO}${DATA.meta.repoHead}/roadmaps/${r.slug}/content/${encodeURIComponent(n.extra.file)}`, target: "_blank", rel: "noopener" },
+          `Leer el contenido${entry.inst.length > 1 ? " (" + r.slug + ")" : ""} en GitHub ↗`));
+      }
+      if (n.extra.href) links.append(el("a", { href: n.extra.href, target: "_blank", rel: "noopener" }, `Enlace del botón: ${n.extra.href} ↗`));
+    });
+    blocks.push(el("div", { class: "section" }, el("p", { class: "eyebrow", text: "Enlaces" }), links));
+    blocks.push(el("div", { class: "section" },
+      el("div", { class: "d-actions" },
+        el("button", { class: "btn small", type: "button", onclick: () => flyToInstances(entry.inst) }, "Centrar en el atlas"),
+        el("button", { class: "btn small", type: "button", onclick: () => { clearSelection(); } }, "Volver al resumen")),
+      el("p", { class: "mono", text: entry.inst.map((i) => `${R[nodes[i].r].slug}:${nodes[i].id}`).join(" · ") })));
+    details.replaceChildren(...blocks);
+    details.scrollTop = 0;
+    openDetails(true);
+  }
+
+  // ---------------------------------------------------------------- barra lateral
+  const rmList = $("rm-list");
+  function syncRoadmapChecks() {
+    R.forEach((r) => { const box = $("rm-" + r.i); if (box) box.checked = state.visible.has(r.i); });
+    $("rm-count").textContent = `${state.visible.size}/${R.length}`;
+  }
+  function buildSidebar() {
+    rmList.replaceChildren(...R.map((r) => el("li", { class: "rm-row" },
+      el("input", { type: "checkbox", id: "rm-" + r.i, checked: true, onchange: (ev) => {
+        if (ev.target.checked) state.visible.add(r.i); else state.visible.delete(r.i);
+        onVisibilityChange();
+      } }),
+      el("label", { for: "rm-" + r.i, text: r.title, title: `${r.title} · ${r.slug}` }),
+      el("span", { class: "n", text: fmt(perRoadmap[r.i].nodes), title: "nodos en el grafo" }),
+      el("button", { class: "go", type: "button", "aria-label": `Ir a ${r.title}`, title: `Ir a ${r.title}`, onclick: () => {
+        if (!state.visible.has(r.i)) { state.visible.add(r.i); onVisibilityChange(); }
+        flyToRoadmap(r.i);
+      } }, "→"))));
+    $("sh-count").textContent = fmt(shared.length);
+    $("sh-list").replaceChildren(...shared.map((s) => el("li", null, el("button", {
+      class: "sh-row", type: "button", "data-k": s.k,
+      title: s.inst.map((i) => R[nodes[i].r].title).join(" · "),
+      onclick: () => select(nodes[s.inst[0]].g),
+    }, el("span", { class: "l", text: s.label.trim() }), el("span", { class: "count-pill", text: String(s.inst.length) })))));
+  }
+  function markShared() {
+    const current = state.selected != null ? nodes[graph.get(state.selected).inst[0]].sh : -1;
+    document.querySelectorAll(".sh-row").forEach((b) => b.setAttribute("aria-current", String(Number(b.dataset.k) === current)));
+  }
+  function onVisibilityChange() {
+    syncRoadmapChecks();
+    if (state.selected != null && !graph.get(state.selected).inst.some((i) => state.visible.has(nodes[i].r))) clearSelection();
+    layout(bestCols());
+    fitAll(true);
+  }
+  $("rm-all").addEventListener("click", () => { R.forEach((r) => state.visible.add(r.i)); onVisibilityChange(); });
+  $("rm-none").addEventListener("click", () => { state.visible.clear(); onVisibilityChange(); });
+  [["layer-source", "source"], ["layer-derived", "derived"], ["layer-fusion", "fusion"], ["layer-bg", "bg"], ["layer-only-shared", "onlyShared"]]
+    .forEach(([id, key]) => $(id).addEventListener("change", (ev) => { state.layers[key] = ev.target.checked; requestDraw(); }));
+
+  // ---------------------------------------------------------------- búsqueda
+  const index = [];
+  graph.forEach((entry) => {
+    const n = nodes[entry.inst[0]];
+    if (!n.label || !n.label.trim()) return;
+    index.push({ g: entry.g, label: n.label.trim(), key: norm(n.label), n, count: entry.inst.length });
+  });
+  const q = $("q"), results = $("results");
+  let active = -1, current = [];
+  function search(text) {
+    const t = norm(text);
+    if (!t) return [];
+    const scored = [];
+    for (const item of index) {
+      const pos = item.key.indexOf(t);
+      if (pos < 0) continue;
+      const score = item.key === t ? 0 : pos === 0 ? 1 : /[\s/(\-.]/.test(item.key[pos - 1]) ? 2 : 3;
+      scored.push([score, -item.count, item.label.length, item]);
+    }
+    scored.sort((a, b) => a[0] - b[0] || a[1] - b[1] || a[2] - b[2]);
+    return scored.slice(0, 14).map((s) => s[3]);
+  }
+  function renderResults() {
+    current = search(q.value);
+    active = current.length ? 0 : -1;
+    if (!q.value.trim()) { results.hidden = true; q.setAttribute("aria-expanded", "false"); return; }
+    if (!current.length) {
+      results.replaceChildren(el("li", { class: "r-empty", role: "option", "aria-disabled": "true", text: "Ningún tema contiene ese texto." }));
+    } else {
+      results.replaceChildren(...current.map((item, j) => {
+        const entry = graph.get(item.g);
+        const where = item.count > 1
+          ? `Compartido · ${entry.inst.map((i) => R[nodes[i].r].title).join(", ")}`
+          : `${R[item.n.r].title} · ${TYPE_NAMES[item.n.t].toLowerCase()}`;
+        return el("li", { role: "option", id: "opt-" + j, "aria-selected": String(j === active), onmousedown: (ev) => { ev.preventDefault(); choose(j); } },
+          el("span", { class: "r-label", text: item.label }),
+          item.count > 1 ? el("span", { class: "count-pill", text: String(item.count) }) : el("span"),
+          el("span", { class: "r-meta", text: where }));
+      }));
+    }
+    results.hidden = false;
+    q.setAttribute("aria-expanded", "true");
+    q.setAttribute("aria-activedescendant", active >= 0 ? "opt-" + active : "");
+  }
+  function moveActive(delta) {
+    if (!current.length) return;
+    active = (active + delta + current.length) % current.length;
+    results.querySelectorAll("li").forEach((li, j) => li.setAttribute("aria-selected", String(j === active)));
+    q.setAttribute("aria-activedescendant", "opt-" + active);
+    const li = $("opt-" + active);
+    if (li) li.scrollIntoView({ block: "nearest" });
+  }
+  function choose(j) {
+    const item = current[j];
+    if (!item) return;
+    results.hidden = true;
+    q.setAttribute("aria-expanded", "false");
+    select(item.g);
+  }
+  q.addEventListener("input", renderResults);
+  q.addEventListener("keydown", (ev) => {
+    if (ev.key === "ArrowDown") { ev.preventDefault(); moveActive(1); }
+    else if (ev.key === "ArrowUp") { ev.preventDefault(); moveActive(-1); }
+    else if (ev.key === "Enter") { ev.preventDefault(); choose(active); }
+    else if (ev.key === "Escape") { results.hidden = true; q.setAttribute("aria-expanded", "false"); }
+  });
+  q.addEventListener("blur", () => setTimeout(() => { results.hidden = true; q.setAttribute("aria-expanded", "false"); }, 120));
+  q.addEventListener("focus", () => { if (q.value.trim()) renderResults(); });
+  document.addEventListener("keydown", (ev) => {
+    if (ev.key === "/" && document.activeElement !== q && !ev.ctrlKey && !ev.metaKey) { ev.preventDefault(); q.focus(); q.select(); }
+  });
+
+  // ---------------------------------------------------------------- puntero y teclado
+  const tip = $("tip");
+  const pointers = new Map();
+  let drag = null, pinch = null;
+  function showTip(i, sx, sy) {
+    if (i < 0) { tip.hidden = true; return; }
+    const n = nodes[i];
+    const entry = graph.get(n.g);
+    const parts = [el("div", { class: "t-label", text: displayLabel(n) }),
+      el("div", { class: "t-meta", text: `${TYPE_NAMES[n.t]} · ${R[n.r].title}` })];
+    if (n.sh >= 0) parts.push(el("div", { class: "t-shared", text: `Compartido en ${entry.inst.length} roadmaps` }));
+    tip.replaceChildren(...parts);
+    tip.hidden = false;
+    const sw = stage.clientWidth, sh = stage.clientHeight;
+    const tw = tip.offsetWidth, th = tip.offsetHeight;
+    tip.style.left = Math.min(sx + 14, sw - tw - 8) + "px";
+    tip.style.top = Math.min(sy + 14, sh - th - 8) + "px";
+  }
+  const localPoint = (ev) => { const b = canvas.getBoundingClientRect(); return [ev.clientX - b.left, ev.clientY - b.top]; };
+  canvas.addEventListener("pointerdown", (ev) => {
+    canvas.setPointerCapture(ev.pointerId);
+    const [x, y] = localPoint(ev);
+    pointers.set(ev.pointerId, { x, y });
+    if (anim) { cancelAnimationFrame(anim.id); anim = null; }
+    if (pointers.size === 1) drag = { x, y, cx: cam.x, cy: cam.y, moved: false };
+    else if (pointers.size === 2) {
+      const [p1, p2] = [...pointers.values()];
+      pinch = { d: Math.hypot(p1.x - p2.x, p1.y - p2.y), k: cam.k };
+      drag = null;
+    }
+  });
+  canvas.addEventListener("pointermove", (ev) => {
+    const [x, y] = localPoint(ev);
+    if (pointers.has(ev.pointerId)) pointers.set(ev.pointerId, { x, y });
+    if (pinch && pointers.size === 2) {
+      const [p1, p2] = [...pointers.values()];
+      const d = Math.hypot(p1.x - p2.x, p1.y - p2.y);
+      zoomAt((p1.x + p2.x) / 2, (p1.y + p2.y) / 2, (pinch.k * (d / pinch.d)) / cam.k);
+      return;
+    }
+    if (drag) {
+      const dx = x - drag.x, dy = y - drag.y;
+      if (!drag.moved && Math.hypot(dx, dy) > 4) { drag.moved = true; canvas.classList.add("dragging"); tip.hidden = true; }
+      if (drag.moved) {
+        cam.x = drag.cx - dx / cam.k;
+        cam.y = drag.cy - dy / cam.k;
+        state.userMoved = true;
+        requestDraw();
+      }
+      return;
+    }
+    const i = hitTest(x, y);
+    if (i !== state.hover) { state.hover = i; requestDraw(); }
+    canvas.classList.toggle("pointing", i >= 0);
+    showTip(i, x, y);
+  });
+  const endPointer = (ev) => {
+    const wasDrag = drag;
+    pointers.delete(ev.pointerId);
+    if (pointers.size < 2) pinch = null;
+    if (ev.type === "pointerup" && wasDrag && !wasDrag.moved && pointers.size === 0) {
+      const [x, y] = localPoint(ev);
+      const i = hitTest(x, y);
+      if (i >= 0) select(nodes[i].g, { fly: false });
+      else if (state.selected != null) { clearSelection(); if (isNarrow()) openDetails(false); }
+    }
+    if (pointers.size === 0) { drag = null; canvas.classList.remove("dragging"); }
+  };
+  canvas.addEventListener("pointerup", endPointer);
+  canvas.addEventListener("pointercancel", endPointer);
+  canvas.addEventListener("pointerleave", () => { if (!drag) { state.hover = -1; tip.hidden = true; requestDraw(); } });
+  canvas.addEventListener("wheel", (ev) => {
+    ev.preventDefault();
+    if (anim) { cancelAnimationFrame(anim.id); anim = null; }
+    const [x, y] = localPoint(ev);
+    const delta = ev.deltaMode === 1 ? ev.deltaY * 16 : ev.deltaY;
+    zoomAt(x, y, Math.exp(-delta * 0.0016));
+  }, { passive: false });
+  canvas.addEventListener("dblclick", (ev) => {
+    const [x, y] = localPoint(ev);
+    const i = hitTest(x, y);
+    if (i >= 0) flyToInstances([i]); else zoomAt(x, y, 2);
+  });
+  canvas.addEventListener("keydown", (ev) => {
+    const step = 120 / cam.k;
+    const keys = { ArrowLeft: [-step, 0], ArrowRight: [step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] };
+    if (keys[ev.key]) { ev.preventDefault(); cam.x += keys[ev.key][0]; cam.y += keys[ev.key][1]; state.userMoved = true; requestDraw(); }
+    else if (ev.key === "+" || ev.key === "=") zoomAt(stage.clientWidth / 2, stage.clientHeight / 2, 1.35);
+    else if (ev.key === "-") zoomAt(stage.clientWidth / 2, stage.clientHeight / 2, 1 / 1.35);
+    else if (ev.key === "0") { state.userMoved = false; fitAll(true); }
+    else if (ev.key === "Escape") clearSelection();
+  });
+  $("zoom-in").addEventListener("click", () => zoomAt(stage.clientWidth / 2, stage.clientHeight / 2, 1.5));
+  $("zoom-out").addEventListener("click", () => zoomAt(stage.clientWidth / 2, stage.clientHeight / 2, 1 / 1.5));
+  $("zoom-fit").addEventListener("click", () => { state.userMoved = false; fitAll(true); });
+
+  const sidebar = $("sidebar"), btnPanel = $("btn-panel");
+  btnPanel.addEventListener("click", () => {
+    const open = !sidebar.classList.contains("open");
+    sidebar.classList.toggle("open", open);
+    btnPanel.setAttribute("aria-expanded", String(open));
+    if (open) openDetails(false);
+  });
+  $("btn-summary").addEventListener("click", () => {
+    const opening = !(details.classList.contains("open") && state.selected == null);
+    if (opening) { clearSelection(); openDetails(true); sidebar.classList.remove("open"); btnPanel.setAttribute("aria-expanded", "false"); }
+    else openDetails(false);
+  });
+
+  // ---------------------------------------------------------------- tema y arranque
+  function onTheme() { readColors(); requestDraw(); }
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", onTheme);
+  new MutationObserver(onTheme).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme", "class"] });
+
+  const c = DATA.meta.counts;
+  $("brand-sub").replaceChildren("roadmap.sh · ", el("b", { text: fmt(c.graphNodes) }), " nodos · ", el("b", { text: fmt(c.shared) }), " conceptos compartidos");
+  canvas.setAttribute("aria-label", `Atlas de ${c.roadmaps} roadmaps con ${fmt(c.graphNodes)} nodos y ${fmt(c.shared)} conceptos compartidos`);
+  readColors();
+  buildSidebar();
+  renderOverview();
+  new ResizeObserver(() => resize()).observe(stage);
+  resize();
+  const hash = decodeURIComponent(location.hash.slice(1));
+  const fromHash = R.find((r) => r.slug === hash);
+  if (fromHash) requestAnimationFrame(() => flyToRoadmap(fromHash.i));
+  const fontsReady = () => { nodes.forEach((n) => { n.lines = null; }); requestDraw(); };
+  if (document.fonts) {
+    Promise.all([
+      document.fonts.load(`600 16px "Barlow Semi Condensed"`),
+      document.fonts.load(`700 30px "Barlow Semi Condensed"`),
+      document.fonts.load(`400 15px "Barlow"`),
+    ]).then(fontsReady, fontsReady);
+  }
+})();
+</script>

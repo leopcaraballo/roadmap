@@ -27,6 +27,7 @@ Los datos salen de `https://roadmap.sh/api/v1-official-roadmap/{slug}`. Es el en
 
 | Archivo | Contenido |
 |---|---|
+| `atlas.html` | Atlas interactivo: los 18 lienzos originales en mosaico, con búsqueda, filtros por roadmap, capas y conceptos compartidos. Se abre en el navegador, sin servidor |
 | `merged_roadmaps.svg` | Diagrama único renderizado con `fdp` (lienzo compacto) |
 | `merged_roadmaps_hierarchical.svg` | El mismo diagrama con `dot` (jerárquico, muy alto) |
 | `merged_roadmaps_summary.svg` | Resumen legible: title, topic y label de los 18 roadmaps |
@@ -47,3 +48,10 @@ python scripts/merge_roadmaps.py --refresh  # vuelve a descargar las fuentes
 ```
 
 Con `--render` se generan también los SVG (requiere Graphviz). Con `--mmdc` además se valida el Mermaid con mermaid-cli.
+
+Para regenerar el atlas a partir del grafo:
+
+```bash
+python scripts/build_atlas.py                                    # enlaza el contenido de cada tema sin comprobarlo
+python scripts/build_atlas.py --repo-clone /tmp/developer-roadmap  # enlaza solo los archivos de contenido que existen
+```
