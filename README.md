@@ -52,6 +52,6 @@ Con `--render` se generan también los SVG (requiere Graphviz). Con `--mmdc` ade
 Para regenerar el atlas a partir del grafo:
 
 ```bash
-python scripts/build_atlas.py                                    # enlaza el contenido de cada tema sin comprobarlo
-python scripts/build_atlas.py --repo-clone /tmp/developer-roadmap  # enlaza solo los archivos de contenido que existen
+python scripts/build_atlas.py                                    # sin enlaces al contenido de cada tema
+python scripts/build_atlas.py --repo-clone /tmp/developer-roadmap  # enlaza el archivo de contenido de cada tema que existe en el repo
 ```
