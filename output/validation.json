@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-09-27T04:52:18Z",
+  "totals": {
+    "raw_nodes": 2462,
+    "raw_edges": 736,
+    "scope_nodes": 2331,
+    "scope_edges": 724,
+    "dropped_edges": 12,
+    "out_nodes": 2201,
+    "out_source_edges": 724,
+    "out_derived_edges": 516,
+    "merged_members": 236,
+    "final_orphans": 925
+  },
+  "checks": [
+    {
+      "name": "Fuentes cargadas",
+      "status": "OK",
+      "detail": "18/18 roadmaps válidos"
+    },
+    {
+      "name": "Nodos: salida ≤ alcance",
+      "status": "OK",
+      "detail": "2.201 ≤ 2.331 (en origen: 2.462)"
+    },
+    {
+      "name": "Aristas de fuente: salida ≤ alcance ≤ origen",
+      "status": "OK",
+      "detail": "724 ≤ 724 ≤ 736; las 516 inferidas se cuentan aparte"
+    },
+    {
+      "name": "Etiquetas: todas existen en el origen",
+      "status": "OK",
+      "detail": "0 etiquetas ajenas"
+    },
+    {
+      "name": "Nodos fusionados con miembros de origen",
+      "status": "OK",
+      "detail": "106 nodos fusionados, 0 sin miembros"
+    },
+    {
+      "name": "Aristas de fuente trazables a una arista original",
+      "status": "OK",
+      "detail": "0 sin correspondencia"
+    },
+    {
+      "name": "Aristas inferidas con regla y evidencia",
+      "status": "OK",
+      "detail": "516 inferidas, 0 incompletas"
+    },
+    {
+      "name": "Nodos huérfanos (sin contar títulos)",
+      "status": "ADVERTENCIA",
+      "detail": "925 tras la inferencia: subtopic 499, checklist-item 199, button 78, label 73, paragraph 45, topic 30, subtopic|topic 1; 10 en el grupo de fusionados. Lista en `orphans.csv`"
+    },
+    {
+      "name": "Ida y vuelta node-link JSON y GraphML",
+      "status": "OK",
+      "detail": "JSON 2201/1240, GraphML 2201/1240, grafo 2201/1240 (nodos/aristas)"
+    },
+    {
+      "name": "Tamaño ≤ 2.000 nodos",
+      "status": "ADVERTENCIA",
+      "detail": "2.201 nodos: se genera además el resumen"
+    },
+    {
+      "name": "Resumen dentro de los límites por defecto de Mermaid",
+      "status": "OK",
+      "detail": "229 aristas (≤ 500), 20.089 caracteres (≤ 50.000)"
+    },
+    {
+      "name": "Completo dentro de los límites por defecto de Mermaid",
+      "status": "ADVERTENCIA",
+      "detail": "1.240 aristas, 110.777 caracteres: requiere `mermaid.config.json`"
+    },
+    {
+      "name": "Render graphviz:merged_roadmaps_summary.svg",
+      "status": "OK",
+      "detail": "0,1 s"
+    },
+    {
+      "name": "Render graphviz:merged_roadmaps.svg",
+      "status": "OK",
+      "detail": "2,7 s"
+    },
+    {
+      "name": "Render graphviz:merged_roadmaps_hierarchical.svg",
+      "status": "OK",
+      "detail": "0,2 s"
+    },
+    {
+      "name": "Render mermaid:summary (config por defecto)",
+      "status": "OK",
+      "detail": "3,7 s"
+    },
+    {
+      "name": "Render mermaid:completo (mermaid.config.json)",
+      "status": "OK",
+      "detail": "16,4 s"
+    }
+  ],
+  "renders": {
+    "graphviz:merged_roadmaps_summary.svg": {
+      "cmd": "dot -Tsvg /home/user/roadmap/output/merged_roadmaps_summary.dot -o /home/user/roadmap/output/merged_roadmaps_summary.svg",
+      "ok": true,
+      "seconds": 0.1,
+      "detail": [],
+      "engine": "dot",
+      "svg_bytes": 312211,
+      "size": "5.161 × 11.719 pt"
+    },
+    "graphviz:merged_roadmaps.svg": {
+      "cmd": "fdp -Tsvg /home/user/roadmap/output/merged_roadmaps.dot -o /home/user/roadmap/output/merged_roadmaps.svg",
+      "ok": true,
+      "seconds": 2.7,
+      "detail": [],
+      "engine": "fdp",
+      "svg_bytes": 1939520,
+      "size": "9.285 × 8.072 pt"
+    },
+    "graphviz:merged_roadmaps_hierarchical.svg": {
+      "cmd": "dot -Tsvg /home/user/roadmap/output/merged_roadmaps.dot -o /home/user/roadmap/output/merged_roadmaps_hierarchical.svg",
+      "ok": true,
+      "seconds": 0.2,
+      "detail": [],
+      "engine": "dot",
+      "svg_bytes": 1766568,
+      "size": "7.183 × 55.765 pt"
+    },
+    "mermaid:summary (config por defecto)": {
+      "cmd": "/tmp/claude-0/-home-user-roadmap/6ec68a75-3625-507a-aa3f-ea9b72bedfce/scratchpad/mmdc/node_modules/.bin/mmdc -p /tmp/claude-0/-home-user-roadmap/6ec68a75-3625-507a-aa3f-ea9b72bedfce/scratchpad/mmdc/puppeteer.json -i /home/user/roadmap/output/merged_roadmaps_summary.mmd -o /tmp/claude-0/-home-user-roadmap/6ec68a75-3625-507a-aa3f-ea9b72bedfce/scratchpad/render/summary.svg",
+      "ok": true,
+      "seconds": 3.7,
+      "detail": [
+        "Generating single mermaid chart"
+      ],
+      "svg_bytes": 690466
+    },
+    "mermaid:completo (mermaid.config.json)": {
+      "cmd": "/tmp/claude-0/-home-user-roadmap/6ec68a75-3625-507a-aa3f-ea9b72bedfce/scratchpad/mmdc/node_modules/.bin/mmdc -p /tmp/claude-0/-home-user-roadmap/6ec68a75-3625-507a-aa3f-ea9b72bedfce/scratchpad/mmdc/puppeteer.json -i /home/user/roadmap/output/merged_roadmaps.mmd -o /tmp/claude-0/-home-user-roadmap/6ec68a75-3625-507a-aa3f-ea9b72bedfce/scratchpad/render/full.svg -c /home/user/roadmap/output/mermaid.config.json",
+      "ok": true,
+      "seconds": 16.4,
+      "detail": [
+        "Generating single mermaid chart"
+      ],
+      "svg_bytes": 8631901
+    }
+  },
+  "dedup": {}
+}

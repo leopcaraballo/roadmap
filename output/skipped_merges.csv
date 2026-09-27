@@ -1,0 +1,12 @@
+merge_key,n_nodes,roadmaps,node_keys
+architecture,3,software-architect;spring-boot,software-architect:OaLmlfkZid7hKqJ9G8oNV;spring-boot:yuXN-rD4AyyPYUYOR50L_;spring-boot:_vS_zdJZegZS6MIKAFyg8
+arp,4,network-engineer;cyber-security,network-engineer:FuIjDNBlT5SSf9lCG_e3e;cyber-security:M52V7hmG4ORf4TIVw3W3J;cyber-security:hkO3Ga6KctKODr4gos6qX;cyber-security:fzdZF-nzIL69kaA7kwOCn
+awk,3,linux;shell-bash,linux:QTmECqpRVMjNgQU70uCF8;shell-bash:Jh1gVJvhe-H22VB4hnbuU;shell-bash:GXF6SSkYtVyGYB_LFSIpe
+datadog,3,network-engineer;devops,network-engineer:RHve_fAltcV5ITmpBaChV;devops:bujq_C-ejtpmk-ICALByy;devops:BHny2Emf96suhAlltiEro
+dhcp,4,linux;network-engineer;cyber-security,linux:X6Jw95kbyPgsDNRhvkQP9;network-engineer:yL4HVbX33i2wAj-k92X48;cyber-security:T4312p70FqRBkzVfWKMaR;cyber-security:R5HEeh6jwpQDo27rz1KSH
+dns,4,network-engineer;devops;cyber-security,network-engineer:plhYS2KebLyhuudwhEWHZ;devops:Vu955vdsYerCG8G6suqml;cyber-security:ORIdKG8H97VkBUYpiDtXf;cyber-security:r1IKvhpwg2umazLGlQZL1
+nmap,3,network-engineer;cyber-security,network-engineer:dwtbPxxNGQtoStpEd_ydY;cyber-security:xqwIEyGfdZFxk6QqbPswe;cyber-security:Hoou7kWyfB2wx_yFHug_H
+nslookup,3,network-engineer;cyber-security,network-engineer:Do6-cQ3nXGjGSmGgDJ_eA;cyber-security:tk4iG5i1Ml9w9KRO1tGJU;cyber-security:OUarb1oS1-PX_3OXNR0rV
+ping,5,linux;network-engineer;shell-bash;cyber-security,linux:Uc36t92UAlILgM3_XxcMG;network-engineer:h0E993-5ONxubc4NZEXjP;shell-bash:D-sgMFB-IhNw41hNJsSF6;cyber-security:GuuY-Q6FZzfspB3wrH64r;cyber-security:yfTpp-ePuDB931FnvNB-Y
+prometheus,3,network-engineer;devops,network-engineer:_uu_DSfe2EPCyJYB_it0q;devops:NiVvRbCOCDpVvif48poCo;devops:eOyu4wmKOrcMlhD8pUGGh
+tools,3,software-architect;claude-code,software-architect:diu8MyHxZuZSdhavYVj1T;software-architect:SuMhTyaBS9vwASxAt39DH;claude-code:vB1d1mbiPJK3a1LbYZkH9

@@ -1,0 +1,926 @@
+node_key,group,roadmaps,type,label
+linux:yHmHXymPNWwu8p1vvqD3o,linux,linux,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+linux:ktU7bNX3hu-_hTFE1CjrM,linux,linux,button,roadmap.sh
+linux:t3fxSgCgtxuMtHjclPHA6,linux,linux,subtopic,stdout / stdin / stderr
+linux:Z5Mf_e5G24IkmxEHgYBe2,linux,linux,subtopic,cut
+linux:5658kdqJw-pIOyyhll80a,linux,linux,subtopic,paste
+linux:vfcCS1GoyKpU1rQaE8I5r,linux,linux,subtopic,join
+linux:Pl9s2ti25hsSEljXJvBTj,linux,linux,subtopic,split
+linux:v32PJl4fzIFTOirOm6G44,linux,linux,subtopic,pipe
+linux:Bo9CdrGJej-QcNmw46k9t,linux,linux,subtopic,tee
+linux:TZuDVFS7DZFBgaSYYXoGe,linux,linux,subtopic,expand
+linux:sKduFaX6xZaUUBdXRMKCL,linux,linux,subtopic,unexpand
+linux:QTmECqpRVMjNgQU70uCF8,linux,linux,subtopic,awk
+linux:R9TZfkgVUQNLnMpDhovJa,linux,linux,subtopic,Create / Delete / Update
+linux:h8wc8XEwWYHErna68w7Mg,linux,linux,subtopic,Users and Groups
+linux:L6RMExeqi9501y-eCHDt1,linux,linux,subtopic,Managing Permissions
+linux:AwQJYL60NNbA5_z7iLcM7,linux,linux,subtopic,Inodes
+linux:LFPhSHOhUqM98fUxMjQUw,linux,linux,subtopic,Filesystems
+linux:zmb5lK_EGMAChPoPvP9E0,linux,linux,subtopic,Mounts
+linux:I3LNa1cM_zRkBy8wKdz3g,linux,linux,subtopic,LVM
+linux:xEHiB-egkkcBuZmgMoqHT,linux,linux,subtopic,Install / Remove / Upgrade Packages
+linux:0vLaVNJaJSHZ_bHli6Qzs,linux,linux,paragraph,Continue learning with following roadmaps
+linux:UloavCkIvZnD1XMFohYVT,linux,linux,button,DevOps
+linux:OIcmPSbdsuWapb6HZ4BEi,linux,linux,button,Docker
+linux:StxLh1r3qXqyRSqfJGird,linux,linux,button,Backend
+linux:w652lSynDMCkDEayDnndD,linux,linux,button,Network Engineer
+network-engineer:DoQwnxlPrx8suV2GRbF17,network-engineer,network-engineer,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+network-engineer:VtqrDBk_y5m5UsknaxVv-,network-engineer,network-engineer,button,roadmap.sh
+network-engineer:4dZqgrIsbcshLTJPo29os,network-engineer,network-engineer,label,Certifications
+network-engineer:lbAgU5lR1O7L_5mCbNz_D,network-engineer,network-engineer,subtopic,CCNP
+network-engineer:pwMYZxNlm6ENmQOQivORc,network-engineer,network-engineer,label,Basic Terminology
+network-engineer:8QCl0RNdxtpva4AxJUKMT,network-engineer,network-engineer,subtopic,Client
+network-engineer:huzbiZu77aeCBVU40C429,network-engineer,network-engineer,subtopic,Server
+network-engineer:klp3FKanVxF2EudcTw4py,network-engineer,network-engineer,subtopic,Host
+network-engineer:rlUkMwML31YWfLSYLPdaL,network-engineer,network-engineer,subtopic,Package
+network-engineer:fSf714jdEpuR9s5-w9wgC,network-engineer,network-engineer,subtopic,Cloud Certifications
+network-engineer:JHvS4yZ7z8XyimBXmNG4r,network-engineer,network-engineer,subtopic,Frame
+network-engineer:dmzQXBY3u5dZ9OtXLSE11,network-engineer,network-engineer,subtopic,Bandwidth
+network-engineer:u1nJXjWZekrzyiDvri6-O,network-engineer,network-engineer,subtopic,Latency
+network-engineer:BBS99mZfQqfXDEnBlZy1B,network-engineer,network-engineer,subtopic,Throughput
+network-engineer:9q3EjoReSztEf3wffNDIs,network-engineer,network-engineer,subtopic,Protocol
+network-engineer:TJZ9vsSxQlotKCWQ2HHfS,network-engineer,network-engineer,subtopic,Port
+network-engineer:56sngH5-0ksI1cB1eZ5ep,network-engineer,network-engineer,label,Network Types
+network-engineer:jvMvCRqstz3Z7cKYv6MZX,network-engineer,network-engineer,subtopic,Socket
+network-engineer:FwwaKfxW5j5r4_lN6_G8Z,network-engineer,network-engineer,subtopic,IP Address
+network-engineer:6zxS5esVlRNIDrQuZBaHz,network-engineer,network-engineer,subtopic,Mac Address
+network-engineer:FuIjDNBlT5SSf9lCG_e3e,network-engineer,network-engineer,subtopic,ARP
+network-engineer:DjlBAH42q4wSa5PUFSbB5,network-engineer,network-engineer,subtopic,Transmission Media Types
+network-engineer:iJBwinr_nlu8F5ZhUpeKO,network-engineer,network-engineer,label,Core Protocols
+network-engineer:Wqc3KD1ttRWQplt1oPpTf,network-engineer,network-engineer,subtopic,TCP
+network-engineer:m6yljj_Ukb1y6ECzzGZhh,network-engineer,network-engineer,subtopic,UDP
+network-engineer:d-pTeCy1C7WQ5RFmsM3fl,network-engineer,network-engineer,label,Application Protocols
+network-engineer:oZ5AGn6I10EYwMaiLwQcQ,network-engineer,network-engineer,subtopic,WebSocket
+network-engineer:CxC1hOOue_2aNHs1KdkAV,network-engineer,network-engineer,subtopic,SMTP / IMAP
+network-engineer:GhurQiBhFWlYQ7slPP8QU,network-engineer,network-engineer,subtopic,SNTP
+network-engineer:plhYS2KebLyhuudwhEWHZ,network-engineer,network-engineer,subtopic,DNS
+network-engineer:yL4HVbX33i2wAj-k92X48,network-engineer,network-engineer,subtopic,DHCP
+network-engineer:MPnghwzfiHFygyLGSTY3y,network-engineer,network-engineer,label,7 Layers
+network-engineer:_lqxrKkanbNDimmzcdM1I,network-engineer,network-engineer,subtopic,Physical
+network-engineer:Lndy8cM0TZeZFLYA3e9hl,network-engineer,network-engineer,label,DNS Servers
+network-engineer:cjUzC-pYTZCSNKeY3fFro,network-engineer,network-engineer,subtopic,Google
+network-engineer:wWaxMK7-hGSAZbp7RHrnH,network-engineer,network-engineer,subtopic,Data Link
+network-engineer:laCGHS68FdPDeBpC172vo,network-engineer,network-engineer,subtopic,OpenDNS
+network-engineer:kSUBDvguhusW8qaCK5bbL,network-engineer,network-engineer,subtopic,Quad9
+network-engineer:20DK-6sEsl8uy6JJoVgE1,network-engineer,network-engineer,subtopic,Network
+network-engineer:Llr9kp0Oyyj2uZ9qNHCVL,network-engineer,network-engineer,subtopic,Transport
+network-engineer:q6dPa3Nqjw8cmZApzpcZK,network-engineer,network-engineer,subtopic,Session
+network-engineer:U3sXE8skdwBwCcYQuKyzk,network-engineer,network-engineer,subtopic,Presentation
+network-engineer:IVpbjVpRESZvx8k2Mik5B,network-engineer,network-engineer,subtopic,Application
+network-engineer:D7VMDpHOmNvc2sKHGT6Wu,network-engineer,network-engineer,label,Network Architectures
+network-engineer:A-zwe2FsXS7QfGymbb3GI,network-engineer,network-engineer,subtopic,Static vs Dynamic NAT
+network-engineer:1k6V7nlZHU7b6IuVT-kPa,network-engineer,network-engineer,subtopic,PAT/NAT Overload
+network-engineer:dDMbgAqwwDJ-DIt2E3-F-,network-engineer,network-engineer,label,Routing Protocols
+network-engineer:Cahf4Y8A0W-EHeeU4dTej,network-engineer,network-engineer,subtopic,WiFi Standards
+network-engineer:x1B9MVsG_C-CejgLAeTzA,network-engineer,network-engineer,subtopic,Access Points
+network-engineer:dw2yqbXJdfcPutP_oi_Sk,network-engineer,network-engineer,subtopic,Controllers
+network-engineer:_KcUvubLvgG0s9pbxiDko,network-engineer,network-engineer,subtopic,AP Placement & Coverage
+network-engineer:6zZBlSrGxYnkPgBWe48L6,network-engineer,network-engineer,subtopic,Roaming & Band Steering
+network-engineer:n47x3D1lYmL8SR676_7Uu,network-engineer,network-engineer,subtopic,Channel Planning
+network-engineer:HkPONvRMHU5b3OwCvfMXM,network-engineer,network-engineer,subtopic,Wireless Site Surveys
+network-engineer:1Os97-x1qqdLJyKAjICiV,network-engineer,network-engineer,subtopic,Least Connections
+network-engineer:PcFSE-h39-bLmrVcc1ae7,network-engineer,network-engineer,subtopic,Failover
+network-engineer:sKmu36NWWv6tUL3lU4pf9,network-engineer,network-engineer,label,Firewall Types
+network-engineer:wNwT9OgpslH4YG9BZvQIK,network-engineer,network-engineer,subtopic,Packet Filtering
+network-engineer:jjdqsmXHNt78cgVDr_gC_,network-engineer,network-engineer,subtopic,Stateful Inspection
+network-engineer:i7aEMN40vQesQbJENQ6gV,network-engineer,network-engineer,subtopic,Next-Generation
+network-engineer:55_hR5xJzermyLb3lyAvO,network-engineer,network-engineer,subtopic,Proxy
+network-engineer:oxORoWnDRfGLor3BV76Wo,network-engineer,network-engineer,topic,Encryption Basics
+network-engineer:bolfExgkr0i8jEbw-GF3O,network-engineer,network-engineer,subtopic,Circuit Level Gateway
+network-engineer:gqRtzgYUs87I7en2MCPSw,network-engineer,network-engineer,topic,IDS / IPS
+network-engineer:xmkSedJJIDwrys8HzDD-j,network-engineer,network-engineer,subtopic,Web Application
+network-engineer:q-J08VY4H4y-XfDgpF1ap,network-engineer,network-engineer,subtopic,Cloud Network Types
+network-engineer:-5_aMu3RtOBr0Vav9-Fyx,network-engineer,network-engineer,subtopic,Virtual Networks
+network-engineer:_5MtpKVNmBZI7phdwzvIX,network-engineer,network-engineer,subtopic,Netmiko
+network-engineer:C-fB6MVaegHPXPxsV3ZEh,network-engineer,network-engineer,subtopic,NAPALM
+network-engineer:4QMijqUnLobtmoJVPno1A,network-engineer,network-engineer,subtopic,Cloud Routing
+network-engineer:XoEA6plSo5DSw2GKO05Vv,network-engineer,network-engineer,subtopic,Cloud VPN
+network-engineer:dNglRayailc0ulEId165V,network-engineer,network-engineer,label,Network Observabiity Tools
+network-engineer:dwtbPxxNGQtoStpEd_ydY,network-engineer,network-engineer,subtopic,Nmap 
+network-engineer:sKbTs6q8CBF6_BTDu6xpy,network-engineer,network-engineer,subtopic,NetFlow / sFlow
+network-engineer:KqxGa5MoKuprDLF9OY988,network-engineer,network-engineer,subtopic,SNMP
+network-engineer:zwKMp4W3iHoqcIA6YXiTP,network-engineer,network-engineer,label,Observabiity Platforms
+network-engineer:_uu_DSfe2EPCyJYB_it0q,network-engineer,network-engineer,subtopic,Prometheus
+network-engineer:RHve_fAltcV5ITmpBaChV,network-engineer,network-engineer,subtopic,Datadog
+network-engineer:1Rgx751ZZAiOjBWqBF9Jx,network-engineer,network-engineer,paragraph,Visit the following roadmaps to keep learning
+network-engineer:JcO-Kx6lO_xlkV8V5ltxT,network-engineer,network-engineer,button,DevOps
+network-engineer:qVAObgWYkzMbA-uvgBnra,network-engineer,network-engineer,button,Backend
+network-engineer:p_PAgT1-5TSbkZFI-fnOG,network-engineer,network-engineer,button,Python
+network-engineer:JNAGlDIG1mxYsl-0d-DgH,network-engineer,network-engineer,button,Linux
+software-architect:yHmHXymPNWwu8p1vvqD3o,software-architect,software-architect,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+software-architect:2zqZkyVgigifcRS1H7F_b,software-architect,software-architect,button,roadmap.sh
+software-architect:EdKaiAzDHy0l2GdboCABn,software-architect,software-architect,paragraph,Software Architecture
+software-architect:-1CN6Aid4t6LizfUPHZl0,software-architect,software-architect,paragraph,"Describes how an application is built including its components, how they interact with each other, environment in which they operate and so on."
+software-architect:T44pv88xPxh_JipwWpRLi,software-architect,software-architect,paragraph,Software Architect
+software-architect:x5V5daeZ5VDcgKqGXvjA7,software-architect,software-architect,paragraph,"A software expert who makes high level software design choices, including technical standards, tools, design principles, platforms to be used, etc."
+software-architect:uGs-9xE3DMJxKhenltbFK,software-architect,software-architect,subtopic,Solution Architecture
+software-architect:3rzjC7Y05bOvY4B3y69hn,software-architect,software-architect,paragraph,Tech Decisions
+software-architect:vlW07sc-FQnxPMjDMn8_F,software-architect,software-architect,subtopic,Enterprise Architecture
+software-architect:K-doenNgxcrnoGTeX18RI,software-architect,software-architect,paragraph,Design & Architecture Decisions
+software-architect:RD-XVnyRBnLnNnYJwsJe7,software-architect,software-architect,paragraph,Requirements Elicitation
+software-architect:2ij7YJCqkRQwMCrM3isjN,software-architect,software-architect,paragraph,Documentation
+software-architect:35YVxotPwXi4Zpjauc8-P,software-architect,software-architect,paragraph,Enforcing Standards
+software-architect:BxWxDufL8BviuG9qp6fg9,software-architect,software-architect,paragraph,Collaborate with Others
+software-architect:dwpl-QlN9EzpSsLKfDZiU,software-architect,software-architect,paragraph,Consult & Coach Developers
+software-architect:glz8FmnkNhdmgBUj3EeL2,software-architect,software-architect,button,Visit DevOps Roadmap
+software-architect:gC8lsIdYLRzo3HzwVqtm1,software-architect,software-architect,button,Backend
+software-architect:U4YFpc82iJ60qD3aYnJkt,software-architect,software-architect,button,System Design
+software-architect:uSLzfLPXxS5-P7ozscvjZ,software-architect,software-architect,button,Software Design & Architecture
+devops:yHmHXymPNWwu8p1vvqD3o,devops,devops,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+devops:2zqZkyVgigifcRS1H7F_b,devops,devops,button,roadmap.sh
+devops:MfErpYwkJ0wiWJZEUVfrb,devops,devops,button,Visit the Beginner Version
+devops:eL62bKAoJCMsu7zPlgyhy,devops,devops,subtopic,Rust
+devops:ZusrlGqCntlKDPOaTiWqI,devops,devops,label,Scripting
+devops:3A1SykJ5JxBFeVzSzDEWJ,devops,devops,label,Linux
+devops:8hSJLQBKu8ablW2Lwxknv,devops,devops,label,Unix
+devops:PiPHFimToormOPl1EtEe8,devops,devops,subtopic,FreeBSD
+devops:cTqVab0VbVcn3W7i0wBrX,devops,devops,subtopic,Ubuntu / Debian
+devops:97cJYKqv7CPPUXkKNwM4x,devops,devops,subtopic,OpenBSD
+devops:zhNUK953p6tjREndk3yQZ,devops,devops,subtopic,SUSE Linux
+devops:haiYSwNt3rjiiwCDszPk1,devops,devops,subtopic,NetBSD
+devops:7mS6Y_BOAHNgM3OjyFtZ9,devops,devops,subtopic,RHEL / Derivatives
+devops:5zUf-LBQ0ByeP2hnAf9x1,devops,devops,label,Editors
+devops:z7rDVZZVr1C2ZoOHGxDQ_,devops,devops,label,Web Server
+devops:UfQrIJ-uMNJt9H_VM_Q5q,devops,devops,subtopic,AWS Lambda
+devops:zYrOxFQkl3KSe67fh3smD,devops,devops,subtopic,Google Cloud
+devops:mlrlf2McMI7IBhyEdq0Nf,devops,devops,subtopic,Azure Functions
+devops:-h-kNVDNzZYnQAR_4lfXc,devops,devops,subtopic,Digital Ocean
+devops:LZDRgDxEZ3klp2PrrJFBX,devops,devops,subtopic,Vercel
+devops:I327qPYGMcdayRR5WT0Ek,devops,devops,subtopic,Hetzner
+devops:DjDR8Yn5Q55NvoihElj7m,devops,devops,subtopic,Render
+devops:hCKODV2b_l2uPit0YeP1M,devops,devops,subtopic,Netlify
+devops:YUJf-6ccHvYjL_RzufQ-G,devops,devops,subtopic,Alibaba Cloud
+devops:JXsctlXUUS1ie8nNEgIk9,devops,devops,subtopic,GCP Functions
+devops:FaPf567JGRAg1MBlFj9Tk,devops,devops,subtopic,Heroku 
+devops:W9sKEoDlR8LzocQkqSv82,devops,devops,subtopic,Zabbix
+devops:bujq_C-ejtpmk-ICALByy,devops,devops,subtopic,Datadog
+devops:wKYrZhmdNsv1Dw74-oAjR,devops,devops,button,Backend
+devops:IjRWRJtJqhSsf67kh5YE6,devops,devops,button,Docker
+devops:0iBhYESSf5f6WHvs_QqC5,devops,devops,button,Kubernetes
+devops:uSLzfLPXxS5-P7ozscvjZ,devops,devops,button,Linux
+devops:hBrlgoiP-eRsxVf8xYmJZ,devops,devops,button,Network Engineer
+docker:BbxLcczAQNKIEPwkUYGAU,docker,docker,paragraph,Roadmap was made in partnership with Sid Palas. Checkout his free course covering Docker in Depth
+docker:yHmHXymPNWwu8p1vvqD3o,docker,docker,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+docker:ktU7bNX3hu-_hTFE1CjrM,docker,docker,button,roadmap.sh
+docker:oMnJCTcTGk1sbYRi_8a3u,docker,docker,button,Docker Beginner to Pro
+docker:mw-weCutd2ECKlx2DE_ZJ,docker,docker,subtopic,Package Managers
+docker:uKjB2qntFTpPuYUT9sdxd,docker,docker,subtopic,Users / Groups Permissions
+docker:W5kX5jn49hghRgkEw6_S3,docker,docker,subtopic,Shell Commands
+docker:InlMtuaUJ9EXO-OD9x1jj,docker,docker,subtopic,Shell Scripting
+docker:3aevqob1G4jO-cLr42jFF,docker,docker,label,Linux Fundamentals
+docker:ykP7LxOoklfcjEeMW_Cli,docker,docker,label,Just get the basic idea of these
+docker:ia9TdlZx7Aj6LJ--tY-X5,docker,docker,label,Web Development
+docker:3Nsg-F3wMKEzEsXw1MBZv,docker,docker,subtopic,Images
+docker:eHtVLB6v3h7hatJb-9cZK,docker,docker,subtopic,Volumes
+docker:0vLaVNJaJSHZ_bHli6Qzs,docker,docker,paragraph,Continue learning with following roadmaps
+docker:UloavCkIvZnD1XMFohYVT,docker,docker,button,Kubernetes Roadmap
+docker:OIcmPSbdsuWapb6HZ4BEi,docker,docker,button,DevOps Roadmap
+java:t7TlesNLK0sOM8Zv7t-MF,java,java,paragraph,This is Java specific roadmap and intentionally skips some backend topics.
+java:yHmHXymPNWwu8p1vvqD3o,java,java,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+java:2zqZkyVgigifcRS1H7F_b,java,java,button,Visit Backend Roadmap
+java:ktU7bNX3hu-_hTFE1CjrM,java,java,button,roadmap.sh
+java:sHYmeXbdREoxrru0PZ3Px,java,java,label,More about OOP
+java:3qowgj1pas1X7oRric9eU,java,java,subtopic,Object Lifecycle
+java:Ax2ouIZgN1DpPzKDy4fwp,java,java,subtopic,Method Chaining
+java:ey1f8IsdAlDv1O3E_tNog,java,java,subtopic,Enums
+java:VqLV7kolfRFnvOuJAvzlg,java,java,subtopic,Record
+java:y-i56f1P_mMdvyBr7J4XE,java,java,subtopic,Method Overloading / Overriding
+java:kdxy8Zssnc5lJjdmjUyMc,java,java,topic,Modules
+java:dg_UpaO8TzIN7w_QZ1n-6,java,java,subtopic,Initializer Block
+java:Kjdj862xnz8fqDYE3HKhC,java,java,subtopic,Static vs Dynamic Binding
+java:l9fxK8K9fcUqR7hs5TkWU,java,java,topic,Optionals
+java:3r0Er9XZHovIZz3gNyj4A,java,java,subtopic,Pass by Value / Pass by Reference
+java:_wV2VQq6MIY1rVHjK8pfu,java,java,topic,Cryptography
+java:9h20XVRli7TDq0QIJwX2U,java,java,topic,Date and Time
+java:NowpzyPVFcX082j5YS5i8,java,java,topic,File Operations
+java:aqTfDatV26H0rOAhyQo0q,java,java,label,Spring Boot is recommended
+java:H-TpLxAx_BnJhyFc4HK6M,java,java,label,v
+java:mLM1HJf6_pxrUDOmb45ew,java,java,subtopic,Mocking > Mockito
+java:-sFboM4eFUMVq1tlPl-fV,java,java,button,Backend Roadmap
+spring-boot:yHmHXymPNWwu8p1vvqD3o,spring-boot,spring-boot,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+spring-boot:ktU7bNX3hu-_hTFE1CjrM,spring-boot,spring-boot,button,roadmap.sh
+spring-boot:f-i0NX2KOzCh3JwkaSPFo,spring-boot,spring-boot,subtopic,Spring Cloud Gateway
+spring-boot:88-h3d7kb-VmUBsnUUXW_,spring-boot,spring-boot,topic,Autoconfiguration
+spring-boot:9hG3CB8r41bUb_s8-0u73,spring-boot,spring-boot,subtopic,Cloud Config
+spring-boot:N7hd3d_XQtvOgnCqdCFt3,spring-boot,spring-boot,topic,Actuators
+spring-boot:GsmBGRohWbJ6XOaALFZ8o,spring-boot,spring-boot,subtopic,Micrometer
+spring-boot:6sLE6gb5Y477SmO2GhQIG,spring-boot,spring-boot,subtopic,Eureka
+spring-boot:Nhx2QiSD_4pVWD17lsCbu,spring-boot,spring-boot,subtopic,JPA Test
+spring-boot:6AIUtChWC_gK8Ax0UuBjd,spring-boot,spring-boot,button,Frontend Roadmap
+spring-boot:f5WRewBlpeYMf71cPcXs-,spring-boot,spring-boot,button,Backend Roadmap
+api-design:yHmHXymPNWwu8p1vvqD3o,api-design,api-design,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+api-design:ktU7bNX3hu-_hTFE1CjrM,api-design,api-design,button,roadmap.sh
+api-design:ACALE93mL4gnX5ThRIdRp,api-design,api-design,subtopic,HTTP Versions
+api-design:rADHM-6NAxEjzmgiHefDX,api-design,api-design,subtopic,HTTP Methods
+api-design:7szYyzLifKsepNU0c2KnN,api-design,api-design,subtopic,HTTP Status Codes
+api-design:rE-0yibRH6B2UBKp351cf,api-design,api-design,subtopic,HTTP Headers
+api-design:UFuX8wcxZQ7dvaQF_2Yp8,api-design,api-design,subtopic,Cookies
+api-design:qAolZHf_jp8hCdtqHZwC8,api-design,api-design,subtopic,HTTP Caching
+api-design:UURdHHmXvfg0dMhk2QiKI,api-design,api-design,label,Design First
+api-design:9WI_z34jIFXwoUQuChyRU,api-design,api-design,subtopic,REST Principles
+api-design:b3qRTLwCC_9uDoPGrd9Bu,api-design,api-design,subtopic,URI Design
+api-design:8IDks2DNFZ5nER7wK2Bu4,api-design,api-design,subtopic,Resource modeling
+api-design:0yY_lWzWVOC_WmPoyHw8W,api-design,api-design,subtopic,Naming Conventions
+api-design:itILK2SXvLvAjk1Kul7EK,api-design,api-design,subtopic,Versioning Strategies
+api-design:LByD1vhzunhY1uY1YGZHP,api-design,api-design,subtopic,HATEOAS
+api-design:_FhSArvickgW2mC337nHK,api-design,api-design,label,Handling data & requests
+api-design:zXxEiM5HeOn7W-Vue0tQf,api-design,api-design,subtopic,CRUD Operations
+api-design:dL3YellfAszBeJnm8KEYE,api-design,api-design,subtopic,"Filtering, Sorting & Search "
+api-design:20KEgZH6cu_UokqWpV-9I,api-design,api-design,subtopic,Idempotency
+api-design:6WraupwBRpOoM4wZZZuBZ,api-design,api-design,label,Traffic control & Error handling
+api-design:O7wjldZ3yTA2s_F-UnJw_,api-design,api-design,subtopic,Rate Limiting
+api-design:5CxU3inGcSHp-TDg3BQiY,api-design,api-design,subtopic,RFC 7807 -  Problem Details
+api-design:92-ebM0EwQ3nLjZKtvCZX,api-design,api-design,button,API Security Best Practices
+api-design:nQpczZUcn-TvrfT80dv0Q,api-design,api-design,subtopic,Performance Metrics
+api-design:PrvRCR4HCdGar0vcUbG_a,api-design,api-design,subtopic,Caching Strategies
+api-design:tPVtRV818D8zAAuNbqPNa,api-design,api-design,subtopic,Rate Limiting / Throttling
+api-design:--mmTKhG58_elbUqyn90G,api-design,api-design,subtopic,Synchronous vs Asynchronous APIs
+api-design:-qdwBg7HvwlbLy3IKCRij,api-design,api-design,subtopic,Profiling and Monitoring
+api-design:DQcAV59vr1-ZRnMfbLXpu,api-design,api-design,subtopic,Performance Testing
+api-design:oMfOBkVsgiLvFLicOUdx6,api-design,api-design,subtopic,Event Driven Architecture
+api-design:XD1vDtrRQFbLyKJaD1AlA,api-design,api-design,subtopic,Error Handling / Retries
+api-design:MJeUD4fOHaJu1oxk4uQ-x,api-design,api-design,subtopic,API Gateways
+api-design:PPeBbooE121zrgNwpVTiA,api-design,api-design,subtopic,Microservices Architecture
+api-design:75NVxS0iwoQXxOHCkWQxH,api-design,api-design,subtopic,Webhooks vs Polling
+api-design:v8iYctF_k40ES0_hHXS9N,api-design,api-design,subtopic,BFF Pattern 
+api-design:X68HXAAV-nKo-V4Fu1o72,api-design,api-design,subtopic,Batch Processing
+api-design:boYX1QcJullypfX4sevdy,api-design,api-design,subtopic,Kafka
+api-design:H22jAI2W5QLL-b1rq-c56,api-design,api-design,subtopic,Rabbit MQ
+api-design:4fauwiq2CJnzDA7Z9Pmeo,api-design,api-design,button,Backend Roadmap
+api-design:eYziHRN-gsg9qr8Yddu2K,api-design,api-design,button,DevOps Roadmap
+aws:yHmHXymPNWwu8p1vvqD3o,aws,aws,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+aws:ktU7bNX3hu-_hTFE1CjrM,aws,aws,button,roadmap.sh
+aws:qHdk1Kylv7L0BxRVg7tz7,aws,aws,paragraph,AWS has lots of services. You don't need to master all of them. This roadmap only covers an opinionated list of services to help you get started.
+aws:Q6Dt9gq5xo40HNFzbP8LS,aws,aws,label,Step 1 - Essentials
+aws:B3PQqrz9ta9yghKO1TXiT,aws,aws,label,Step 2 - Learn these next
+aws:z9R1BWUGalmnw0E7QqiW6,aws,aws,subtopic,AWS Global Infrastructure
+aws:0flGtxZmxQKxO3c3sguwp,aws,aws,subtopic,Shared Responsibility Model
+aws:eKuC7VmkGVYFnbC2Rvn8D,aws,aws,subtopic,Well Architected Framework
+aws:qk08dKs3kwl-chTMJif49,aws,aws,label,Step 3 - Pick these after
+aws:Y64TE0U20kllmykjdfhHp,aws,aws,subtopic,Subnets
+aws:C0ngVzsV5v-wrFbSzAhuu,aws,aws,label,Step 4 - Serverless
+aws:ymuURDwW8JG3NSIXcl0FL,aws,aws,subtopic,Private Subnet
+aws:ABCH1rATHmecyWHyK3n-m,aws,aws,subtopic,Public Subnet
+aws:FCdOnwQubhOnCFFnF8uJN,aws,aws,subtopic,Route Tables
+aws:gNgs068FdLRcob7u28yOe,aws,aws,paragraph,Best way to learn? Make a simple app and use the services listed above for deployment.
+aws:Le8yOJzpzxH1xgd7XEU2B,aws,aws,subtopic,Internet Gateway
+aws:6D-gs32jrCyvMVhr9PSAY,aws,aws,subtopic,NAT Gateway
+aws:Nn2zawk6A31NwZa40jOhX,aws,aws,subtopic,Users / User Groups
+aws:PJaAqax4fABnkObY5UwNp,aws,aws,topic,Storage Types
+aws:Ll5FPCtkpYq_niJd7WoTC,aws,aws,subtopic,Standard
+aws:JlkLNQ8wRzGkjaootNKOD,aws,aws,subtopic,S3-IA
+aws:IikKYP58sT2H1lM8glm-g,aws,aws,subtopic,Glacier
+aws:0C3GCGdSXozJK2MNeWerg,aws,aws,subtopic,Streams
+aws:tBKc7tHOiJaTmwEl3q--Y,aws,aws,subtopic,Backup / Restore
+aws:CL93C0NGFQmScVnftnRtO,aws,aws,subtopic,Layers
+aws:T0dvezPWX6rAiKweT0TkG,aws,aws,subtopic,API Gateway
+aws:0vLaVNJaJSHZ_bHli6Qzs,aws,aws,paragraph,Continue learning with following roadmaps
+aws:UloavCkIvZnD1XMFohYVT,aws,aws,button,Kubernetes Roadmap
+aws:OIcmPSbdsuWapb6HZ4BEi,aws,aws,button,DevOps Roadmap
+aws:Xp89QYw979KuVA0ebx5rw,aws,aws,checklist-item,IAM - Access Control
+aws:77IypvJZKocauouUW0Te8,aws,aws,checklist-item,VPC - Network Layer
+aws:IYmKI0P0nnrqqq0dpzWec,aws,aws,checklist-item,EC2 - Compute
+aws:2iPr8PRgzEMJ5B5LS_Znj,aws,aws,checklist-item,S3 - Storage
+aws:uFrNE6nF7BI1dhx1XFkkJ,aws,aws,checklist-item,SES - Emails
+aws:0DWiRoKPlBF5ZTMvRKslF,aws,aws,checklist-item,Route53 - DNS
+aws:CQnBhwDHjf1WKq9mwh8um,aws,aws,checklist-item,Cloudwatch - Monitoring
+aws:Tlp2bOoimN1R1kbHxh6pN,aws,aws,checklist-item,Cloudfront - CDN
+aws:3w33QM-w0Z6-lFr7fxJGV,aws,aws,checklist-item,RDS - Managed Database
+aws:6CxAvxd_8QwAI_pj2-hB3,aws,aws,checklist-item,DynamoDB - NoSQL Storage
+aws:NoNhv6OnOEmKFaG_LmEzk,aws,aws,checklist-item,ElastiCache - Redis/Memcached
+aws:I-6mUyDuSeDFGXZMI-ol8,aws,aws,checklist-item,ECS - Containers
+aws:ZtNB9pyJiMl977ZoqNqNC,aws,aws,checklist-item,EKS - Kubernetes
+aws:CDlGaVHqDZUsJ8SCqKM6l,aws,aws,checklist-item,Lambda
+aws:4yFM2n4L7YPbxS5ByY92s,aws,aws,checklist-item,ECS Fargate
+shell-bash:yHmHXymPNWwu8p1vvqD3o,shell-bash,shell-bash,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+shell-bash:2zqZkyVgigifcRS1H7F_b,shell-bash,shell-bash,button,roadmap.sh
+shell-bash:3VulHH-Y-VdMRM6VBVWar,shell-bash,shell-bash,subtopic,"stdin, stdout, stderr"
+shell-bash:MpSnq-W8z4QA8-oU_tbRC,shell-bash,shell-bash,subtopic,Output redirection
+shell-bash:tu3NFc76-j6VVysFdk8Kd,shell-bash,shell-bash,topic,Repeat Commands
+shell-bash:Chfv9Fyy-Mk2zpOrYNbjV,shell-bash,shell-bash,subtopic,Input redirection
+shell-bash:4yRwCKzvCctFpMD2mYiky,shell-bash,shell-bash,topic,Help Commands
+shell-bash:zu0hsOt8GVlARhbepjQ1A,shell-bash,shell-bash,subtopic,Error redirection
+shell-bash:LlxpR2LiAr9uKMXEXTk0H,shell-bash,shell-bash,topic,Bash Alias
+shell-bash:YyCvxYgFzobwF_vMQXunZ,shell-bash,shell-bash,subtopic,Pipes
+shell-bash:Ydqpp_YYujdHyYraNEt4h,shell-bash,shell-bash,topic,Stop Execution
+shell-bash:BuOM-A5110MPv8325EQnM,shell-bash,shell-bash,subtopic,Command substitution
+shell-bash:uk7TEHUqTIjmH4MJToxPe,shell-bash,shell-bash,subtopic,Process substitution
+shell-bash:nMFXyeZ8I5jAPfs16Jixn,shell-bash,shell-bash,topic,Bash Script Anatomy
+shell-bash:M27BJ6fgVdaBxyWE-OdNl,shell-bash,shell-bash,subtopic,rwx
+shell-bash:qrqPo-pgzupCK0IxlGn7S,shell-bash,shell-bash,subtopic,chmod
+shell-bash:w95b7f3-7Q8qtTpyJih6B,shell-bash,shell-bash,subtopic,chown
+shell-bash:zaXwK7xPsrULce1yJwhB_,shell-bash,shell-bash,subtopic,chgrp
+shell-bash:cyCi36GIPZkvXKc6hxDN1,shell-bash,shell-bash,button,Linux
+shell-bash:HfoXNLtpPamsiy8mq98rT,shell-bash,shell-bash,button,Backend
+shell-bash:ZU36zvbYT-R3anWJVIqAq,shell-bash,shell-bash,button,DevOps
+shell-bash:EMAkpzuuFmbz2ENVLaI11,shell-bash,shell-bash,button,Network Engineer
+claude-code:yHmHXymPNWwu8p1vvqD3o,claude-code,claude-code,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+claude-code:2zqZkyVgigifcRS1H7F_b,claude-code,claude-code,button,roadmap.sh
+claude-code:I4NecfeYb7fo1JJiFB6oj,claude-code,claude-code,button,Vibe Coding Roadmap
+claude-code:_Un0jTJaFs5Pdn1DFGl61,claude-code,claude-code,subtopic,Subscription
+claude-code:N6dDyEXIUJUA3-o1J9K_n,claude-code,claude-code,subtopic,API usage
+claude-code:rGtz0Nw4BgOrdm3WUmjwZ,claude-code,claude-code,subtopic,Common Usecases
+claude-code:sCI4gofDwHOHVyVZnLVVP,claude-code,claude-code,label,Understand the Differences
+claude-code:T6PklJYVOrmcAgNcCFhKt,claude-code,claude-code,subtopic,CLAUDE.md
+claude-code:iVa6piQwdPHIDkSRX8OSy,claude-code,claude-code,subtopic,Skills
+claude-code:C5tCsAJQxq2d-fOrjjloB,claude-code,claude-code,subtopic,Context
+claude-code:gcZCpCWHvIo5Ox0vVkdgV,claude-code,claude-code,subtopic,Modes
+claude-code:QGRSySgyC8AERo0Vgq76X,claude-code,claude-code,label,Command Cheatsheet
+claude-code:RHWW3QOFWRMqlaovGOLEO,claude-code,claude-code,subtopic,Models
+claude-code:vB1d1mbiPJK3a1LbYZkH9,claude-code,claude-code,subtopic,Tools
+claude-code:dD0TlpfC4GzYWINplekKw,claude-code,claude-code,subtopic,Ctrl+C
+claude-code:R7YJyNd0taUVJvXDPHBn5,claude-code,claude-code,subtopic,Ctrl+R
+claude-code:2pu6b0Z5BQAz44Hx69Pzk,claude-code,claude-code,subtopic,Esc
+claude-code:8xqKBvdDfTLeZXeGeqQZr,claude-code,claude-code,subtopic,Esc + Esc
+claude-code:8Nd9CdGb1_Jl4YLBvew4z,claude-code,claude-code,subtopic,MCP
+claude-code:wd9T37TIM_1JU4o_2Fb0h,claude-code,claude-code,subtopic,Plugins
+claude-code:gpg2cfEUUKI5J9FMxn5QD,claude-code,claude-code,subtopic,Shift+Tab
+claude-code:qPH0w52-8MvzZdFdsNMap,claude-code,claude-code,subtopic,Hooks
+claude-code:wFxYfNu7LtzV72a224WTZ,claude-code,claude-code,subtopic,Subagents
+claude-code:JeotqE91kV1n-YRoXN9gX,claude-code,claude-code,subtopic,Slash Commands (/)
+claude-code:RRRkkcO3jQMyjfZyBD_aW,claude-code,claude-code,label,When to use what model?
+claude-code:PYjuzInrTOWebl-OyYfMa,claude-code,claude-code,subtopic,!
+claude-code:N6z45nuFeUqRB2f-8b_Ku,claude-code,claude-code,subtopic,\
+claude-code:La3uarrUxC5oTszf4oaWr,claude-code,claude-code,subtopic,@
+claude-code:TWN08Vx7aBK-mvOSQuFfu,claude-code,claude-code,subtopic,Opus
+claude-code:nDodLa7_UEeOmx6iM0Xp5,claude-code,claude-code,subtopic,Sonnet
+claude-code:y_euG-Rzj-OmCZhvMXegc,claude-code,claude-code,subtopic,Haiku
+claude-code:1gQcbBEUoNO8U6bE-wEZP,claude-code,claude-code,label,Shortcuts & Prefixes
+claude-code:lcnfnGocMZIWDQqrmdCWL,claude-code,claude-code,subtopic,claude
+claude-code:zUxO8udwPhYK6J_3wAs2Z,claude-code,claude-code,subtopic,claude -r
+claude-code:zSpldCAVxYoRpHDIR2oVa,claude-code,claude-code,subtopic,"claude ""query"""
+claude-code:2PKH3Ru9XgCz1MO75pDVr,claude-code,claude-code,subtopic,claude -p
+claude-code:XlCA3rx2C7wx_EcTYtr9_,claude-code,claude-code,subtopic,claude -c
+claude-code:FgQXBQ6oJ5sfW_ar0u6ez,claude-code,claude-code,subtopic,claude --add-dir
+claude-code:svhWAC463Y9CUkFb524Fd,claude-code,claude-code,topic,Usage Best Practices
+claude-code:0HKJlqhoSCMNKf1lRIEy1,claude-code,claude-code,subtopic,Resume
+claude-code:cW0a112UVj2M3wBDA8UDj,claude-code,claude-code,subtopic,Rewind
+claude-code:egjBTPFbDwBTE1_twG8zM,claude-code,claude-code,label,claude Commands
+claude-code:I4i_fKzuBy5pTC0JXyEl-,claude-code,claude-code,subtopic,/help
+claude-code:CPJulmusiWq3JQ6MmEJ0I,claude-code,claude-code,subtopic,/usage
+claude-code:N4YM2lqDcic5AiYgv0eRZ,claude-code,claude-code,subtopic,/clear
+claude-code:vw9cc6_33nHnNPNyhLo_d,claude-code,claude-code,subtopic,/cost
+claude-code:MjZUaSJLSU5nDMgDJaWUh,claude-code,claude-code,subtopic,/exit
+claude-code:eLlCNxa6bqQW0JsHxIdOa,claude-code,claude-code,subtopic,/export
+claude-code:PS0GH8e9sW9N4s3UeHhjH,claude-code,claude-code,subtopic,/status
+claude-code:-K5K7yT97VRC7u0IOzJyT,claude-code,claude-code,subtopic,/rewind
+claude-code:3ZYaw7kTiErPiLVwMf3J8,claude-code,claude-code,subtopic,/plan
+claude-code:IzHlnmGAqG1lpwuX1Oh4p,claude-code,claude-code,subtopic,/doctor
+claude-code:dXT7DZQW3DyA4VQjiEemb,claude-code,claude-code,label,Session Commands
+claude-code:6UHAXR4praMqGiEUgWAt8,claude-code,claude-code,subtopic,/context
+claude-code:65s0P7d39fFR2yhy4JKEZ,claude-code,claude-code,subtopic,/compact
+claude-code:oucDNnTIc8gv3dlEibDB2,claude-code,claude-code,subtopic,/init
+claude-code:l7ECu0Q5bW9_OgVH7Ih4S,claude-code,claude-code,subtopic,/memory
+claude-code:yDGvlRu3ONNhIs_WAIEgG,claude-code,claude-code,label,Context & Memory
+claude-code:UOSXh1o8bRY8Wcm6uYIgR,claude-code,claude-code,subtopic,/config
+claude-code:8rKpgtmO92EUFAKlWVuO5,claude-code,claude-code,subtopic,/permissions
+claude-code:NMBBRdBWwCphjwQuFAp9W,claude-code,claude-code,subtopic,/model
+claude-code:sx2GRmZbQEYxeb05HpHQH,claude-code,claude-code,subtopic,/agents
+claude-code:OTpU2G6mnbkFhthKAkxlM,claude-code,claude-code,subtopic,/hooks
+claude-code:Lyl4h5cvdY1YVpzBo_LEB,claude-code,claude-code,subtopic,/mcp
+claude-code:uyqx658gq2SbyvCeiA6jk,claude-code,claude-code,label,Configuration
+claude-code:cMGYb_X1UK8sWI6brFj9S,claude-code,claude-code,subtopic,SessionStart
+claude-code:x5U0F5WWAqnNCC8f-qjr7,claude-code,claude-code,subtopic,SessionEnd
+claude-code:FWf5hyCRo9UQ2QPalLVYn,claude-code,claude-code,subtopic,PreToolUse
+claude-code:TBrr5EscwLZu7cOJoWbPy,claude-code,claude-code,subtopic,PostToolUse
+claude-code:Zrqdx4Z8uAS5yhI65Xh6z,claude-code,claude-code,subtopic,UserPromptSubmit
+claude-code:v-gjhrW3oVZTe3EpUCjhY,claude-code,claude-code,subtopic,Stop
+claude-code:UVg51OJHuhJsn_G01PW1L,claude-code,claude-code,label,Hooks
+claude-code:DDEgVgkdu8PR4x8pHfD5Y,claude-code,claude-code,topic,Scheduling Jobs
+claude-code:i3K2_8VcOGGSPdj1Jb4Im,claude-code,claude-code,topic,Output Styles
+claude-code:cyCi36GIPZkvXKc6hxDN1,claude-code,claude-code,button,Vibe Coding
+claude-code:l6Ye-FrGU9VKnrDLUMBkh,claude-code,claude-code,button,AI Agents
+claude-code:HfoXNLtpPamsiy8mq98rT,claude-code,claude-code,button,AI Engineer
+claude-code:ZU36zvbYT-R3anWJVIqAq,claude-code,claude-code,button,Prompt Engineering
+aws-best-practices:yHmHXymPNWwu8p1vvqD3o,aws-best-practices,aws-best-practices,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+aws-best-practices:2zqZkyVgigifcRS1H7F_b,aws-best-practices,aws-best-practices,button,roadmap.sh
+aws-best-practices:0vLaVNJaJSHZ_bHli6Qzs,aws-best-practices,aws-best-practices,paragraph,Continue Learning with following relevant tracks
+aws-best-practices:slf6jmim4p9ti6ZRHOZe_,aws-best-practices,aws-best-practices,button,Backend Roadmap
+aws-best-practices:Df3nTlTvSQkMGzpufRo9q,aws-best-practices,aws-best-practices,button,DevOps Roadmap
+aws-best-practices:X5azAepYUaMNQBN_43bL0,aws-best-practices,aws-best-practices,checklist-item,Terminate SSL on the load balancer
+aws-best-practices:nU-5BKfsI3pj32boxfYb7,aws-best-practices,aws-best-practices,checklist-item,Pre-warm your ELBs if you're expecting heavy traffic
+aws-best-practices:qOq7-5IgSPxkGGG33Ms7K,aws-best-practices,aws-best-practices,checklist-item,Assign tags to everything
+aws-best-practices:vfhXk4S1b09lnZ9JOsDpF,aws-best-practices,aws-best-practices,checklist-item,Use termination protection for non-auto-scaling instances
+aws-best-practices:UzVOyi0eO4nBolEYaLAqa,aws-best-practices,aws-best-practices,checklist-item,Use a VPC
+aws-best-practices:FQxoWh31xbskxOJSf7DYR,aws-best-practices,aws-best-practices,checklist-item,Use reserved instances to save big $$$
+aws-best-practices:t1_PrPhqMCoks5t5cjYbg,aws-best-practices,aws-best-practices,checklist-item,Lock down your security groups
+aws-best-practices:NoLAp2YmnZIaG34T5e_6K,aws-best-practices,aws-best-practices,checklist-item,Don't keep unassociated Elastic IPs
+aws-best-practices:cTgCx2m28TlUc_z9NF-K1,aws-best-practices,aws-best-practices,checklist-item,Use CLI tools
+aws-best-practices:ceLSXaSMyYOA7slNWTecs,aws-best-practices,aws-best-practices,checklist-item,Use the free metrics
+aws-best-practices:zzwur1KJIQaDBAapkhcNF,aws-best-practices,aws-best-practices,checklist-item,Use the custom metrics
+aws-best-practices:t4y48MENBbYcP841NCe0l,aws-best-practices,aws-best-practices,checklist-item,Use detailed monitoring
+aws-best-practices:G6vfVR8072jUWyGSK5d22,aws-best-practices,aws-best-practices,checklist-item,Prefer EC2 roles over app level IAM account
+aws-best-practices:HSYnv9vG_NWq-3GLKGkUF,aws-best-practices,aws-best-practices,checklist-item,"Assign permissions to groups, not users"
+aws-best-practices:ddnekDut-fXbs8e3DrKWF,aws-best-practices,aws-best-practices,checklist-item,Set up automated security auditing
+aws-best-practices:K3ghlATLR1Ws5-edrAtpn,aws-best-practices,aws-best-practices,checklist-item,Use CloudTrail to keep an audit log
+aws-best-practices:-o9B0Ka-G6Ph0Tu2pb8Yu,aws-best-practices,aws-best-practices,checklist-item,Apply least-privilege permissions
+aws-best-practices:lm5yykUcEbN7rD7bUD8sM,aws-best-practices,aws-best-practices,checklist-item,"Use ""-"" instead of ""."" in bucket names for SSL"
+aws-best-practices:I4LdivqXB1lsG02lSk1_C,aws-best-practices,aws-best-practices,checklist-item,"Avoid filesystem mounts (FUSE, etc)"
+aws-best-practices:33U0KU8QIpwMnOOUpSbRn,aws-best-practices,aws-best-practices,checklist-item,Having CloudFront in front of S3 is optional (but it can help)
+aws-best-practices:WIPJ5A12xDIgjt-aXGyxB,aws-best-practices,aws-best-practices,checklist-item,Use random strings at the start of your keys
+aws-best-practices:PLsgUfDXrC2TxNdbdemTr,aws-best-practices,aws-best-practices,checklist-item,Set up granular billing alerts
+aws-best-practices:x76sb9Qvycx7ZCjzzyjHZ,aws-best-practices,aws-best-practices,checklist-item,Do not store application state on servers
+aws-best-practices:2LpL7g_fNBjsJUMKaqndh,aws-best-practices,aws-best-practices,checklist-item,Store extra information in your logs
+aws-best-practices:PoS3PKlFHrUB7UaSmVF6F,aws-best-practices,aws-best-practices,checklist-item,"If you need to interact with AWS, use the official SDK"
+aws-best-practices:_03UVbcu4zD8ApEBzNy3q,aws-best-practices,aws-best-practices,checklist-item,Have tools to view application logs
+aws-best-practices:PgPMZUf_cFUgVB9K6n52N,aws-best-practices,aws-best-practices,checklist-item,Use IAM roles
+aws-best-practices:Faps_tsM5N_1h1uBtpkX0,aws-best-practices,aws-best-practices,checklist-item,Use multiple API keys for different purposes
+aws-best-practices:5Ll7o3Im53PGk4kDwGmNy,aws-best-practices,aws-best-practices,checklist-item,Use multi-factor auth for IAM users
+aws-best-practices:ybb5R4DNp_3kz5LNf3cj8,aws-best-practices,aws-best-practices,checklist-item,Use ALIAS records
+aws-best-practices:VZ_KuNU_3qpDfT-2-KSuz,aws-best-practices,aws-best-practices,checklist-item,Specify a directory on S3 for Hive results
+aws-best-practices:TRyUluezqO9kn9DRdY-hw,aws-best-practices,aws-best-practices,checklist-item,Use configuration endpoints over individual endpoints
+aws-best-practices:nT4TshryX4vGc2gl5Zfx3,aws-best-practices,aws-best-practices,checklist-item,Scale down on INSUFFICIENT_DATA as well as ALARM
+aws-best-practices:flVr901p1fE3m0vzcJ4KT,aws-best-practices,aws-best-practices,checklist-item,Use ELB health check instead of EC2 health checks
+aws-best-practices:rThIl_LJWF_L_m0hVkETF,aws-best-practices,aws-best-practices,checklist-item,Only use the availability zones (AZs) your ELB is configured for
+aws-best-practices:MyuPXDi47Q8ad5-sufbj2,aws-best-practices,aws-best-practices,checklist-item,Avoid multiple scaling triggers on the same group
+aws-best-practices:kyVW_c2vQMrxreyeSPx-z,aws-best-practices,aws-best-practices,checklist-item,Disable SSH access to all servers (Optional)
+aws-best-practices:njMvOZXhj-PB5fm3yiGzo,aws-best-practices,aws-best-practices,checklist-item,Care about services as a whole instead of servers
+aws-best-practices:mwqY8GV3-SoznDOmBSlFX,aws-best-practices,aws-best-practices,checklist-item,Don't give servers static/elastic IPs
+aws-best-practices:rpWO0xRU1v4h7-fW0265l,aws-best-practices,aws-best-practices,checklist-item,Automate everything
+aws-best-practices:3vpbWmtL4XgB1K4_d4hkb,aws-best-practices,aws-best-practices,checklist-item,Everyone gets an IAM account. Never login to the master
+aws-best-practices:NqRpbFgJy76SGrjVLP9nj,aws-best-practices,aws-best-practices,checklist-item,Get your alerts to become notifications
+aws-best-practices:sQuGmHIH55LGGhNOM977E,aws-best-practices,aws-best-practices,checklist-item,Scale horizontally
+aws-best-practices:uclRazte14EkVuOZvN52x,aws-best-practices,aws-best-practices,checklist-item,Your application may require changes to work on AWS
+aws-best-practices:LoJICWHoV34_98EHXijDu,aws-best-practices,aws-best-practices,checklist-item,Always be redundant across availability zones (AZs)
+aws-best-practices:_SkFwb857XN2uWJyyZdou,aws-best-practices,aws-best-practices,checklist-item,Be aware of AWS service limits before you deploy
+aws-best-practices:427EO5liwm_ry8KACh85_,aws-best-practices,aws-best-practices,checklist-item,"Decide on a naming convention early, and stick to it"
+aws-best-practices:HeCNj_8vAKvpoSfvBGMyw,aws-best-practices,aws-best-practices,checklist-item,Decide on a key-management strategy from the start
+aws-best-practices:ktE5s3PFLceCs_PxKcT2h,aws-best-practices,aws-best-practices,checklist-item,Make sure AWS is right for your workload
+aws-best-practices:HIw7J6HwZTQ4ar6ErJNgm,aws-best-practices,aws-best-practices,checklist-item,Set up event subscriptions for failover
+frontend-performance-best-practices:yHmHXymPNWwu8p1vvqD3o,frontend-performance-best-practices,frontend-performance-best-practices,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+frontend-performance-best-practices:2zqZkyVgigifcRS1H7F_b,frontend-performance-best-practices,frontend-performance-best-practices,button,roadmap.sh
+frontend-performance-best-practices:N43mseTUE383_uanBupz-,frontend-performance-best-practices,frontend-performance-best-practices,button,Lighthouse
+frontend-performance-best-practices:pcxWsZmn5okylZRR1yIyo,frontend-performance-best-practices,frontend-performance-best-practices,button,WebPageTest
+frontend-performance-best-practices:40fTcMTkoTyCviOicCnGc,frontend-performance-best-practices,frontend-performance-best-practices,button,Chrome DevTools
+frontend-performance-best-practices:6PQ7nz95Q_iR7LRHoZdrr,frontend-performance-best-practices,frontend-performance-best-practices,button,Bundlephobia
+frontend-performance-best-practices:0vLaVNJaJSHZ_bHli6Qzs,frontend-performance-best-practices,frontend-performance-best-practices,paragraph,Continue Learning with following relevant tracks
+frontend-performance-best-practices:dgujHqzZZRppxNMhNKOjs,frontend-performance-best-practices,frontend-performance-best-practices,button,Squoosh.app
+frontend-performance-best-practices:slf6jmim4p9ti6ZRHOZe_,frontend-performance-best-practices,frontend-performance-best-practices,button,Frontend Roadmap
+frontend-performance-best-practices:Df3nTlTvSQkMGzpufRo9q,frontend-performance-best-practices,frontend-performance-best-practices,button,Full Stack Roadmap
+frontend-performance-best-practices:BsI7vBm2YM8p0ufVUpTHJ,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Pre-load URLs where possible
+frontend-performance-best-practices:G9pGBRtF8zJVus_sIhYnL,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Concatenate CSS into a single file
+frontend-performance-best-practices:8Zm5d5oQ-kJmaJm4uBXmj,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Remove unused CSS
+frontend-performance-best-practices:xfrHv_2dFWv9QnS16WgWW,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Use WOFF2 font format
+frontend-performance-best-practices:Thlg_4D-wyZG4-6gFKfto,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Use preconnect to load your fonts faster
+frontend-performance-best-practices:XfyjsGw1Zkj3lFrWV9pAt,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Keep the web font size under 300kb
+frontend-performance-best-practices:YCxhG3YO3ruhsIEsB7kHb,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Prevent Flash or Invisible Text
+frontend-performance-best-practices:1kLQvHYItsbI7HAmAYAzt,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Keep an eye on the size of dependencies
+frontend-performance-best-practices:YIV1H4LteziFGxiN6fAfK,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Minified HTML - Remove comments and whitespaces
+frontend-performance-best-practices:1g1AWj7aDQPqsRgrm4dRy,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Use Content Delivery Network
+frontend-performance-best-practices:V3RKW8b3RUzhPqprv-ErO,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Prefer using vector image rather than bitmap images
+frontend-performance-best-practices:nXvX3fKcqj32mDObwgR4W,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Set width and height attributes on images (aspect ratio)
+frontend-performance-best-practices:y-c2gBZykGJEuBNlYWpfN,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Avoid using Base64 images
+frontend-performance-best-practices:iESIaLdFIJIXarhDri4ye,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Offscreen images are loaded lazily
+frontend-performance-best-practices:IgmkgCEXi7NcUDWL-9YSu,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Ensure to serve images that are close to your display size
+frontend-performance-best-practices:4HDX6E1dZAugmzt4-ZSfY,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Avoid multiple inline JavaScript snippets <script>
+frontend-performance-best-practices:ROsYlaUYcyvCCFpbmidtU,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Keep your dependencies up to date
+frontend-performance-best-practices:kStE4xOYrwEyeDtDS-CmF,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Check for performance problems in your JavaScript files
+frontend-performance-best-practices:FqSrYYAghxmd_2qAOUOjg,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Service Workers for caching / performing heavy tasks
+frontend-performance-best-practices:A9U9PkO0YP5nisoTDicr7,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Cookie size should be less than 4096 bytes
+frontend-performance-best-practices:hRfYLGUWsIZ5xgIqgTzur,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Keep the cookie count less than 20
+frontend-performance-best-practices:27xsPpV4u4yezcEmGK5Xs,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Keep your page weight < 1500 KB (ideally < 500 kb)
+frontend-performance-best-practices:2XVQD0JZvsCYZVKraD54Y,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Keep your page load time < 3 seconds
+frontend-performance-best-practices:OXTHp9g-wyUbstyTGiO4L,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,GZIP / Brotli compression is enabled
+frontend-performance-best-practices:KBHBLlfJjK-DukX_ASaXx,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Minimize HTTP Requests
+frontend-performance-best-practices:FFNZnHpnoYmr5VAxqaOyG,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Compress your images / keep the image count low
+frontend-performance-best-practices:zyjXRhKgI622BycKrze9N,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Set HTTP cache headers properly
+frontend-performance-best-practices:4xn27HOUWZl6qYrDvFB7h,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Keep the Time To First Byte < 1.3 seconds
+frontend-performance-best-practices:oAj3ozjnRvX1Z9OLwG4Qj,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Non Blocking JavaScript: Use async / defer
+frontend-performance-best-practices:tt4_fSVARFtL8A_f-yqw6,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Minify your JavaScript
+frontend-performance-best-practices:o7qz9TOpIENBWLo-hPaPn,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,"Minified CSS - Remove comments, whitespaces etc"
+frontend-performance-best-practices:4il2KA0BOVH5fNuGdVU5V,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Inline the Critical CSS (above the fold CSS)
+frontend-performance-best-practices:nSq8qRH_fOWu2F5zXseZR,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,CSS files are non-blocking
+frontend-performance-best-practices:hBke-ewWxXKTO16s3kwm1,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Use HTTPs on your website
+frontend-performance-best-practices:xk6RvctZbyMg8NUKLXvwj,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Choose your image format appropriately
+frontend-performance-best-practices:W5aW-t4WKiT2dMF6L9jqz,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Avoid requesting unreachable files (404)
+frontend-performance-best-practices:iSVL1c0WHtqVmoOeC7Wao,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Serve files from the same protocol
+frontend-performance-best-practices:oRlzwfGRj2Ey1ee1mgn7R,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Minimize number of iframes
+frontend-performance-best-practices:v0uy2c-ESk0MvGdEbfD1K,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Avoid the embedded / inline CSS
+frontend-performance-best-practices:x7TLvySdfd4KxSsfuADcY,frontend-performance-best-practices,frontend-performance-best-practices,checklist-item,Analyse stylesheets complexity
+api-security-best-practices:yHmHXymPNWwu8p1vvqD3o,api-security-best-practices,api-security-best-practices,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+api-security-best-practices:2zqZkyVgigifcRS1H7F_b,api-security-best-practices,api-security-best-practices,button,roadmap.sh
+api-security-best-practices:0vLaVNJaJSHZ_bHli6Qzs,api-security-best-practices,api-security-best-practices,paragraph,Continue Learning with following relevant tracks
+api-security-best-practices:slf6jmim4p9ti6ZRHOZe_,api-security-best-practices,api-security-best-practices,button,Backend Roadmap
+api-security-best-practices:Df3nTlTvSQkMGzpufRo9q,api-security-best-practices,api-security-best-practices,button,DevOps Roadmap
+api-security-best-practices:hU4GXxxS_bTckzbItQO-l,api-security-best-practices,api-security-best-practices,checklist-item,Audit your design and implementation with unit/integration tests
+api-security-best-practices:78z_CO8aLi6OZPVK_M9FN,api-security-best-practices,api-security-best-practices,checklist-item,Use a code review process and disregard self-approval
+api-security-best-practices:8QZQrxfFLRiyA9Gwcv5VQ,api-security-best-practices,api-security-best-practices,checklist-item,Continuously run security analysis on your code
+api-security-best-practices:09FVB7917BswySQlKnygg,api-security-best-practices,api-security-best-practices,checklist-item,Check your dependencies for known vulnerabilities
+api-security-best-practices:IZR0rllc_Ww6BM6HwDlXr,api-security-best-practices,api-security-best-practices,checklist-item,Design a rollback solution for deployments
+api-security-best-practices:5emeN8q_1J2Jev9PZyJmt,api-security-best-practices,api-security-best-practices,checklist-item,Send X-Content-Type-Options: nosniff header
+api-security-best-practices:jZQw6szag6kqnKMJcyMn4,api-security-best-practices,api-security-best-practices,checklist-item,Send X-Frame-Options: deny header
+api-security-best-practices:NpeUMIE6WHXtdLmrKsj06,api-security-best-practices,api-security-best-practices,checklist-item,Send Content-Security-Policy: default-src 'none' header
+api-security-best-practices:6S4sP7kSkU1egOYKWOhIb,api-security-best-practices,api-security-best-practices,checklist-item,Remove fingerprinting headers (e.g. x-powered-by)
+api-security-best-practices:sPbwEWGMrgkyRXNKndhIg,api-security-best-practices,api-security-best-practices,checklist-item,Force content-type for your response
+api-security-best-practices:c-K_qAC9pv8GcSXoGTJtz,api-security-best-practices,api-security-best-practices,checklist-item,"Avoid returning sensitive data (credentials, tokens, etc)"
+api-security-best-practices:MEjyUwXIEJcO76TUDGnt6,api-security-best-practices,api-security-best-practices,checklist-item,Return proper response codes as per the operation
+api-security-best-practices:VdBbVmfQjExI0WSs_A6a4,api-security-best-practices,api-security-best-practices,checklist-item,Use centralized logins for all services and components
+api-security-best-practices:43zou39MEAZ2uOUnImff5,api-security-best-practices,api-security-best-practices,checklist-item,"Use agents to monitor all requests, responses, and errors"
+api-security-best-practices:D-35R8kaXn4u20zJ7Qf7i,api-security-best-practices,api-security-best-practices,checklist-item,"Use alerts for SMS, Slack, Email, Kibana, CloudWatch, etc"
+api-security-best-practices:1opNC_XCwX7Da3-GPVJ-O,api-security-best-practices,api-security-best-practices,checklist-item,Ensure you aren’t logging any sensitive data
+api-security-best-practices:Nfo_auccXqjJx8VYQoGOo,api-security-best-practices,api-security-best-practices,checklist-item,Use an IDS and/or IPS system to monitor everything
+api-security-best-practices:9y-u2zM_xSTfmQ-h1xjH9,api-security-best-practices,api-security-best-practices,checklist-item,Limit requests (throttling) to avoid DDoS / brute force
+api-security-best-practices:mynveG_grVKfXxCRK1ly4,api-security-best-practices,api-security-best-practices,checklist-item,Use HTTPS on server side and secure ciphers
+api-security-best-practices:S7PPL3WfUyz9TFZG2RImx,api-security-best-practices,api-security-best-practices,checklist-item,Use HSTS header with SSL to avoid SSL strip attacks
+api-security-best-practices:rUl35oohzpnjG5gqp8Ub9,api-security-best-practices,api-security-best-practices,checklist-item,Turn off directory listings
+api-security-best-practices:M3-EUeZPJgFZVSisl3Vl3,api-security-best-practices,api-security-best-practices,checklist-item,Private APIs should only be accessible from safe-listed IPs
+api-security-best-practices:KMq_es7-52LFZTm6CYGRC,api-security-best-practices,api-security-best-practices,checklist-item,Use good JWT Secret to make brute-force attacks difficult
+api-security-best-practices:Z1l5h00cGn1wFrb8YUaI4,api-security-best-practices,api-security-best-practices,checklist-item,"Do not extract the algorithm from the header, use backend"
+api-security-best-practices:v_5nMiomMJ_1H-JvIEQPu,api-security-best-practices,api-security-best-practices,checklist-item,"Make token expiration (TTL, RTTL) as short as possible"
+api-security-best-practices:CMXBTH-WNtCbqhkV-3e_a,api-security-best-practices,api-security-best-practices,checklist-item,Avoid storing sensitive data in JWT payload
+api-security-best-practices:zawBF9V6faECF_XE9grFq,api-security-best-practices,api-security-best-practices,checklist-item,Keep the payload small to reduce the size of the JWT
+api-security-best-practices:13SEAfogV7cGa9rjNrxQp,api-security-best-practices,api-security-best-practices,checklist-item,Always validate redirect_uri on server-side
+api-security-best-practices:DStd0pP_6tjfRmk4AYvcx,api-security-best-practices,api-security-best-practices,checklist-item,Avoid response_type=token and try to exchange for code
+api-security-best-practices:gDV5W2XEz_75jrhjY6rDO,api-security-best-practices,api-security-best-practices,checklist-item,Use state parameter to prevent CSRF attacks
+api-security-best-practices:c0D5ZxZ6QqfvS4ZinOXUC,api-security-best-practices,api-security-best-practices,checklist-item,"Have default scope, and validate scope for each application"
+api-security-best-practices:WdENzArXVmP0SY5TkBide,api-security-best-practices,api-security-best-practices,checklist-item,Check if all endpoints are protected behind authentication to avoid broken authentication process
+api-security-best-practices:psyKbe6sem8cad4uCYT_b,api-security-best-practices,api-security-best-practices,checklist-item,"Avoid user’s personal ID in resource URLs (e.g., users/242/orders)"
+api-security-best-practices:BQVO3ZBEa278bCnbrQYt_,api-security-best-practices,api-security-best-practices,checklist-item,Prefer using UUID over auto-increment IDs
+api-security-best-practices:rcaI-akUoZ6wx3g3kjRlu,api-security-best-practices,api-security-best-practices,checklist-item,Disable entity parsing if parsing XML to avoid XXE attacks
+api-security-best-practices:ewv239-PhmS0CfaSIsipK,api-security-best-practices,api-security-best-practices,checklist-item,"Disable entity expansion if using XML, YAML, or similar"
+api-security-best-practices:fJFqu_Qf83uU6bDzKIisx,api-security-best-practices,api-security-best-practices,checklist-item,Use a CDN for file uploads
+api-security-best-practices:9lTY_u6oWnIeINnr2rHAy,api-security-best-practices,api-security-best-practices,checklist-item,Avoid HTTP blocking when handling large amounts of data
+api-security-best-practices:roThiEYd4PmES9HBd4PoM,api-security-best-practices,api-security-best-practices,checklist-item,Make sure debug mode is off in production
+api-security-best-practices:NmNGwBGrdPfPzpUAnfLT2,api-security-best-practices,api-security-best-practices,checklist-item,Use non-executable stacks when available
+api-security-best-practices:7JBV-oougmjFXkgIPhpx6,api-security-best-practices,api-security-best-practices,checklist-item,Limit requests (throttling) to avoid DDoS / brute force
+api-security-best-practices:fxvDFFc8dEC4sDnSIeZAx,api-security-best-practices,api-security-best-practices,checklist-item,Use HTTPS on server side and secure ciphers
+api-security-best-practices:-_4qiPzluJDGjcvSpMi6A,api-security-best-practices,api-security-best-practices,checklist-item,Use HSTS header with SSL to avoid SSL strip attacks
+api-security-best-practices:fdRJXqKiarlYf2v-Fqlcq,api-security-best-practices,api-security-best-practices,checklist-item,Turn off directory listings
+api-security-best-practices:zgsmv8Qi2V_8l-pBcCDwn,api-security-best-practices,api-security-best-practices,checklist-item,Private APIs should only be accessible from safe-listed IPs
+api-security-best-practices:C6J0eqzxIYLdKlo28ZRYc,api-security-best-practices,api-security-best-practices,checklist-item,"Avoid ‘Basic Authentication’, use standard (e.g. JWT)"
+api-security-best-practices:SBK0hs0rux8-mqSKsqndr,api-security-best-practices,api-security-best-practices,checklist-item,Do not reinvent the wheel in authentication mechanisms
+api-security-best-practices:2ziT0ayzmngfebQq94PES,api-security-best-practices,api-security-best-practices,checklist-item,Use ‘Max Retry’ and jail features in login
+api-security-best-practices:DPDLmx-aVLDPfewdiMHuT,api-security-best-practices,api-security-best-practices,checklist-item,Use encryption on all sensitive data
+backend-performance-best-practices:yHmHXymPNWwu8p1vvqD3o,backend-performance-best-practices,backend-performance-best-practices,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+backend-performance-best-practices:2zqZkyVgigifcRS1H7F_b,backend-performance-best-practices,backend-performance-best-practices,button,roadmap.sh
+backend-performance-best-practices:0vLaVNJaJSHZ_bHli6Qzs,backend-performance-best-practices,backend-performance-best-practices,paragraph,Continue Learning with following relevant tracks
+backend-performance-best-practices:slf6jmim4p9ti6ZRHOZe_,backend-performance-best-practices,backend-performance-best-practices,button,Backend Roadmap
+backend-performance-best-practices:Df3nTlTvSQkMGzpufRo9q,backend-performance-best-practices,backend-performance-best-practices,button,DevOps Roadmap
+backend-performance-best-practices:o_yM-il5MO7n_k9j-mKWx,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Use connection pooling to reduce connection overhead
+backend-performance-best-practices:u5nkMzhx9wRSj3IQgU0AL,backend-performance-best-practices,backend-performance-best-practices,checklist-item,"Fine-tune connection pool settings (e.g., max connections, idle timeout, connection reuse params) to optimize resource utilization and prevent connection exhaustion"
+backend-performance-best-practices:9TsTb9mwwd9rsMsYXzFr4,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Create efficient database indexes
+backend-performance-best-practices:RtYqrZ4rsAoI_jJA35oOx,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Keep an eye on and fine-tune ORM queries
+backend-performance-best-practices:93-4NKYCb3yr_xPRP_1zC,backend-performance-best-practices,backend-performance-best-practices,checklist-item,"Utilize lazy loading, eager loading, and batch processing to optimize data retrieval"
+backend-performance-best-practices:-O_XHp98vnGG2wx6l2C2_,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Implement efficient pagination for large datasets
+backend-performance-best-practices:i0rK8QiLTR6p9qS69SvPt,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Avoid SELECT * queries and fetch only required columns
+backend-performance-best-practices:tmAJ28B9bUO9E8nRqxDZ_,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Consider denormalizing schema for read-heavy workloads and reducing JOIN operations
+backend-performance-best-practices:IU_YDe8sYyMdqbAdFapEz,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Optimize JOIN operations and avoid unnecessary joins
+backend-performance-best-practices:7BoKMZiArN9lIYpDCZBu_,backend-performance-best-practices,backend-performance-best-practices,checklist-item,"Regularly clean up unused data and perform maintenance tasks like vacuuming, indexing, and optimizing queries"
+backend-performance-best-practices:DMxySmdTq9TJalEIqMZf1,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Enable slow-query logging and monitor it
+backend-performance-best-practices:5yWiMxl7cq-K1W-hdL2_K,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Set up database replication for redundancy and improved read performance
+backend-performance-best-practices:kBIgN3xFiynb3nQ0PnS9N,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Use DB sharding for data distribution if required
+backend-performance-best-practices:uSQyKsu-Vj5Ycdq4k-Nna,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Use profiling tools offered by your database
+backend-performance-best-practices:8k1bqLu-aJXfYfEXK1-Ef,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Enforce reasonable payload size limits
+backend-performance-best-practices:uhEobuJbm1Y0XIwjQyxqz,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Enable compression for responses
+backend-performance-best-practices:V14-uK8RBOcPYfQPENRZz,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Implement efficient pagination for large datasets
+backend-performance-best-practices:I1NlQf6FpwLfZoMgwrhSn,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Minimise unnecessary processing or expensive computation on the server.
+backend-performance-best-practices:PscZM6j7pTT4a1ruJ-zrw,backend-performance-best-practices,backend-performance-best-practices,checklist-item,"Conduct regular performance testing and benchmarking to identify performance regressions, track improvements, and fine-tune optimization efforts over time"
+backend-performance-best-practices:vQNWF8NFAvpj4qzmnbC2i,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Use Horizontal or Vertical scaling whatever appropriate
+backend-performance-best-practices:TBzuwA6bHubh0cTdP9RYS,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Use load balancing to distribute traffic across servers
+backend-performance-best-practices:jS9z85EPYBk9acZcibw03,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Offload heavy tasks to background jobs or queues
+backend-performance-best-practices:unpUVm6N-YofbGg577MIy,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Utilize message brokers for asynchrnous communication between services.
+backend-performance-best-practices:l77liqzk0p-HQ6Q8O051j,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Implement comprehensive monitoring and logging to track performance metrics and troubleshoot issues
+backend-performance-best-practices:ijhZfnwa8dP-XI7Tz-AF7,backend-performance-best-practices,backend-performance-best-practices,checklist-item,"Use tools like Prometheus, Grafana, ELK stack."
+backend-performance-best-practices:PT-WM1d2TpTvjxe97R0uA,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Use asynchronous logging mechanisms to minimise the logging overhead.
+backend-performance-best-practices:v6NU0oVHDXAHmMsyuarQe,backend-performance-best-practices,backend-performance-best-practices,checklist-item,"Utilize caching mechanisms (HTTP, Server/Client, CDN)"
+backend-performance-best-practices:esHYpt1jW2UksqGi3MmyU,backend-performance-best-practices,backend-performance-best-practices,checklist-item,"Use cache-aside, write-through, or read-through caching patterns based on your application requirements"
+backend-performance-best-practices:tTZjy_KznzXUqCJNBKJYh,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Use proper cache-invalidation strategies to ensure data consistency and prevent stale content
+backend-performance-best-practices:Tui1_AzUeZiLCD4cCHO8L,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Implement streaming of large requests/responses
+backend-performance-best-practices:YBTvZiA3mDF7Xcq-M5xp6,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Profile your code to identify performance bottlenecks
+backend-performance-best-practices:L-_M_pfpjNqChlawdQyFw,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Optimize algorithms and data structures used
+backend-performance-best-practices:uGB4sxzblsgc-uP6pvoW0,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Identify and optimize critical paths or frequently accessed endpoints for overall system health.
+backend-performance-best-practices:74GQ3bCwJzxOzMjgcpKMZ,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Consider using compiled languages like Go or Rust for performance-critical parts of your backend.
+backend-performance-best-practices:xUkd2puPLlrjz4IKVUDSS,backend-performance-best-practices,backend-performance-best-practices,checklist-item,"Look into different architectural styles (SOA, Micro services) and decompose services if required."
+backend-performance-best-practices:_ceo4yRUXi1RdrXpLXT_H,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Set appropriate connection timeouts and implement efficient retry mechanism to handle network issues
+backend-performance-best-practices:kvL7deLtqoqycqU10S0xV,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Batch similar requests together to minimize overhead and reduce the number of round trips.
+backend-performance-best-practices:Y3FWqBSKTcOKpD3bMrM1d,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Minimize network latency by hosting your backend close to your users
+backend-performance-best-practices:HvgCoSpAO9Jqc4c9CSz-r,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Utilize HTTP keep-alive to reduce connection overhead
+backend-performance-best-practices:SZnEr0xNgGj6Kg4yHUW01,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Use CDNs for static and frequently accessed assets
+backend-performance-best-practices:bUVBdgXDSwFdtYOZ8VCpR,backend-performance-best-practices,backend-performance-best-practices,checklist-item,"Prefetch or preload resources, data, or dependencies needed for subsequent requests to minimize latency"
+backend-performance-best-practices:hN6qL8GY7ShptLoc0xi0p,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Keep your dependencies up to date
+backend-performance-best-practices:QAHiyjLYP_DD3GtlZ7zfX,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Implement proper authentication and authorization to prevent unauthorized access
+backend-performance-best-practices:VoPDfoxc5qgbVzG81tC64,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Implement request throttling and rate limiting
+backend-performance-best-practices:cdJ0cHIWcVzvG-hxdBFTH,backend-performance-best-practices,backend-performance-best-practices,checklist-item,Regularly audit and update security measures
+seo:yHmHXymPNWwu8p1vvqD3o,seo,seo,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+seo:2zqZkyVgigifcRS1H7F_b,seo,seo,button,roadmap.sh
+seo:3M7ZdXgElUaE9ictQZ1Ra,seo,seo,label,SEO Terminology
+seo:fVUfQYb8BP_hFMmd1S2-J,seo,seo,subtopic,Search Intent
+seo:hwKZmfYFiIu6plbiXtJRI,seo,seo,subtopic,Semantic Search 
+seo:xCgNhwbS_ELxEyRHD1enO,seo,seo,subtopic,Lexical vs Vector Search
+seo:sre_s0dvpOP0DTM66a3hu,seo,seo,subtopic,Hybrid Search
+seo:ucFhZ_95BpK87ybyIziQA,seo,seo,label,Search Intent  Semantics
+seo:GYUiIQ38y7jaI7cBrNP9v,seo,seo,subtopic,"SERP, Index, Crawl"
+seo:UtEv5RGFwA2NSzG6YR401,seo,seo,subtopic,Backlinks & Anchor Text
+seo:F7BXvp5JV35kyGyPerwNR,seo,seo,subtopic,Canonical
+seo:4mauwocuV1IRSz83VMuTq,seo,seo,subtopic,"Nofollow, Noindex"
+seo:vbolitnz-ciidYtkKLp3B,seo,seo,subtopic,Organic vs Paid vs Direct
+seo:hORMww8U7HjGJRzvLKenk,seo,seo,topic,Manual Actions & Recovery
+seo:Lw9Mkr55ST5P9kaw4dktV,seo,seo,subtopic,Folders & URL Structure
+seo:ED0d7WR_cHqRSxQlQGuzV,seo,seo,subtopic,Internal Linking
+seo:sq0ScczfbtjP-50goDqJv,seo,seo,subtopic,Site Hierarchy & Depth
+seo:py4DdYxCQuZ50VxoCu5o6,seo,seo,subtopic,Machine-Readable Content
+seo:g0TlQo1a-Wk9-fi_te9yw,seo,seo,subtopic,Sitemaps
+seo:8iODKk23z1DGYWIAj8yWk,seo,seo,subtopic,Robots.txt
+seo:tZh-hGXNnSDpr88RvYTZO,seo,seo,label,Search Crawlers
+seo:MiFLQuMkiZRQpSPSxdVKw,seo,seo,subtopic,Googlebot
+seo:9N11NVjIJAw6VcE1xV-L9,seo,seo,subtopic,Bingbot
+seo:TjGScQ8DbjP-c89BzOFMX,seo,seo,label,AI Crawlers
+seo:9RINuReXqv2nFIyJe4kNe,seo,seo,subtopic,GPTBot
+seo:HLZuEmTuaj5ocOQBgnAiV,seo,seo,subtopic,ClaudeBot
+seo:TrD9JXQNgM-2EhjcshI03,seo,seo,subtopic,Google-Extended
+seo:u7LcT0Gbzc92r9H3MrkrE,seo,seo,subtopic,PerplexityBot
+seo:HtcAucspN4hLL_t_d3ehf,seo,seo,label,Site Crawlers
+seo:vF-jde0y42JKX1jEPeSfl,seo,seo,subtopic,Screaming Frog
+seo:wP4LP-audfrqSm-nUcEA9,seo,seo,subtopic,Sitebulb
+seo:gOmEWLX7u8vGGt_GN5Fkq,seo,seo,topic,Mobile Friendliness
+seo:aT2nu8jFoZlGzo2NyfbYT,seo,seo,topic,Topic Clusters
+seo:jeO2Xq-UVqxAXo-JYNd9X,seo,seo,topic, Competitor Gap Analysis
+seo:TiBwbnFqTs7elNG7aKquc,seo,seo,topic,E-E-A-T
+seo:-WuXxefNUDilXkptnd4Zi,seo,seo,subtopic,Sitelinks
+seo:-Iqdt27DI-BJ_rHXl2vUz,seo,seo,subtopic,Knowledge Panels
+seo:mGEBbOmi-hoX82wryjX_K,seo,seo,subtopic,Image & Video Packs
+seo:z2AmnS18sISZOz3Tio4Ek,seo,seo,subtopic,Breadcrumb rich result
+seo:cuy0qni8CedAqJDj8B5fk,seo,seo,subtopic,Clearscope
+seo:7MfjhPJvQQdrqIA_w0_h7,seo,seo,subtopic,Frase
+seo:zNHbWrV4-yOStqP74ZmWu,seo,seo,label,Retrieval Mechanisms
+seo:nVLFIaDXF9XWNUPwIg5T2,seo,seo,subtopic,RAG
+seo:2i-oswlxFVd3V0udqCoBG,seo,seo,subtopic,Embeddings
+seo:jJ-11e0sx1TMVmRoWGmwB,seo,seo,subtopic,Chunking
+seo:q45bD9nF_01Anr9ZFFzvz,seo,seo,subtopic,Dense Retrieval
+seo:f5D7eTVr15SKpQz7h6VKg,seo,seo,topic,Citation Resources
+seo:ujNGonXvVhH734HMGgFum,seo,seo,subtopic,Query Fan-Out 
+seo:MomZSADCVdYuKQToQtNnW,seo,seo,topic,Preferred Sources
+seo:_SCDSMXMaI8w1Fo-mgUjP,seo,seo,subtopic, Multi-Step AI Intent
+seo:-blGtFh7oRkGaBz-XNVf4,seo,seo,label,AI Answer Surfaces
+seo:edVzhSJjNZ42CmIGHfYs_,seo,seo,subtopic,AI Overviews
+seo:9k3Y79Oz46uTKEVECOaL8,seo,seo,label,Link Metrics
+seo:k8K7c-FNG-vcS_Zsh90nQ,seo,seo,subtopic,Google AI Mode
+seo:yFEpZM1At0nDiae9Hrs6M,seo,seo,subtopic,Domain Authority
+seo:h9DqnyAY6xVRzXuEA6lPk,seo,seo,subtopic,ChatGPT Search
+seo:ouEJFUJlZss_ScbsmiJ-X,seo,seo,subtopic,Page Authority
+seo:rnD7x5uSE0GPu8BB1DPeb,seo,seo,subtopic,Perplexity
+seo:o2lp6Hy3spway32copi3B,seo,seo,subtopic,Trust Flow
+seo:5dR-1rcdJXlmrejWTCKz8,seo,seo,subtopic,Copilot & Gemini
+seo:m3vqrPei9SRSAmulW--lt,seo,seo,subtopic,Citation Flow
+seo:ilvFr7TFoNjU28HifZjXP,seo,seo,subtopic,Chat-Based Search
+seo:MN7JGQnJU-z2gPaIQF6hj,seo,seo,label,LInk Attributes
+seo:k_3-hC4Wh4dih0AZRv4kJ,seo,seo,subtopic,"Nofollow, Sponsored, UGC"
+seo:2EGe-qaowTSDFfE9DYwTn,seo,seo,label,Link Building Tools
+seo:9s0rNSSUg7mR9-kY959GQ,seo,seo,subtopic,Ahrefs
+seo:qz9Ua1xx1fWSk1cNa0hz6,seo,seo,subtopic,BuzzStream
+seo:oJiYitF6E8Crk02oO8lpx,seo,seo,subtopic,Majestic
+seo:J_Wwg2zo5m9JnlNILKlMi,seo,seo,subtopic,Pitchbox
+seo:iUxanw3CLKaNo4eYjV0Eq,seo,seo,label,Fundamentals
+seo:GOKco0LlQAX-R5-mVL8ez,seo,seo,subtopic,Google Business Profile
+seo:kgbcs19HRGumZrryRJoee,seo,seo,subtopic,NAP Consistency
+seo:fRcmRMhFYfzjM_IGGihMX,seo,seo,subtopic,Local Citations
+seo:ZgEuJltdiYtS3cKhfbqG-,seo,seo,topic,Video SEO
+seo:xxAEhmPwcz9VuwW9B-Kuf,seo,seo,subtopic,Local Landing Pages
+seo:e7b9VrhpTCKAh_KfdnSOm,seo,seo,topic,E-commerce SEO
+seo:Ojiw-byFit21_cfopOH7i,seo,seo,label,Local Search Signals
+seo:Id95-XXYGUWTFKSeJ00Ce,seo,seo,subtopic,Reviews & Velocity
+seo:ydRGMTc1cAScUxMh05FEc,seo,seo,subtopic,Local Links
+seo:Spbaau8T4c-q32W8Udhse,seo,seo,subtopic,Local Pack & Maps
+seo:tUkUve7WFI2WdhurkluQ4,seo,seo,subtopic,Multi-Location SEO
+seo:tIGd8C6qkSK9OR-4BiRsG,seo,seo,label,Local GEO Tools
+seo:bV3Z8yx6aT9AOcMAlHxb1,seo,seo,subtopic,BrightLocal
+seo:Uy88UTJwwI6dOiFZFa9KS,seo,seo,subtopic,Whitespark
+seo:qFu-nbV9PFqTn5WeWk6Sm,seo,seo,button,Frontend
+seo:gRb7NbE1CVIFg7b-H5wop,seo,seo,button,HTML
+seo:f7BsPBrUebrTgyvIHYb8S,seo,seo,button,CSS
+seo:fqhB-6BazDw5uj6YRiYQo,seo,seo,button,JavaScript
+seo:lbedwLLaxAElDjeHHAoZU,seo,seo,button,System Design
+cyber-security:yHmHXymPNWwu8p1vvqD3o,cyber-security,cyber-security,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+cyber-security:4kG2uNnZNmTdzJZK3w6Rj,cyber-security,cyber-security,label,CTFs (Capture the Flag)
+cyber-security:wkuE_cChPZT2MHyGjUuU4,cyber-security,cyber-security,subtopic,HackTheBox
+cyber-security:2zqZkyVgigifcRS1H7F_b,cyber-security,cyber-security,button,roadmap.sh
+cyber-security:kht-L7_v-DbglMYUHuchp,cyber-security,cyber-security,subtopic,TryHackMe
+cyber-security:W94wY_otBuvVW_-EFlKA6,cyber-security,cyber-security,subtopic,VulnHub
+cyber-security:pou5xHwnz9Zsy5J6lNlKq,cyber-security,cyber-security,subtopic,picoCTF
+cyber-security:WCeJrvWl837m1BIjuA1Mu,cyber-security,cyber-security,subtopic,pwn.college
+cyber-security:4dZqgrIsbcshLTJPo29os,cyber-security,cyber-security,label,Certifications
+cyber-security:1gKxcnmRherd4kQCrNwDn,cyber-security,cyber-security,paragraph,Beginner Certifications
+cyber-security:KsZ63c3KQLLn373c5CZnp,cyber-security,cyber-security,subtopic,Infrared
+cyber-security:lbAgU5lR1O7L_5mCbNz_D,cyber-security,cyber-security,subtopic,CompTIA A+
+cyber-security:p34Qwlj2sjwEPR2ay1WOK,cyber-security,cyber-security,subtopic,CompTIA Linux+
+cyber-security:rimygCL5JuYfbzSc5H0zI,cyber-security,cyber-security,paragraph,Advanced Certifications
+cyber-security:AAo7DXB7hyBzO6p05gx1i,cyber-security,cyber-security,subtopic,CEH
+cyber-security:lqFp4VLY_S-5tAbhNQTew,cyber-security,cyber-security,subtopic,CISA
+cyber-security:s86x24SHPEbbOB9lYNU-w,cyber-security,cyber-security,subtopic,CISM
+cyber-security:nlmATCTgHoIoMcEOW8bUW,cyber-security,cyber-security,subtopic,GSEC
+cyber-security:t4h9rEKWz5Us0qJKXhxlX,cyber-security,cyber-security,subtopic,GPEN
+cyber-security:rwniCTWfYpKP5gi02Pa9f,cyber-security,cyber-security,subtopic,GWAPT
+cyber-security:ZiUT-lyIBfHTzG-dwSy96,cyber-security,cyber-security,subtopic,GIAC
+cyber-security:SwVGVP2bbCFs2uNg9Qtxb,cyber-security,cyber-security,subtopic,OSCP
+cyber-security:rA1skdztev3-8VmAtIlmr,cyber-security,cyber-security,subtopic,CREST
+cyber-security:BqvijNoRzSGYLCMP-6hhr,cyber-security,cyber-security,subtopic,CISSP
+cyber-security:BeOWMvEDBZn64OsZkBkQ2,cyber-security,cyber-security,label,Functions of each
+cyber-security:HavEL0u65ZxHt92TfbLzk,cyber-security,cyber-security,subtopic,Core Concepts of Zero Trust
+cyber-security:rzY_QsvnC1shDTPQ-til0,cyber-security,cyber-security,subtopic,Understand Common Hacking Tools
+cyber-security:kqT0FRLt9Ak9P8PhHldO-,cyber-security,cyber-security,subtopic,Roles of Compliance and Auditors
+cyber-security:Lg7mz4zeCToEzZBFxYuaU,cyber-security,cyber-security,subtopic,Understand Common Exploit Frameworks
+cyber-security:ggAja18sBUUdCfVsT0vCv,cyber-security,cyber-security,subtopic,Understand the Definition of Risk
+cyber-security:Rae-f9DHDZuwIwW6eRtKF,cyber-security,cyber-security,subtopic,Understand Concept of Defense in Depth
+cyber-security:9asy3STW4oTYYHcUazaRj,cyber-security,cyber-security,subtopic,Understand Backups and Resiliency
+cyber-security:Ec6EairjFJLCHc7b-1xxe,cyber-security,cyber-security,subtopic,Understand Concept of Runbooks
+cyber-security:H38Vb7xvuBJXVzgPBdRdT,cyber-security,cyber-security,subtopic,Cyber Kill Chain
+cyber-security:7KLGFfco-hw7a62kXtS3d,cyber-security,cyber-security,subtopic,Understand Basics of Forensics
+cyber-security:pnfVrOjDeG1uYAeqHxhJP,cyber-security,cyber-security,subtopic,MFA & 2FA
+cyber-security:bj5YX8zhlam0yoNckL8e4,cyber-security,cyber-security,subtopic,Honeypots
+cyber-security:_x3BgX93N-Pt1_JK7wk0p,cyber-security,cyber-security,subtopic,Basics and Concepts of Threat Hunting
+cyber-security:_S25EOGS3P8647zLM5i-g,cyber-security,cyber-security,subtopic,Operating System Hardening
+cyber-security:lcxAXtO6LoGd85nOFnLo8,cyber-security,cyber-security,subtopic,Basics of Vulnerability Management
+cyber-security:aDF7ZcOX9uR8l0W4aqhYn,cyber-security,cyber-security,subtopic,Understand Concept of Isolation
+cyber-security:uoGA4T_-c-2ip_zfEUcJJ,cyber-security,cyber-security,subtopic,Basics of Reverse Engineering
+cyber-security:FJsEBOFexbDyAj86XWBCc,cyber-security,cyber-security,subtopic,Basics of IDS and IPS
+cyber-security:NkAAQikwH-A6vrF8fWpuB,cyber-security,cyber-security,subtopic,Penetration Testing Rules of Engagement
+cyber-security:PUgPgpKio4Npzs86qEXa7,cyber-security,cyber-security,subtopic,Perimiter vs DMZ vs Segmentation
+cyber-security:WG7DdsxESm31VcLFfkVTz,cyber-security,cyber-security,subtopic,Authentication vs Authorization
+cyber-security:P_-Fdgkjhzxniq3KW8PlP,cyber-security,cyber-security,label,Basics of Cryptography
+cyber-security:3giWhwHHgeNJLz5Nf99zC,cyber-security,cyber-security,label,Attack Types and Differences
+cyber-security:i4OwpsvRGbZWIo237UK4b,cyber-security,cyber-security,label,Tools for Incident Response and Discovery
+cyber-security:KSwl6sX2W47vUmytpm8LH,cyber-security,cyber-security,subtopic,Whaling
+cyber-security:7obusm5UtHwWMcMMEB3lt,cyber-security,cyber-security,subtopic,Phishing
+cyber-security:M65fCl72qlF0VTbGNT6du,cyber-security,cyber-security,subtopic,Whishing
+cyber-security:jqWhR6oTyX6yolUBv71VC,cyber-security,cyber-security,subtopic,Salting
+cyber-security:0UZmAECMnfioi-VeXcvg8,cyber-security,cyber-security,subtopic,Hashing
+cyber-security:rmR6HJqEhHDgX55Xy5BAW,cyber-security,cyber-security,subtopic,Key Exchange
+cyber-security:XyaWZZ45axJMKXoWwsyFj,cyber-security,cyber-security,subtopic,dig
+cyber-security:Hoou7kWyfB2wx_yFHug_H,cyber-security,cyber-security,subtopic,nmap
+cyber-security:yfTpp-ePuDB931FnvNB-Y,cyber-security,cyber-security,subtopic,ping
+cyber-security:fzdZF-nzIL69kaA7kwOCn,cyber-security,cyber-security,subtopic,arp
+cyber-security:9xbU_hrEOUtMm-Q09Fe6t,cyber-security,cyber-security,subtopic,dd
+cyber-security:d4U6Jq-CUB1nNN2OCFoum,cyber-security,cyber-security,subtopic,Smishing
+cyber-security:cbEMUyg_btIPjdx-XqIM5,cyber-security,cyber-security,subtopic,Spam vs Spim
+cyber-security:7svh9qaaPp0Hz23yinIye,cyber-security,cyber-security,subtopic,Private vs Public Keys
+cyber-security:Cclbt4bNfkHwFwZOvJuLK,cyber-security,cyber-security,subtopic,hping
+cyber-security:OUarb1oS1-PX_3OXNR0rV,cyber-security,cyber-security,subtopic,nslookup
+cyber-security:FD0bkmxNpPXiUB_NevEUf,cyber-security,cyber-security,subtopic,Shoulder Surfing
+cyber-security:o-keJgF9hmifQ_hUD91iN,cyber-security,cyber-security,subtopic,Tailgating
+cyber-security:kxlg6rpfqqoBfmMMg3EkJ,cyber-security,cyber-security,subtopic,Obfuscation
+cyber-security:jJtS0mgCYc0wbjuXssDRO,cyber-security,cyber-security,subtopic,tracert
+cyber-security:gNan93Mg9Ym2AF3Q2gqoi,cyber-security,cyber-security,subtopic,winhex
+cyber-security:bIwpjIoxSUZloxDuQNpMu,cyber-security,cyber-security,subtopic,autopsy
+cyber-security:IXNGFF4sOFbQ_aND-ELK0,cyber-security,cyber-security,subtopic,ipconfig
+cyber-security:Iu0Qtk13RjrhHpSlm0uyh,cyber-security,cyber-security,subtopic,Dumpster Diving
+cyber-security:wspNQPmqWRjKoFm6x_bVw,cyber-security,cyber-security,subtopic,memdump
+cyber-security:wb3Wc9be7bJ_Xr5p-Pnvm,cyber-security,cyber-security,label,Understand Frameworks
+cyber-security:AY-hoPGnAZSd1ExaYX8LR,cyber-security,cyber-security,subtopic,Diamond Model
+cyber-security:7Bmp4x6gbvWMuVDdGRUGj,cyber-security,cyber-security,subtopic,Kill Chain
+cyber-security:v9njgIxZyabJZ5iND3JGc,cyber-security,cyber-security,subtopic,Zero day
+cyber-security:_jJhL1RtaqHJmlcWrd-Ak,cyber-security,cyber-security,subtopic,FTK Imager
+cyber-security:auR7fNyd77W2UA-PjXeJS,cyber-security,cyber-security,subtopic,ATT&CK
+cyber-security:O1VceThdxRlgQ6DcGyY7Y,cyber-security,cyber-security,subtopic,Social Engineering
+cyber-security:zruYWobdu1xW9lTDUZk4-,cyber-security,cyber-security,label,Understand Common Standards
+cyber-security:oRssaVG-K-JwlL6TAHhXw,cyber-security,cyber-security,subtopic,ISO
+cyber-security:fjEdufrZAfW4Rl6yDU8Hk,cyber-security,cyber-security,subtopic,RMF
+cyber-security:UU_inxa8Y2lLP2BRhdLDT,cyber-security,cyber-security,subtopic,Reconnaissance
+cyber-security:ZEgxmvjWPp5NofLFz_FTJ,cyber-security,cyber-security,subtopic,Impersonation
+cyber-security:Kg9vI3skbes7-UqApDWq0,cyber-security,cyber-security,label,Common Distros for hacking
+cyber-security:zR6djXnfTSFVEfvJonQjf,cyber-security,cyber-security,subtopic,ParrotOS
+cyber-security:w6wXkoLrv0_d-Ah0txUHd,cyber-security,cyber-security,subtopic,Kali Linux
+cyber-security:SOkJUTd1NUKSwYMIprv4m,cyber-security,cyber-security,subtopic,NIST
+cyber-security:sSihnptkoEqUsHjDpckhG,cyber-security,cyber-security,subtopic,CIS
+cyber-security:HjfgaSEZjW9BOXy_Ixzkk,cyber-security,cyber-security,subtopic,CSF
+cyber-security:dcvuKHq0nHgHLcLwtl4IJ,cyber-security,cyber-security,subtopic,Watering Hole Attack
+cyber-security:ILAZCecheh0RHHitBx7B2,cyber-security,cyber-security,label,Understand the following
+cyber-security:3Q030CQumukKTg3YessCN,cyber-security,cyber-security,label,Using tools for Unintended Purposes
+cyber-security:cO70zHvHgBAH29khF-hBW,cyber-security,cyber-security,subtopic,Drive by Attack
+cyber-security:c2kY3wZVFKZYxMARhLIwO,cyber-security,cyber-security,subtopic,SIEM
+cyber-security:i0ulrA-GJrNhIVmzdWDrn,cyber-security,cyber-security,subtopic,SOAR
+cyber-security:10qbxX8DCrfyH7tgYexxQ,cyber-security,cyber-security,subtopic,LOLBAS
+cyber-security:Jd9t8e9r29dHRsN40dDOk,cyber-security,cyber-security,subtopic,GTFOBINS
+cyber-security:Rnpx7VkhrBkSQTni6UuTR,cyber-security,cyber-security,subtopic,WADCOMS
+cyber-security:0LeDwj_tMaXjQBBOUJ5CL,cyber-security,cyber-security,subtopic,Typo Squatting
+cyber-security:ck93KaGoD_sGLp2Y-DvIR,cyber-security,cyber-security,label,Secure vs Unsecure Protocols
+cyber-security:JAEDRu2Vg-0M_TJi2cnPg,cyber-security,cyber-security,label,Learn how to find and use these logs
+cyber-security:Q0i-plPQkb_NIvOQBVaDd,cyber-security,cyber-security,subtopic,Brute Force vs Password Spray
+cyber-security:9Z6HPHPj4escSVDWftFEx,cyber-security,cyber-security,subtopic,FTP vs SFTP
+cyber-security:6ILPXeUDDmmYRiA_gNTSr,cyber-security,cyber-security,subtopic,SSL vs TLS
+cyber-security:gNFVtBxSYP5Uw3o3tlJ0M,cyber-security,cyber-security,subtopic,IPSEC
+cyber-security:KbFwL--xF-eYjGy8PZdrM,cyber-security,cyber-security,subtopic,Event Logs
+cyber-security:7oFwRkmoZom8exMDtMslX,cyber-security,cyber-security,subtopic,syslogs
+cyber-security:xXz-SwvXA2cLfdCd-hLtW,cyber-security,cyber-security,subtopic,netflow
+cyber-security:xa62u-IX7efTGnKZRQp9a,cyber-security,cyber-security,label,Common Attacks
+cyber-security:TIxEkfBrN6EXQ3IKP1B7u,cyber-security,cyber-security,subtopic,Packet Captures
+cyber-security:np0PwKy-EvIa_f_LC6Eem,cyber-security,cyber-security,subtopic,Firewall Logs
+cyber-security:LLGXONul7JfZGUahnK0AZ,cyber-security,cyber-security,subtopic,DNSSEC
+cyber-security:z_fDvTgKw51Uepo6eMQd9,cyber-security,cyber-security,subtopic,LDAPS
+cyber-security:_9lQSG6fn69Yd9rs1pQdL,cyber-security,cyber-security,subtopic,SRTP
+cyber-security:9rmDvycXFcsGOq3v-_ziD,cyber-security,cyber-security,subtopic,S/MIME
+cyber-security:IF5H0ZJ72XnqXti3jRWYF,cyber-security,cyber-security,subtopic,DoS vs DDoS
+cyber-security:ODlVT6MhV-RVUbRMG0mHi,cyber-security,cyber-security,subtopic,MITM
+cyber-security:pK2iRArULlK-B3iSVo4-n,cyber-security,cyber-security,subtopic,CSRF
+cyber-security:217hzGfJmj6rLNjOGKx9q,cyber-security,cyber-security,label,Understand the following Terms
+cyber-security:H1RC3OllZeqe_NvNcS1pU,cyber-security,cyber-security,label,Understand Hardening Concepts
+cyber-security:LteSouUtAj3JWWOzcjQPl,cyber-security,cyber-security,subtopic,Spoofing
+cyber-security:P-Am25WJV8cFd_KsX7cdj,cyber-security,cyber-security,subtopic,SQL Injection
+cyber-security:2jo1r9O_rCnDwRv1_4Wo-,cyber-security,cyber-security,subtopic,XSS
+cyber-security:3140n5prZYySsuBHjqGOJ,cyber-security,cyber-security,subtopic,Antivirus
+cyber-security:9QtY1hMJ7NKLFztYK-mHY,cyber-security,cyber-security,subtopic,Antimalware
+cyber-security:QvHWrmMzO8IvNQ234E_wf,cyber-security,cyber-security,subtopic,EDR
+cyber-security:iolsTC-63d_1wzKGul-cT,cyber-security,cyber-security,subtopic,DLP
+cyber-security:OAukNfV5T0KTnIF9jKYRF,cyber-security,cyber-security,subtopic,MAC-based
+cyber-security:6oAzYfwsHQYNVbi7c2Tly,cyber-security,cyber-security,subtopic,NAC-based
+cyber-security:O1fY2n40yjZtJUEeoItKr,cyber-security,cyber-security,subtopic,Evil Twin
+cyber-security:u4hySof6if5hiONSaW-Uf,cyber-security,cyber-security,subtopic,VLAN Hopping
+cyber-security:tWDo5R3KU5KOjDdtv801x,cyber-security,cyber-security,subtopic,Firewall & Nextgen Firewall
+cyber-security:l5EnhOCnkN-RKvgrS9ylH,cyber-security,cyber-security,subtopic,HIPS
+cyber-security:LIPtxl_oKZRcbvXT4EdNf,cyber-security,cyber-security,subtopic,NIDS
+cyber-security:W7bcydXdwlubXF2PHKOuq,cyber-security,cyber-security,subtopic,Port Blocking
+cyber-security:FxuMJmDoDkIsPFp2iocFg,cyber-security,cyber-security,subtopic,Group Policy
+cyber-security:urtsyYWViEzbqYLoNfQAh,cyber-security,cyber-security,subtopic,DNS Poisoning
+cyber-security:7w9qj16OD4pUzq-ItdxeK,cyber-security,cyber-security,subtopic,NIPS
+cyber-security:jWl1VWkZn3n1G2eHq6EnX,cyber-security,cyber-security,subtopic,Host Based Firewall
+cyber-security:SLKwuLHHpC7D1FqrpPRAe,cyber-security,cyber-security,subtopic,Sandboxing
+cyber-security:oFgyQYL3Ws-l7B5AF-bTR,cyber-security,cyber-security,subtopic,Sinkholes
+cyber-security:e-MDyUR3GEv-e4Qsx_5vV,cyber-security,cyber-security,subtopic,Patching
+cyber-security:LfWJJaT3fv0p6fUeS8b84,cyber-security,cyber-security,subtopic,Deauth Attack
+cyber-security:1jwtExZzR9ABKvD_S9zFG,cyber-security,cyber-security,subtopic,EAP vs PEAP
+cyber-security:HSCGbM2-aTnJWUX6jGaDP,cyber-security,cyber-security,subtopic,WPS
+cyber-security:35oCRzhzpVfitQPL4K9KC,cyber-security,cyber-security,subtopic,ACL
+cyber-security:UF3BV1sEEOrqh5ilnfM1B,cyber-security,cyber-security,subtopic,Jump Server
+cyber-security:LEgJtu1GZKOtoAXyOGWLE,cyber-security,cyber-security,subtopic,Endpoint Security
+cyber-security:mIX8PsIGuwgPCGQZ6ok2H,cyber-security,cyber-security,subtopic,Replay Attack
+cyber-security:MBnDE0VyVh2u2p-r90jVk,cyber-security,cyber-security,subtopic,WPA vs WPA2 vs WPA3 vs WEP
+cyber-security:vDjRijJm5bwqBsIhtWtK6,cyber-security,cyber-security,label,Understand Common Tools
+cyber-security:Ee7LfbhwJbiWjJ3b_bbni,cyber-security,cyber-security,subtopic,Rogue Access Point
+cyber-security:rxzcAzHjzIc9lkWSw0fef,cyber-security,cyber-security,subtopic,VirusTotal
+cyber-security:lMiW2q-b72KUl-2S7M6Vb,cyber-security,cyber-security,subtopic,urlscan
+cyber-security:GZHFR43UzN0WIIxGKZOdX,cyber-security,cyber-security,subtopic,any.run
+cyber-security:cs_xQZ5Z0IFbqYy6Zkuwp,cyber-security,cyber-security,label,Understand the Incident Response Process
+cyber-security:n8ZOZxNhlnw7DpzoXe_f_,cyber-security,cyber-security,subtopic,Buffer Overflow
+cyber-security:w6V4JOtXKCMPAkKIQxvMg,cyber-security,cyber-security,subtopic,Preparation
+cyber-security:XsRoldaBXUSiGbvY1TjQd,cyber-security,cyber-security,subtopic,Identification
+cyber-security:l7WnKuR2HTD4Vf9U2TxkK,cyber-security,cyber-security,subtopic,Containment
+cyber-security:h__KxKa0Q74_egY7GOe-L,cyber-security,cyber-security,subtopic,Joe Sandbox
+cyber-security:lFt1k1Q-NlWWqyDA3gWD1,cyber-security,cyber-security,subtopic,urlvoid
+cyber-security:-RnlvUltJ9IDtH0HEnMbN,cyber-security,cyber-security,subtopic,WHOIS
+cyber-security:nOND14t7ISgSH3zNpV3F8,cyber-security,cyber-security,subtopic,Memory Leak
+cyber-security:N17xAIo7sgbB0nrIDMWju,cyber-security,cyber-security,subtopic,Eradication
+cyber-security:vFjbZAJq8OfLb3_tsc7oT,cyber-security,cyber-security,subtopic,Recovery
+cyber-security:ErRol7AT02HTn3umsPD_0,cyber-security,cyber-security,subtopic,Lessons Learned
+cyber-security:44mOl6aMZ_hrCvBtbjeF9,cyber-security,cyber-security,label,Understand Audience
+cyber-security:sMuKqf27y4iG0GrCdF5DN,cyber-security,cyber-security,subtopic,Pass the Hash
+cyber-security:lv6fI3WeJawuCbwKtMRIh,cyber-security,cyber-security,subtopic,Stakeholders
+cyber-security:05tH6WhToC615JTFN-TPc,cyber-security,cyber-security,subtopic,HR
+cyber-security:C5bCIdPi0gGkY_r4qqoXZ,cyber-security,cyber-security,subtopic,Legal
+cyber-security:t5IarTzpQONANS6ReNlNR,cyber-security,cyber-security,label,Understand Threat Classification
+cyber-security:zqRaMmqcLfx400kJ-h0LO,cyber-security,cyber-security,subtopic,Zero Day
+cyber-security:HPlPGKs7NLqmBidHJkOZg,cyber-security,cyber-security,subtopic,Known vs Unknown
+cyber-security:05Gbgy6aawYlYIx38u8DE,cyber-security,cyber-security,subtopic,Compliance
+cyber-security:L0ROYh2DNlkybNDO2ezJY,cyber-security,cyber-security,subtopic,Directory Traversal
+software-design-architecture:uLYSP9v3y51h8Ttdt5ije,software-design-architecture,software-design-architecture,label,Minimap of Topics
+software-design-architecture:yHmHXymPNWwu8p1vvqD3o,software-design-architecture,software-design-architecture,paragraph,Find the detailed version of this roadmap along with other similar roadmaps
+software-design-architecture:TJZgsxpfOmltUUChMzlEM,software-design-architecture,software-design-architecture,subtopic,Clean Code
+software-design-architecture:ktU7bNX3hu-_hTFE1CjrM,software-design-architecture,software-design-architecture,button,roadmap.sh
+software-design-architecture:RgYq3YOJhPGSf5in1Rcdp,software-design-architecture,software-design-architecture,subtopic,Programming Paradigms
+software-design-architecture:qZQDOe2MHBh8wNcmvkLQm,software-design-architecture,software-design-architecture,subtopic,Object Oriented Programming
+software-design-architecture:kpF15oUmlUmk1qVGEBB7Y,software-design-architecture,software-design-architecture,paragraph,Also visit Khalil's guide covering how to learn Software Design & Architecture
+software-design-architecture:p96fNXv0Z4rEEXJR9hAYX,software-design-architecture,software-design-architecture,subtopic,Design Principles
+software-design-architecture:JS5a5FraWCwfgwt8GAyc7,software-design-architecture,software-design-architecture,button,Software Design and Architecture
+software-design-architecture:gyQw885dvupmkohzJPg3a,software-design-architecture,software-design-architecture,subtopic,Design Patterns
+software-design-architecture:XBCxWdpvQyK2iIG2eEA1K,software-design-architecture,software-design-architecture,subtopic,Architectural Principles
+software-design-architecture:2SOZvuEcy8Cy8ymN7x4L-,software-design-architecture,software-design-architecture,subtopic,Be consistent
+software-design-architecture:En_hvwRvY6k_itsNCQBYE,software-design-architecture,software-design-architecture,subtopic,Architectural Styles
+software-design-architecture:6Cd1BbGsmPJs_5jKhumyV,software-design-architecture,software-design-architecture,subtopic,Meaningful names over comments
+software-design-architecture:jq916t7svaMw5sFOcqZSi,software-design-architecture,software-design-architecture,subtopic,Architectural Patterns
+software-design-architecture:81WOL1nxb56ZbAOvxJ7NK,software-design-architecture,software-design-architecture,subtopic,Indentation and Code Style
+software-design-architecture:WrzsvLgo7cf2KjvJhtJEC,software-design-architecture,software-design-architecture,subtopic,Enterprise Patterns
+software-design-architecture:XEwC6Fyf2DNNHQsoGTrQj,software-design-architecture,software-design-architecture,subtopic,Keep methods / classes / files small
+software-design-architecture:5S5A5wCJUCNPLlHJ5fRjU,software-design-architecture,software-design-architecture,subtopic,Pure functions
+software-design-architecture:qZzl0hAD2LkShsPql1IlZ,software-design-architecture,software-design-architecture,subtopic,Minimize cyclomatic complexity
+software-design-architecture:yyKvmutbxu3iVHTuqr5q4,software-design-architecture,software-design-architecture,subtopic,"Avoid passing nulls, booleans"
+software-design-architecture:OoCCy-3W5y7bUcKz_iyBw,software-design-architecture,software-design-architecture,subtopic,Keep framework code distant
+software-design-architecture:S1m7ty7Qrzu1rr4Jl-WgM,software-design-architecture,software-design-architecture,subtopic,Use correct constructs
+software-design-architecture:mzt7fvx6ab3tmG1R1NcLO,software-design-architecture,software-design-architecture,subtopic,Tests should be fast and independent
+software-design-architecture:kp86Vc3uue3IxTN9B9p59,software-design-architecture,software-design-architecture,subtopic,Organize code by actor it belongs to
+software-design-architecture:tLbckKmfVxgn59j_dlh8b,software-design-architecture,software-design-architecture,subtopic,Command query separation
+software-design-architecture:9naCfoHF1LW1OEsVZGi8v,software-design-architecture,software-design-architecture,subtopic,Keep it simple and refactor often
+software-design-architecture:0VO_-1g-TS29y0Ji2yCjc,software-design-architecture,software-design-architecture,topic,Model-Driven Design
+software-design-architecture:I25ghe8xYWpZ-9pRcHfOh,software-design-architecture,software-design-architecture,subtopic,Domain Models
+software-design-architecture:DlefJ9JuJ1LdQYC4WSx6y,software-design-architecture,software-design-architecture,subtopic,Encapsulate what varies
+software-design-architecture:nVaoI4IDPVEsdtFcjGNRw,software-design-architecture,software-design-architecture,subtopic,Anemic Models
+software-design-architecture:UZeY36dABmULhsHPhlzn_,software-design-architecture,software-design-architecture,subtopic,Program against abstractions
+software-design-architecture:kWNQd3paQrhMHMJzM35w8,software-design-architecture,software-design-architecture,subtopic,Domain Language
+software-design-architecture:c6n-wOHylTbzpxqgoXtdw,software-design-architecture,software-design-architecture,subtopic,Class Variants
+software-design-architecture:ZGIMUaNfBwE5b6O1yexSz,software-design-architecture,software-design-architecture,subtopic,Client-Server
+software-design-architecture:KtzcJBb6-EcIoXnwYvE7a,software-design-architecture,software-design-architecture,subtopic,Event-Driven
+software-design-architecture:HN160YgryBBtVGjnWxNie,software-design-architecture,software-design-architecture,subtopic,Layered Architectures
+software-design-architecture:Cf9Z2wxBcbnNg_q9PA6xA,software-design-architecture,software-design-architecture,subtopic,Peer-to-Peer
+software-design-architecture:SX4vOVJY9slOXGwX_q1au,software-design-architecture,software-design-architecture,subtopic,Publish-Subscribe
+software-design-architecture:j9j45Auf60kIskyEMUGE3,software-design-architecture,software-design-architecture,topic,Messaging
+software-design-architecture:3V74lLPlcOXFB-QRTUA5j,software-design-architecture,software-design-architecture,topic,Distributed
+software-design-architecture:0vLaVNJaJSHZ_bHli6Qzs,software-design-architecture,software-design-architecture,paragraph,Continue learning with following roadmaps
+software-design-architecture:StxLh1r3qXqyRSqfJGird,software-design-architecture,software-design-architecture,button,Backend
+software-design-architecture:OIcmPSbdsuWapb6HZ4BEi,software-design-architecture,software-design-architecture,button,System Design
+shared:acls,shared,network-engineer;cyber-security,subtopic|topic,ACLs
+shared:ccna,shared,network-engineer;cyber-security,subtopic,CCNA
+shared:cloudflare,shared,network-engineer;devops,subtopic,Cloudflare
+shared:comptia network+,shared,network-engineer;cyber-security,subtopic,CompTIA Network+
+shared:comptia security+,shared,network-engineer;cyber-security,subtopic,CompTIA Security+
+shared:head,shared,linux;cyber-security,subtopic,head
+shared:load balancing,shared,network-engineer;api-design,subtopic,Load Balancing
+shared:security groups,shared,network-engineer;aws,subtopic,Security Groups
+shared:tail,shared,linux;cyber-security,subtopic,tail
+shared:wireshark,shared,network-engineer;cyber-security,subtopic,Wireshark

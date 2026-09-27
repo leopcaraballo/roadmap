@@ -1,0 +1,715 @@
+---
+title: Resumen · 18 roadmaps de roadmap.sh (title, topic y label)
+---
+%% Fuente: https://roadmap.sh/api/v1-official-roadmap/{slug} (ver data/raw/manifest.json)
+%% Aristas: --> fuente sólida · -.-> fuente discontinua · gris punteado = contención inferida por geometría
+flowchart LR
+  subgraph sg_linux["Linux · linux"]
+    direction TB
+    n0[["Linux"]]
+    n1["Navigation Basics"]
+    n2["Editing Files"]
+    n3["Shell and Other Basics"]
+    n4["Working with Files"]
+    n5["Text Processing"]
+    n6["Server Review"]
+    n7["User Management"]
+    n8["Service Management (systemd)"]
+    n9["Disks and Filesystems"]
+    n10["Booting Linux"]
+    n11["Shell Programming"]
+    n12["Containerization"]
+  end
+  subgraph sg_network_engineer["Network Engineer · network-engineer"]
+    direction TB
+    n13[["Network Engineer"]]
+    n14["Certifications"]
+    n15["Basic Terminology"]
+    n16["Network Types"]
+    n17["What are Networks?"]
+    n18["Core Protocols"]
+    n19["Application Protocols"]
+    n20["Network Devices"]
+    n21["7 Layers"]
+    n22["Network Architectures"]
+    n23["DNS Servers"]
+    n24["Network Architectures"]
+    n25["Network Design Principles"]
+    n26["Network Simulators"]
+    n27["Building a Network"]
+    n28["Linux for Networking"]
+    n29["IP Addressing"]
+    n30["Routing Protocols"]
+    n31["Routing"]
+    n32["Switching"]
+    n33["Tunneling #38; VPNs"]
+    n34["Wireless Technologies"]
+    n35["Wireless Networking"]
+    n36["High Availability"]
+    n37["Traffic Management"]
+    n38["Network Security"]
+    n39["Firewall Types"]
+    n40["Network Attacks"]
+    n41["Encryption Basics"]
+    n42["IDS / IPS"]
+    n43["Troubleshooting Tools"]
+    n44["Zero Trust Architecture"]
+    n45["Cloud Networking"]
+    n46["Cloud Networking Basics"]
+    n47["Network Automation"]
+    n48["APIs for Networking"]
+    n49["Network Observabiity Tools"]
+    n50["Network Automation"]
+    n51["Observabiity Platforms"]
+  end
+  subgraph sg_software_architect["Software Architect · software-architect"]
+    direction TB
+    n52[["Software Architect"]]
+    n53["Understand the Basics"]
+    n54["Responsibilities"]
+    n55["Important Skills to Learn"]
+    n56["Technical Skills"]
+    n57["Patterns #38; Design Principles"]
+    n58["Tools"]
+    n59["Tools"]
+    n60["Architecture"]
+    n61["Security"]
+    n62["Working with Data"]
+    n63["Web, Mobile"]
+    n64["APIs #38; Integrations"]
+    n65["Analytics"]
+    n66["Frameworks"]
+    n67["Certifications"]
+    n68["Operations Knowledge"]
+    n69["Agile Model"]
+    n70["Enterprise Software"]
+  end
+  subgraph sg_devops["DevOps · devops"]
+    direction TB
+    n71[["DevOps"]]
+    n72["Learn a Programming Language"]
+    n73["Scripting"]
+    n74["Operating System"]
+    n75["Linux"]
+    n76["Unix"]
+    n77["Terminal Knowledge"]
+    n78["Editors"]
+    n79["Version Control Systems"]
+    n80["VCS Hosting"]
+    n81["What is and how to setup X ?"]
+    n82["Networking #38; Protocols"]
+    n83["Web Server"]
+    n84["Email Protocols"]
+    n85["Configuration Management"]
+    n86["Provisioning"]
+    n87["CI / CD Tools"]
+    n88["Logs Management"]
+    n89["Infrastructure Monitoring"]
+    n90["Secret Management"]
+    n91["Container Orchestration"]
+    n92["Artifact Management"]
+    n93["GitOps"]
+  end
+  subgraph sg_docker["Docker · docker"]
+    direction TB
+    n94[["Docker"]]
+    n95["Underlying Technologies"]
+    n96["Linux Fundamentals"]
+    n97["Just get the basic idea of these"]
+    n98["Installation / Setup"]
+    n99["Web Development"]
+    n100["Basics of Docker"]
+    n101["Using 3rd Party Container Images"]
+    n102["Data Persistence"]
+    n103["Container Registries"]
+    n104["Running Containers"]
+    n105["Building Container Images"]
+    n106["Docker CLI"]
+    n107["Container Security"]
+    n108["Developer Experience"]
+    n109["Deploying Containers"]
+  end
+  subgraph sg_java["Java · java"]
+    direction TB
+    n110[["Java"]]
+    n111["Basics of OOP"]
+    n112["Exception Handling"]
+    n113["More about OOP"]
+    n114["Lambda Expressions"]
+    n115["Modules"]
+    n116["Optionals"]
+    n117["Collections"]
+    n118["Cryptography"]
+    n119["Date and Time"]
+    n120["I/O Operations"]
+    n121["Concurrency"]
+    n122["File Operations"]
+    n123["Spring Boot is recommended"]
+    n124["v"]
+    n125["Database Access"]
+    n126["Web Frameworks"]
+    n127["Build Tools"]
+    n128["Functional Programming"]
+    n129["Logging Frameworks"]
+    n130["Behavior Testing"]
+    n131["Unit Testing"]
+    n132["Integration Testing"]
+  end
+  subgraph sg_spring_boot["Spring Boot · spring-boot"]
+    direction TB
+    n133[["Spring Boot"]]
+    n134["Spring Security"]
+    n135["Spring Boot Starters"]
+    n136["Autoconfiguration"]
+    n137["Actuators"]
+    n138["Embedded Server"]
+    n139["Spring Data"]
+    n140["Spring MVC"]
+  end
+  subgraph sg_api_design["API Design · api-design"]
+    direction TB
+    n141[["Building APIs"]]
+    n142["Design First"]
+    n143["Different API Styles"]
+    n144["Building JSON / RESTful APIs"]
+    n145["Handling data #38; requests"]
+    n146["Real-time APIs"]
+    n147["Traffic control #38; Error handling"]
+    n148["API Authentication and Authorization"]
+    n149["Authentication Methods"]
+    n150["Authorization Methods"]
+    n151["API Keys #38; Management"]
+    n152["API Documentation Tools"]
+    n153["API Security"]
+    n154["API Performance"]
+    n155["API Integration Patterns"]
+    n156["API Testing"]
+    n157["API Lifecycle Management"]
+    n158["Standards and Compliance"]
+  end
+  subgraph sg_aws["AWS · aws"]
+    direction TB
+    n159[["AWS"]]
+    n160["Step 1 - Essentials"]
+    n161["Step 2 - Learn these next"]
+    n162["Step 3 - Pick these after"]
+    n163["EC2"]
+    n164["VPC"]
+    n165["Step 4 - Serverless"]
+    n166["IAM"]
+    n167["SES"]
+    n168["Auto-Scaling"]
+    n169["Route53"]
+    n170["Storage Types"]
+    n171["Cloudwatch"]
+    n172["RDS"]
+    n173["DynamoDB"]
+    n174["ElastiCache"]
+    n175["ECR"]
+    n176["Cloudfront"]
+    n177["EKS"]
+    n178["ECS"]
+    n179["Lambda"]
+  end
+  subgraph sg_shell_bash["Shell / Bash · shell-bash"]
+    direction TB
+    n180[["Shell/Bash"]]
+    n181["Popular Shells"]
+    n182["Setting Up Bash"]
+    n183["Files #38; Directories"]
+    n184["Tab Completion"]
+    n185["Repeat Commands"]
+    n186["Help Commands"]
+    n187["Bash Alias"]
+    n188["Stop Execution"]
+    n189["Redirects #38; Pipelines"]
+    n190["View #38; Search"]
+    n191["Text Transform"]
+    n192["Analysis"]
+    n193["Wildcards"]
+    n194["Text Editors"]
+    n195["Basic Editor Ops."]
+    n196["Bash Script Anatomy"]
+    n197["Running Shell Scripts"]
+    n198["Variables"]
+    n199["Bash Data Types"]
+    n200["Input/Output"]
+    n201["Comments"]
+    n202["Bash Operators"]
+    n203["Working with Numerics"]
+    n204["Script Arguments"]
+    n205["String Manipulation"]
+    n206["Exit Codes"]
+    n207["Functions"]
+    n208["Networking"]
+    n209["System Monitoring"]
+    n210["File Compression"]
+    n211["Task Schedulling"]
+  end
+  subgraph sg_claude_code["Claude Code · claude-code"]
+    direction TB
+    n212[["Claude Code"]]
+    n213["Ways to use Claude"]
+    n214["Understand the Differences"]
+    n215["Understand the Basics"]
+    n216["Command Cheatsheet"]
+    n217["Using Claude Code"]
+    n218["When to use what model?"]
+    n219["Shortcuts #38; Prefixes"]
+    n220["Claude Workflow"]
+    n221["Usage Best Practices"]
+    n222["claude Commands"]
+    n223["CLAUDE.md"]
+    n224["Skills"]
+    n225["Session Commands"]
+    n226[" Subagents"]
+    n227["Context #38; Memory"]
+    n228["Hooks"]
+    n229["Configuration"]
+    n230["Manage Context"]
+    n231["Hooks"]
+    n232["Advanced Claude Code"]
+    n233["Customize Status Line"]
+    n234["Connecting Tools with MCP"]
+    n235["Scheduling Jobs"]
+    n236["Model Configuration"]
+    n237["Output Styles"]
+    n238["Plugins"]
+    n239["Scaling Claude"]
+    n240["Security Best Practices"]
+  end
+  subgraph sg_aws_best_practices["AWS · aws-best-practices"]
+    direction TB
+    n241[["AWS"]]
+  end
+  subgraph sg_frontend_performance_best_practices["Frontend Performance · frontend-performance-best-practices"]
+    direction TB
+    n242[["Frontend Performance"]]
+  end
+  subgraph sg_api_security_best_practices["API Security · api-security-best-practices"]
+    direction TB
+    n243[["API Security"]]
+  end
+  subgraph sg_backend_performance_best_practices["Backend Performance · backend-performance-best-practices"]
+    direction TB
+    n244[["Backend Performance"]]
+  end
+  subgraph sg_seo["SEO · seo"]
+    direction TB
+    n245[["SEO"]]
+    n246["SEO Terminology"]
+    n247["How Search Engines Work"]
+    n248["Search Intent Semantics"]
+    n249["Guidelines #38; Risks"]
+    n250["White, Black, Grey Hat SEO"]
+    n251["Spam Policies"]
+    n252["Manual Actions #38; Recovery"]
+    n253[" Algorithm Updates"]
+    n254["Technical Foundation"]
+    n255["Website Architecture"]
+    n256["HTTP #38; Status Codes"]
+    n257["Search Crawlers"]
+    n258["Crawling #38; Indexing"]
+    n259["AI Crawlers"]
+    n260["Site Crawlers"]
+    n261["Rendering #38; JavaScript SEO"]
+    n262["Site Migrations"]
+    n263["Core Web Vitals"]
+    n264["Mobile Friendliness"]
+    n265["HTTPS #38; Security"]
+    n266["Content Strategy"]
+    n267["On-Page SEO"]
+    n268["Keyword Research"]
+    n269["Topic Clusters"]
+    n270["Question Mining"]
+    n271[" Competitor Gap Analysis"]
+    n272["E-E-A-T"]
+    n273["Information Gain"]
+    n274["Primary Data #38; Visuals"]
+    n275["Entity SEO"]
+    n276["Structured Data #38; Schema"]
+    n277["Structuring for AI Extraction"]
+    n278["Featured Snippets"]
+    n279["SERP Features"]
+    n280["Content Lifecicle"]
+    n281["AI Tools for Content"]
+    n282["Retrieval Mechanisms"]
+    n283["AI Search #38; GEO"]
+    n284["How AI is Changing SEO"]
+    n285["Citation Resources"]
+    n286["Preferred Sources"]
+    n287["Agentic Search"]
+    n288["AI Answer Surfaces"]
+    n289["Link Metrics"]
+    n290["Authority #38; Trust"]
+    n291["Link Building"]
+    n292["LInk Attributes"]
+    n293["Digital PR"]
+    n294["Link Building Tools"]
+    n295["Influencer Outreach"]
+    n296["Entity Consistency"]
+    n297["Community Presence"]
+    n298["Fundamentals"]
+    n299["Specializations"]
+    n300["Local Search"]
+    n301["International SEO"]
+    n302["Video SEO"]
+    n303["E-commerce SEO"]
+    n304["Local Search Signals"]
+    n305["News #38; Discovery SEO"]
+    n306["Analytics #38; Measurement"]
+    n307["Google Search Console"]
+    n308["Local GEO Tools"]
+    n309["Visibility Metrics"]
+    n310["Rank Tracking"]
+    n311["Traffic Analysis"]
+    n312["Zero-Click Attribution"]
+    n313["AI Visibility Measurement"]
+    n314["GEO #38; SEO Testing"]
+    n315["SEO Audits"]
+  end
+  subgraph sg_cyber_security["Cyber Security · cyber-security"]
+    direction TB
+    n316["CTFs (Capture the Flag)"]
+    n317[["Cyber Security"]]
+    n318["Fundamental IT Skills"]
+    n319["Certifications"]
+    n320["Operating Systems"]
+    n321["Learn following for each"]
+    n322["IP Terminology"]
+    n323["Common Virtualization Technologies"]
+    n324["Understand the Terminology"]
+    n325["Basics of Virtualization"]
+    n326["Understand these"]
+    n327["Networking Knowledge"]
+    n328["Functions of each"]
+    n329["Troubleshooting Tools"]
+    n330["Network Topologies"]
+    n331["Network Protocols"]
+    n332["Authentication Methodologies"]
+    n333["Security Skills and Knowledge"]
+    n334["Basics of Cryptography"]
+    n335["Attack Types and Differences"]
+    n336["Tools for Incident Response and Discovery"]
+    n337["Understand Frameworks"]
+    n338["Understand Common Standards"]
+    n339["Common Distros for hacking"]
+    n340["Understand the following"]
+    n341["Using tools for Unintended Purposes"]
+    n342["Secure vs Unsecure Protocols"]
+    n343["Learn how to find and use these logs"]
+    n344["Common Attacks"]
+    n345["Understand the following Terms"]
+    n346["Understand Hardening Concepts"]
+    n347["Understand Common Tools"]
+    n348["Understand the Incident Response Process"]
+    n349["Understand Audience"]
+    n350["Understand Threat Classification"]
+    n351["Cloud Skills and Knowledge"]
+    n352["Understand Cloud Services"]
+    n353["Cloud Models"]
+    n354["Common Cloud Environments"]
+    n355["Common Cloud Storage"]
+    n356["Programming Skills"]
+  end
+  subgraph sg_software_design_architecture["Software Design and Architecture · software-design-architecture"]
+    direction TB
+    n357["Minimap of Topics"]
+    n358[["Software Design #38; Architecture"]]
+    n359["Clean Code Principles"]
+    n360["Programming Paradigms"]
+    n361["Primary Principles"]
+    n362["Object Oriented Programming"]
+    n363["Paradigm Features"]
+    n364["Design Principles"]
+    n365["Design Patterns"]
+    n366["Model-Driven Design"]
+    n367["Messaging"]
+    n368["Distributed"]
+    n369["Architectural Styles"]
+    n370["Architectural Principles"]
+    n371["Structural"]
+    n372["Architectural Patterns"]
+    n373["Enterprise Patterns"]
+  end
+  subgraph sg_shared["Nodos fusionados entre roadmaps (35)"]
+    direction TB
+    n374["ACLs"]
+    n375["Annotations"]
+    n376["Cloud Design Patterns"]
+    n377["Cloud Providers"]
+    n378["Conditionals"]
+    n379["Containers"]
+    n380["Debugging"]
+    n381["Dependency Injection"]
+    n382["Documentation"]
+    n383["Error Handling"]
+    n384["File Permissions"]
+    n385["Firewalls"]
+    n386["Hibernate"]
+    n387["Infrastructure as Code"]
+    n388["Introduction"]
+    n389["Learn the Basics"]
+    n390["Loops"]
+    n391["Management"]
+    n392["Microservices"]
+    n393["Networking"]
+    n394["Networks"]
+    n395["Observability"]
+    n396["OSI Model"]
+    n397["Package Management"]
+    n398["Packet Analysis"]
+    n399["Process Management"]
+    n400["Programming Languages"]
+    n401["Regular Expressions"]
+    n402["S3"]
+    n403["Serverless"]
+    n404["Service Mesh"]
+    n405["Subnetting"]
+    n406["TCP/IP Model"]
+    n407["Testing"]
+    n408["Troubleshooting"]
+  end
+  n141 --> n389
+  n148 --> n149
+  n146 --> n148
+  n155 --> n156
+  n156 --> n395
+  n144 --> n146
+  n144 --> n143
+  n149 --> n150
+  n154 --> n155
+  n150 --> n151
+  n153 --> n152
+  n153 --> n154
+  n151 --> n152
+  n158 --> n157
+  n174 --> n175
+  n178 --> n177
+  n159 --> n388
+  n164 --> n166
+  n175 --> n178
+  n163 --> n164
+  n168 --> n402
+  n172 --> n173
+  n177 --> n179
+  n173 --> n176
+  n166 --> n168
+  n176 --> n174
+  n217 --> n215
+  n228 --> n390
+  n226 --> n228
+  n212 --> n388
+  n224 --> n226
+  n223 --> n224
+  n232 --> n230
+  n232 --> n233
+  n220 --> n217
+  n220 --> n223
+  n213 --> n215
+  n356 --> n356
+  n317 --> n318
+  n351 --> n356
+  n93 --> n404
+  n86 --> n85
+  n91 --> n395
+  n71 --> n72
+  n80 --> n379
+  n90 --> n89
+  n81 --> n82
+  n74 --> n77
+  n89 --> n88
+  n72 --> n74
+  n77 --> n79
+  n92 --> n93
+  n103 --> n104
+  n105 --> n103
+  n107 --> n106
+  n94 --> n388
+  n106 -.-> n379
+  n106 --> n393
+  n106 -.-> n394
+  n108 --> n109
+  n95 --> n98
+  n100 --> n102
+  n102 --> n101
+  n126 --> n127
+  n126 --> n125
+  n129 --> n129
+  n129 --> n382
+  n125 --> n129
+  n112 --> n114
+  n110 --> n389
+  n5 --> n6
+  n11 -.-> n380
+  n11 --> n408
+  n10 --> n393
+  n8 --> n397
+  n9 --> n10
+  n2 --> n3
+  n0 --> n1
+  n4 --> n5
+  n4 -.-> n384
+  n6 --> n399
+  n17 --> n20
+  n29 --> n405
+  n20 --> n22
+  n45 --> n46
+  n28 --> n29
+  n46 --> n47
+  n27 --> n28
+  n37 --> n36
+  n37 --> n38
+  n25 --> n26
+  n48 --> n50
+  n35 --> n398
+  n22 --> n396
+  n13 --> n388
+  n32 --> n33
+  n33 --> n35
+  n26 --> n27
+  n47 --> n48
+  n31 --> n32
+  n247 --> n249
+  n249 --> n250
+  n263 --> n262
+  n293 --> n291
+  n293 --> n295
+  n281 --> n283
+  n273 --> n274
+  n278 --> n279
+  n297 --> n296
+  n297 --> n299
+  n258 --> n256
+  n305 --> n306
+  n309 --> n310
+  n313 --> n312
+  n255 --> n256
+  n276 --> n275
+  n283 --> n284
+  n280 --> n281
+  n280 --> n279
+  n254 --> n255
+  n254 --> n253
+  n311 --> n312
+  n277 --> n278
+  n277 --> n276
+  n314 --> n313
+  n310 --> n311
+  n299 --> n300
+  n262 --> n261
+  n268 --> n267
+  n306 --> n307
+  n295 --> n296
+  n261 --> n258
+  n266 --> n265
+  n287 --> n290
+  n307 --> n309
+  n290 --> n291
+  n267 --> n266
+  n275 --> n274
+  n377 --> n403
+  n378 --> n390
+  n379 --> n81
+  n380 --> n383
+  n381 --> n120
+  n382 --> n407
+  n386 --> n139
+  n388 --> n95
+  n388 --> n17
+  n388 --> n247
+  n388 --> n245
+  n388 -.-> n375
+  n388 -.-> n381
+  n388 --> n181
+  n388 --> n134
+  n389 --> n143
+  n389 -.-> n378
+  n389 -.-> n390
+  n390 --> n230
+  n390 --> n207
+  n391 --> n394
+  n392 --> n140
+  n393 --> n108
+  n393 --> n11
+  n393 -.-> n405
+  n394 --> n68
+  n395 --> n157
+  n395 --> n92
+  n396 --> n406
+  n397 --> n9
+  n398 --> n36
+  n399 --> n7
+  n400 --> n57
+  n401 --> n399
+  n402 --> n167
+  n404 --> n376
+  n405 --> n31
+  n406 --> n25
+  n408 --> n12
+  n408 --> n45
+  n408 --> n44
+  n408 -.-> n398
+  n204 --> n384
+  n204 --> n206
+  n202 --> n200
+  n183 --> n184
+  n181 --> n182
+  n206 --> n205
+  n180 --> n388
+  n194 --> n195
+  n201 --> n202
+  n199 --> n201
+  n53 --> n54
+  n68 -.-> n376
+  n68 -.-> n377
+  n68 -.-> n379
+  n68 -.-> n387
+  n68 -.-> n404
+  n68 --> n70
+  n61 --> n62
+  n60 -.-> n392
+  n60 --> n61
+  n64 --> n63
+  n58 --> n60
+  n62 --> n64
+  n57 --> n59
+  n56 --> n400
+  n66 --> n391
+  n63 --> n66
+  n55 -.-> n382
+  n55 --> n56
+  n52 --> n53
+  n359 --> n360
+  n369 --> n370
+  n369 --> n372
+  n364 --> n365
+  n360 --> n362
+  n372 -.-> n392
+  n372 --> n373
+  n138 --> n386
+  n140 --> n407
+  n139 --> n392
+  n355 -.-> n402
+  n321 -.-> n408
+  n82 -.-> n396
+  n125 -.-> n386
+  n11 -.-> n378
+  n11 -.-> n390
+  n394 -.-> n385
+  n394 -.-> n406
+  n60 -.-> n403
+  classDef title fill:#ffffff,stroke:#ffffff,color:#000000
+  classDef topic fill:#fdff00,stroke:#000000,color:#000000
+  classDef subtopic fill:#ffe599,stroke:#000000,color:#000000
+  classDef label fill:#ffffff,stroke:#ffffff,color:#000000
+  classDef paragraph fill:#ffffff,stroke:#9e9e9e,color:#000000
+  classDef button fill:#4136d6,stroke:#4136d6,color:#ffffff
+  classDef checklist_item fill:#e8f5e9,stroke:#43a047,color:#000000
+  classDef shared fill:#c9e7ff,stroke:#1565c0,color:#000000
+  class n0,n13,n52,n71,n94,n110,n133,n141,n159,n180,n212,n241,n242,n243,n244,n245,n317,n358 title
+  class n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n17,n20,n25,n26,n28,n29,n31,n32,n33,n35,n36,n37,n40,n41,n42,n44,n46,n48,n50,n53,n54,n55,n56,n57,n58,n59,n60,n61,n62,n63,n64,n66,n68,n70,n72,n74,n77,n79,n80,n81,n82,n85,n86,n87,n88,n89,n90,n91,n92,n93,n95,n98,n100,n101,n102,n103,n104,n105,n106,n107,n108,n109,n112,n114,n115,n116,n118,n119,n120,n121,n122,n125,n126,n127,n129,n134,n135,n136,n137,n138,n139,n140,n143,n144,n146,n149,n150,n151,n152,n153,n154,n155,n156,n157,n158,n163,n164,n166,n167,n168,n169,n170,n171,n172,n173,n174,n175,n176,n177,n178,n179,n181,n182,n183,n184,n185,n186,n187,n188,n189,n194,n195,n196,n197,n199,n200,n201,n202,n204,n205,n206,n207,n213,n217,n220,n221,n223,n224,n226,n228,n230,n233,n234,n235,n236,n237,n238,n239,n240,n247,n250,n251,n252,n253,n255,n256,n258,n261,n262,n263,n264,n265,n267,n268,n269,n270,n271,n272,n273,n274,n275,n276,n277,n278,n279,n280,n281,n284,n285,n286,n287,n291,n293,n295,n296,n297,n300,n301 topic
+  class n302,n303,n305,n307,n309,n310,n311,n312,n313,n314,n315,n318,n320,n327,n333,n351,n356,n359,n360,n362,n364,n365,n366,n367,n368,n369,n370,n371,n372,n373 topic
+  class n14,n15,n16,n18,n19,n21,n22,n23,n24,n27,n30,n34,n38,n39,n43,n45,n47,n49,n51,n65,n67,n69,n73,n75,n76,n78,n83,n84,n96,n97,n99,n111,n113,n117,n123,n124,n128,n130,n131,n132,n142,n145,n147,n148,n160,n161,n162,n165,n190,n191,n192,n193,n198,n203,n208,n209,n210,n211,n214,n215,n216,n218,n219,n222,n225,n227,n229,n231,n232,n246,n248,n249,n254,n257,n259,n260,n266,n282,n283,n288,n289,n290,n292,n294,n298,n299,n304,n306,n308,n316,n319,n321,n322,n323,n324,n325,n326,n328,n329,n330,n331,n332,n334,n335,n336,n337,n338,n339,n340,n341,n342,n343,n344,n345,n346,n347,n348,n349,n350,n352,n353,n354,n355,n357,n361,n363 label
+  class n374,n375,n376,n377,n378,n379,n380,n381,n382,n383,n384,n385,n386,n387,n388,n389,n390,n391,n392,n393,n394,n395,n396,n397,n398,n399,n400,n401,n402,n403,n404,n405,n406,n407,n408 shared
+  linkStyle 220,221,222,223,224,225,226,227,228 stroke:#8a8a8a,stroke-width:1px,stroke-dasharray:2 3

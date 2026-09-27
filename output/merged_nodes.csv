@@ -1,0 +1,107 @@
+shared_id,label,types,n_roadmaps,roadmaps,member_keys
+shared:introduction,Introduction,topic,7,network-engineer;docker;spring-boot;aws;shell-bash;claude-code;seo,network-engineer:_OZl6uYkb61iQ_Wb0Q70Q;docker:Py9nst2FDJ1_hoXeX_qSF;spring-boot:jy2heDVZuM6ASCXlI1TDn;aws:Py9nst2FDJ1_hoXeX_qSF;shell-bash:lzzQWCFqpOnN2J_3Jck_3;claude-code:RqfeqVMhTSdC4w4GcsETP;seo:ae1c-S4JTU3NdBhXLa3Dq
+shared:ssh,SSH,subtopic,5,linux;network-engineer;devops;shell-bash;cyber-security,linux:uk6UMuI8Uhf02TBAGVeLS;network-engineer:D-4ZVP3RqLuNDzXamRlv3;devops:wcIRMLVm3SdEJWF9RPfn7;shell-bash:eVbx1WsfeHcVaFs-vXpwF;cyber-security:8Mog890Lj-gVBpWa05EzT
+shared:loops,Loops,subtopic|topic,4,linux;java;shell-bash;claude-code,linux:WJT-yrMq8cEI87RHWA2jY;java:JHUhVEjWFXTn6-wKcKevg;shell-bash:1rIFm5ROQ8b1rsWeD9h4x;claude-code:pIJ4J0QpqrnXxAX-ceZlJ
+shared:aws,AWS,subtopic,3,network-engineer;devops;cyber-security,network-engineer:YuiWVG6IB5tXBmQfZVM9m;devops:1ieK6B_oqW8qOC6bdmiJe;cyber-security:0LztOTc3NG3OujCVwlcVU
+shared:azure,Azure,subtopic,3,network-engineer;devops;cyber-security,network-engineer:ureyf-ZuLYApXDMh_772m;devops:ctor79Vd7EXDMdrLyUcu_;cyber-security:GklBi7Qx1akN_cS9UMrha
+shared:bash,Bash,subtopic,3,devops;shell-bash;cyber-security,devops:syBIAL1mHbJLnTBoSxXI7;shell-bash:EqgAG1t05RuiAO1TXRq4Y;cyber-security:tao0Bb_JR0Ubl62HO8plp
+shared:conditionals,Conditionals,subtopic|topic,3,linux;java;shell-bash,linux:rQxfp7UWqN72iqewZhOdc;java:sG_3ZQIE1-FQXQkk-OduQ;shell-bash:tEaYnBeI5tO8NT-a1PG3B
+shared:containers,Containers,subtopic|topic,3,software-architect;devops;docker,software-architect:l3oeo65FyV5HHvw5n_1wa;devops:CQhUflAcv1lhBnmDY0gaz;docker:jhwe-xfVc-C7qy8YuS5dZ
+shared:go,Go,subtopic,3,software-architect;devops;cyber-security,software-architect:nKlM9k4qAh4wBFXqM-2kC;devops:npnMwSDEK2aLGgnuZZ4dO;cyber-security:jehVvdz8BnruKjqHMKu5v
+shared:grep,grep,subtopic,3,linux;shell-bash;cyber-security,linux:umlhxidsvtZG9k40Ca0Ac;shell-bash:ZqAwAme_yvasmYHEZID1G;cyber-security:Dfz-6aug0juUpMmOJLCJ9
+shared:microservices,Microservices,subtopic|topic,3,software-architect;spring-boot;software-design-architecture,software-architect:b6lCGw82qKpUmsxe1r1f5;spring-boot:jU_KHoPUSU_HoIKk0ZpRF;software-design-architecture:eJsCCURZAURCKnOK-XeQe
+shared:netstat,netstat,subtopic,3,linux;network-engineer;cyber-security,linux:yrxNYMluJ9OAQCKuM5W1u;network-engineer:lzGbPjMP5mkCZsNpYM2yK;cyber-security:2M3PRbGzo14agbEPe32ww
+shared:networking,Networking,topic,3,linux;docker;java,linux:Mb42VFjCzMZn_PovKIfKx;docker:9NuHwfytnUTpeVmnMpZZC;java:JeMG0gU8IVRBZgczjXmPi
+shared:observability,Observability,topic,3,network-engineer;devops;api-design,network-engineer:PHqTXlkAaRPhmRod52aP3;devops:wNguM6-YEznduz3MgBCYo;api-design:oIZimEuBHCBGsK6b-s57f
+shared:python,Python,subtopic,3,software-architect;devops;cyber-security,software-architect:j2Ph2QcKwmKlbaMHz1l_i;devops:TwVfCYMS9jSaJ6UyYmC-K;cyber-security:XiHvGy--OkPFfJeKA6-LP
+shared:ssl / tls,SSL / TLS,subtopic,3,network-engineer;devops;cyber-security,network-engineer:ZtMTMBQkOWoM-su3V-T8Z;devops:0o6ejhfpmO4S8A6djVWva;cyber-security:LKK1A5-xawA7yCIAWHS8P
+shared:troubleshooting,Troubleshooting,subtopic|topic,3,linux;network-engineer;cyber-security,linux:bdQNcr1sj94aX_gjwf2Fa;network-engineer:vG_95IDrk5lOnCQub2XkD;cyber-security:xeRWOX1fWQDLNLWMAFTEe
+shared:abstraction,Abstraction,subtopic,2,java;software-design-architecture,java:qdA6bK9ZkP8p0_NH_wMuj;software-design-architecture:VA8FMrhF4non9x-J3urY8
+shared:acls,ACLs,subtopic|topic,2,network-engineer;cyber-security,network-engineer:MVuNY7zJkimjXMMeXbVTa;cyber-security:8JM95sonFUhZCdaynUA_M
+shared:annotations,Annotations,subtopic|topic,2,java;spring-boot,java:c--y6GcKj9am0CBdu_Hnt;spring-boot:HdCpfGMrMaXxk5QrtYn3X
+shared:ansible,Ansible,subtopic,2,network-engineer;devops,network-engineer:nbOAx9ljA8eZEYRpnvpOW;devops:h9vVPOmdUSeEGVQQaSTH5
+shared:application architecture,Application Architecture,subtopic,2,software-architect;docker,software-architect:Lqe47l4j-C4OwkbkwPYry;docker:EqYWfBL5l5OOquok_OvOW
+shared:apt,apt,subtopic,2,shell-bash;cyber-security,shell-bash:nfyh2co43xfR9DJbNnM_Y;cyber-security:l0BvDtwWoRSEjm6O0WDPy
+shared:arrays,Arrays ,subtopic,2,java;shell-bash,java:5khApwg1FZ-0qorsLyH-F;shell-bash:4WFWrrcvLgU8Fz8RjQ4lf
+shared:bluetooth,Bluetooth,subtopic,2,network-engineer;cyber-security,network-engineer:VdAObqd1uue--xbej2M-f;cyber-security:DbWf5LdqiByPiJa4xHtl_
+shared:cat,cat,subtopic,2,shell-bash;cyber-security,shell-bash:Zom0OpBLi153i8hkoYLj5;cyber-security:D2ptX6ja_HvFEafMIzWOy
+shared:ccna,CCNA,subtopic,2,network-engineer;cyber-security,network-engineer:4RD22UZATfL8dc71YkJwQ;cyber-security:4RD22UZATfL8dc71YkJwQ
+shared:cgroups,cgroups,subtopic,2,linux;docker,linux:23lsrUw8ux6ZP9JlDNNu2;docker:fRl4EfNwlBiidzn3IV34-
+shared:cidr,CIDR,subtopic,2,network-engineer;cyber-security,network-engineer:y43H6qnMn4qUTjInlGR04;cyber-security:PPIH1oHW4_ZDyD3U3shDg
+shared:cloud design patterns,Cloud Design Patterns,subtopic|topic,2,software-architect;devops,software-architect:CxceVdaNCyKDhs0huDtcL;devops:Qc0MGR5bMG9eeM5Zb9PMk
+shared:cloud providers,Cloud Providers,subtopic|topic,2,software-architect;devops,software-architect:C0rKd5Rr27Z1_GleoEZxF;devops:2Wd9SlWGg6QtxgiUVLyZL
+shared:cloudflare,Cloudflare,subtopic,2,network-engineer;devops,network-engineer:ltBgGfY9KOS87dPUs476I;devops:l8VAewSEXzoyqYFhoplJj
+shared:comptia network+,CompTIA Network+,subtopic,2,network-engineer;cyber-security,network-engineer:4RGbNOfMPDbBcvUFWTTCV;cyber-security:4RGbNOfMPDbBcvUFWTTCV
+shared:comptia security+,CompTIA Security+,subtopic,2,network-engineer;cyber-security,network-engineer:AxeDcKK3cUtEojtHQPBw7;cyber-security:AxeDcKK3cUtEojtHQPBw7
+shared:curl,curl,subtopic,2,shell-bash;cyber-security,shell-bash:ZWMGvUxnohv6-dzsaSHuB;cyber-security:W7iQUCjODGYgE4PjC5TZI
+shared:debugging,Debugging,subtopic|topic,2,linux;shell-bash,linux:rOGnHbGIr3xPCFdpkqoeK;shell-bash:fR3sok0EJTGHELbPO6MAW
+shared:default gateway,Default Gateway,subtopic,2,network-engineer;cyber-security,network-engineer:Z9B1TI61zhm7Vp-yur0pD;cyber-security:5rKaFtjYx0n2iF8uTLs8X
+shared:dependency injection,Dependency Injection,subtopic|topic,2,java;spring-boot,java:zItXmuluDtl6HkTYQ7qMh;spring-boot:C2EQ5J1aJYF9e9Rr2KysT
+shared:docker,Docker,subtopic,2,linux;devops,linux:MfengY3ouz6sSOx3PXYf8;devops:P0acFNZ413MSKElHqCxr3
+shared:docker swarm,Docker Swarm,subtopic,2,devops;docker,devops:VD24HC9qJOC42lbpJ-swC;docker:ks6PFN-0Z9zH7gtWaWgxz
+shared:documentation,Documentation,subtopic|topic,2,software-architect;java,software-architect:5D-kbQ520k1D3fCtD01T7;java:vRZAtylN3zfHIv3SidYkA
+shared:dynatrace,Dynatrace,subtopic,2,network-engineer;devops,network-engineer:KFHcpdrwn70xEK4AWMQhS;devops:4aJVaimsuvGIPXMZ_WjaA
+shared:encapsulation,Encapsulation,subtopic,2,java;software-design-architecture,java:iH9wSsOK4a77pS7U0Yu5z;software-design-architecture:GJxfVjhiLuuc36hatx9dP
+shared:error handling,Error Handling,subtopic|topic,2,api-design;shell-bash,api-design:8tELdagrOaGCf3nMVs8t3;shell-bash:aNpvGNnV0q-7emxJVJow2
+shared:file permissions,File Permissions,subtopic|topic,2,linux;shell-bash,linux:TnrT-cqMA8urew9nLv0Ns;shell-bash:zxdwDMOVAoP8IgUqrggKq
+shared:firewalls,Firewalls,subtopic|topic,2,network-engineer;software-architect,network-engineer:QiTR_A2pALS4UD7cOndjR;software-architect:Hqk_GGsFi14SI5fgPSoGV
+shared:ftp / sftp,FTP / SFTP,subtopic,2,network-engineer;devops,network-engineer:yf85bJUO52dfE4G5wjSm9;devops:RDLmML_HS2c8J4D_U_KYe
+shared:functional programming,Functional Programming,subtopic,2,software-architect;software-design-architecture,software-architect:6FDGecsHbqY-cm32yTZJa;software-design-architecture:YswaOqZNYcmDwly2IXrTT
+shared:gcp,GCP,subtopic,2,network-engineer;cyber-security,network-engineer:u2EeL1CasEoOTO7sORiRG;cyber-security:tOLA5QPKi6LHl1ljsOMwX
+shared:git,Git,subtopic,2,software-architect;devops,software-architect:ZEzYb-i55hBe9kK3bla94;devops:uyDm1SpOQdpHjq9zBAdck
+shared:github,GitHub,subtopic,2,software-architect;devops,software-architect:PyTuVs08_z4EhLwhTYzFu;devops:ot9I_IHdnq2yAMffrSrbN
+shared:grafana,Grafana,subtopic,2,network-engineer;devops,network-engineer:SjOHln4ZN7PaBZG223q-3;devops:niA_96yR7uQ0sc6S_OStf
+shared:head,head,subtopic,2,linux;cyber-security,linux:6xdkFk_GT93MigeTSSGCp;cyber-security:VNmrb5Dm4UKUgL8JBfhnE
+shared:hibernate,Hibernate,subtopic|topic,2,java;spring-boot,java:UEiDzzodyEu5O1xFAFDly;spring-boot:h5-HnycxfbJgwalSdXTAz
+shared:http,HTTP,subtopic,2,devops;api-design,devops:ke-8MeuLx7AS2XjSsPhxe;api-design:2HdKzAIQi15pr3YHHrbPp
+shared:http / https,HTTP / HTTPS,subtopic,2,network-engineer;cyber-security,network-engineer:_st-ChGja7h83_MOwtiF2;cyber-security:3Awm221OJHxXNLiL9yxfd
+shared:icmp,ICMP,subtopic,2,linux;network-engineer,linux:Ymf3u_sG1dyt8ZR_LbwqJ;network-engineer:bc9NFPvpeHAWfSD15zXyZ
+shared:infrastructure as code,Infrastructure as Code,subtopic|topic,2,network-engineer;software-architect,network-engineer:pKqBMC1Ck7h58e7cJDWPT;software-architect:igf9yp1lRdAlN5gyQ8HHC
+shared:inheritance,Inheritance,subtopic,2,java;software-design-architecture,java:PXpPEmCEBUKRjwP3B5LzJ;software-design-architecture:Dj36yLBShoazj7SAw6a_A
+shared:interfaces,Interfaces,subtopic,2,java;software-design-architecture,java:6wTRN2PYC6zM_Txkekx53;software-design-architecture:SrcPhS4F7aT80qNjbv54f
+shared:kubernetes,Kubernetes,subtopic,2,devops;docker,devops:hIBeTUiAI3zwUY6NgAO-A;docker:RqXpX2XabtHYVjgg1EZR_
+shared:lan,LAN,subtopic,2,network-engineer;cyber-security,network-engineer:6Wfv3THDhldz_9M6Hv1Gr;cyber-security:xWxusBtMEWnd-6n7oqjHz
+shared:layered,Layered,subtopic,2,software-architect;software-design-architecture,software-architect:05hLO2_A8Tr6cLJGFRhOh;software-design-architecture:IELEJcKYdZ6VN-UIq-Wln
+shared:learn the basics,Learn the Basics,topic,2,java;api-design,java:2TGq1y2QthnxxN-FfToSe;api-design:duKkpzPjUU_-8kyJGHqRX
+shared:load balancer,Load Balancer,subtopic,2,network-engineer;devops,network-engineer:R5dmATbOlYEFce7rQImiw;devops:i8Sd9maB_BeFurULrHXNq
+shared:load balancing,Load Balancing,subtopic,2,network-engineer;api-design,network-engineer:i5ojP4on5Iz2MgeFc0050;api-design:p5wsniYnOS7cbHd92RxGk
+shared:logs,Logs,subtopic,2,linux;aws,linux:ru7mpLQZKE1QxAdiA1sS3;aws:oC6KIjWAXw0hLl4FwkB9F
+shared:man,MAN,subtopic,2,network-engineer;cyber-security,network-engineer:usgE8mpRUSLMRv7d0kXy3;cyber-security:LrwTMH_1fTd8iB9wJg-0t
+shared:management,Management,subtopic|topic,2,software-architect;cyber-security,software-architect:UyIwiIiKaa6LTQaqzbCam;cyber-security:s9tHpzYRj2HCImwQhnjFM
+shared:messaging queues,Messaging Queues,subtopic,2,software-architect;api-design,software-architect:4NVdEbmpQVHpBc7582S6E;api-design:IkPZel5zxXWIx90Qx7fZI
+shared:nano,Nano,subtopic,2,linux;shell-bash,linux:yqRwmcZThjQuqh2ao0dWK;shell-bash:NtjrVcEHf8wuh771U2AMI
+shared:networks,Networks,subtopic|topic,2,software-architect;docker,software-architect:cBWJ6Duw99tSKr7U6OW3A;docker:w5QjzvOaciK2rotOkjvjQ
+shared:nfc,NFC,subtopic,2,network-engineer;cyber-security,network-engineer:85ZCXmzs67irYQ-Fqnxra;cyber-security:hwAUFLYpc_ftCfXq95dey
+shared:nl,nl,subtopic,2,linux;shell-bash,linux:YSfGrmT795miIeIZrtC3D;shell-bash:TZEmlwTGBWAZ6w8jZ-p8U
+shared:ntp,NTP,subtopic,2,network-engineer;cyber-security,network-engineer:b4bKowbNbUcMscWrrT_-k;cyber-security:tf0TymdPHbplDHvuVIIh4
+shared:osi model,OSI Model,subtopic|topic,2,network-engineer;devops,network-engineer:pt6RO3SEStG9TJOWpt_8D;devops:QZ7bkY-MaEgxYoPDP3nma
+shared:package management,Package Management,topic,2,linux;shell-bash,linux:4eINX8jYMJxfYh7ZV47YI;shell-bash:Kwr37_gNDhkwSkg49bg35
+shared:packet analysis,Packet Analysis,subtopic|topic,2,linux;network-engineer,linux:7seneb4TWts4v1_x8xlcZ;network-engineer:36jbOEEyvUP-gxTB_Di_a
+shared:pagination,Pagination,subtopic,2,api-design;seo,api-design:pgJDzP3pJjhjr5wTRtPJO;seo:2l_5knaWysxinhMV1z6LK
+shared:pki,PKI,subtopic,2,software-architect;cyber-security,software-architect:OpL2EqvHbUmFgnpuhtZPr;cyber-security:fxyJxrf3mnFTa3wXk1MCW
+shared:power shell,Power Shell,subtopic,2,devops;cyber-security,devops:z6IBekR8Xl-6f8WEb05Nw;cyber-security:paY9x2VJA98FNGBFGRXp2
+shared:process management,Process Management,topic,2,linux;shell-bash,linux:h01Y6dW09ChidlM2HYoav;shell-bash:ZTJrnx12KSrcyUfd0RfPu
+shared:programming languages,Programming Languages,subtopic|topic,2,software-architect;docker,software-architect:uoDtVFThaV6OMK2wXGfP5;docker:XxT9UUjbKW1ARyERSLH_W
+shared:regular expressions,Regular Expressions,topic,2,java;shell-bash,java:C7rB3jkshHFN7TkHRJPlz;shell-bash:W7NlQoj0EDxvuMVj4MKXc
+shared:ruby,Ruby,subtopic,2,software-architect;devops,software-architect:U_Hmzfjjs1jVtu2CZ0TlG;devops:PuXAPYA0bsMgwcnlwJxQn
+shared:s3,S3,subtopic|topic,2,aws;cyber-security,aws:PN3xAYfQ-_QgZCRCnsEca;cyber-security:2jsTgT7k8MeaDtx6RJhOP
+shared:security groups,Security Groups,subtopic,2,network-engineer;aws,network-engineer:XVBia0Me-Nllgi56PW3W0;aws:Cd9gdbkCFdrTLrnJMy5F3
+shared:serverless,Serverless,subtopic|topic,2,software-architect;devops,software-architect:FAXKxl3fWUFShYmoCsInZ;devops:9p_ufPj6QH9gHbWBQUmGw
+shared:service mesh,Service Mesh,subtopic|topic,2,software-architect;devops,software-architect:OErbfM-H3laFm47GCHNPI;devops:EeWsihH9ehbFKebYoB5i9
+shared:solid,SOLID,subtopic,2,software-architect;software-design-architecture,software-architect:QNG-KP01WQnq8o1-In1-n;software-design-architecture:3XckqZA--knUb8IYKOeVy
+shared:sort,sort,subtopic,2,linux;shell-bash,linux:1WRIy3xHtQfiQFZrprobP;shell-bash:P9pwqBvPDhcvVIj8fNhGX
+shared:spring data jpa,Spring Data JPA,subtopic,2,java;spring-boot,java:WzWOxBUKKg6LeuBmVesc2;spring-boot:6u08QN-pUeFm3o0h5Scfm
+shared:subnetting,Subnetting,subtopic|topic,2,linux;network-engineer,linux:Xszo9vXuwwXZo26seHehD;network-engineer:d93bl-7gSB8lu43BQlqvY
+shared:tail,tail,subtopic,2,linux;cyber-security,linux:Yyk28H6TiteZEGv6Aps1h;cyber-security:762Wf_Eh-3zq69CZZiIjR
+shared:tcp/ip model,TCP/IP Model,subtopic|topic,2,network-engineer;software-architect,network-engineer:JL4oU_MaY-4QRWKQjMBZb;software-architect:UCCT7-E_QUKPg3jAsjobx
+shared:terraform,Terraform,subtopic,2,network-engineer;devops,network-engineer:a1nC8vNJod_e0RrGjTeBd;devops:nUBGf1rp9GK_pbagWCP9g
+shared:testing,Testing,topic,2,java;spring-boot,java:LgpsnXV0CTvTspjnsd0Rd;spring-boot:7Qqrh_Rz_7uAD49g9sDzi
+shared:tr,tr,subtopic,2,linux;shell-bash,linux:O9Vci_WpUY-79AkA4HDx3;shell-bash:YJblaz_GKC5sH7ntFe5ls
+shared:uniq,uniq,subtopic,2,linux;shell-bash,linux:qnBbzphImflQbEbtFub9x;shell-bash:4pygQshD_WdP0i6xq3Kc8
+shared:vim,Vim,subtopic,2,linux;shell-bash,linux:XiZz7EFIey1XKS292GN4t;shell-bash:jPAHVLBC87n4TIyiAZJue
+shared:vpn,VPN ,subtopic,2,network-engineer;cyber-security,network-engineer:b2HXcIkkjJB8WhHbrVesk;cyber-security:gTozEpxJeG1NTkVBHH-05
+shared:wan,WAN,subtopic,2,network-engineer;cyber-security,network-engineer:1xOaztV7JJaXK9B6Wa4YQ;cyber-security:vCkTJMkDXcQmwsmeNUAX5
+shared:wc,wc,subtopic,2,linux;shell-bash,linux:LIGOJwrXexnIcPyHVlhQ8;shell-bash:mg5f-DAezgwmwflmncSsO
+shared:windows,Windows,subtopic,2,devops;cyber-security,devops:UOQimp7QkM3sxmFvk5d3i;cyber-security:BNUKEQ4YpZmIhSPQdkHgU
+shared:wireshark,Wireshark,subtopic,2,network-engineer;cyber-security,network-engineer:Ly43qxaO0RsKSy-_VuIBx;cyber-security:Sm9bxKUElINHND8FdZ5f2
+shared:wlan,WLAN,subtopic,2,network-engineer;cyber-security,network-engineer:D_zZAYVkxB_SLTCuhqkZY;cyber-security:QCVYF1rmPsMVtklBNDNaB
